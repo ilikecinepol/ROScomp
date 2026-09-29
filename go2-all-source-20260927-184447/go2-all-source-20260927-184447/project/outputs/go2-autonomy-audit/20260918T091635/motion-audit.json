@@ -1,0 +1,238 @@
+{
+  "scope": "recorded_commands_vs_reported_odometry_not_physical_calibration",
+  "session": "20260918T091635",
+  "move_requests": 297,
+  "segments": [
+    {
+      "start_s": 37.61828917500003,
+      "end_s": 38.234164193000005,
+      "duration_s": 0.6158750179999757,
+      "command": {
+        "x": 0.6,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "odom_forward_m": 0.24419193610792145,
+      "odom_lateral_m": 0.0019985054077509452,
+      "odom_yaw_change_deg": -0.13933285459352668,
+      "odom_distance_m": 0.2442001140130774
+    },
+    {
+      "start_s": 38.23807016000006,
+      "end_s": 39.16458884400007,
+      "duration_s": 0.9265186840000084,
+      "command": {
+        "x": 0.6,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "odom_forward_m": 0.4368333575534061,
+      "odom_lateral_m": 0.18016616835193577,
+      "odom_yaw_change_deg": 48.834871721600024,
+      "odom_distance_m": 0.4725285499205312
+    },
+    {
+      "start_s": 39.16844603800001,
+      "end_s": 39.763909051999974,
+      "duration_s": 0.5954630139999608,
+      "command": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "odom_forward_m": 0.04216777694934953,
+      "odom_lateral_m": 0.0003681469134856133,
+      "odom_yaw_change_deg": 26.00994626610706,
+      "odom_distance_m": 0.042169383977004
+    },
+    {
+      "start_s": 48.903314268999964,
+      "end_s": 53.36691932900004,
+      "duration_s": 4.463605060000077,
+      "command": {
+        "x": 0.6,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "odom_forward_m": 2.2326256939978917,
+      "odom_lateral_m": 0.07503648153020248,
+      "odom_yaw_change_deg": 2.937718019935111,
+      "odom_distance_m": 2.2338862914347275
+    },
+    {
+      "start_s": 63.29737229599999,
+      "end_s": 64.95887250000004,
+      "duration_s": 1.661500204000049,
+      "command": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -1.0
+      },
+      "odom_forward_m": 0.019824824955547698,
+      "odom_lateral_m": 0.021816044657130072,
+      "odom_yaw_change_deg": -81.5970581690446,
+      "odom_distance_m": 0.029478186664040253
+    },
+    {
+      "start_s": 69.16666027800005,
+      "end_s": 71.02578324000004,
+      "duration_s": 1.8591229619999865,
+      "command": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "odom_forward_m": 0.009277150504052634,
+      "odom_lateral_m": 0.035830672035634135,
+      "odom_yaw_change_deg": 86.6638093652503,
+      "odom_distance_m": 0.03701219501731852
+    },
+    {
+      "start_s": 71.02970456400004,
+      "end_s": 72.27268469800006,
+      "duration_s": 1.242980134000021,
+      "command": {
+        "x": 0.6,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "odom_forward_m": 0.555549325848827,
+      "odom_lateral_m": 0.026631506414658154,
+      "odom_yaw_change_deg": 2.7802044748084036,
+      "odom_distance_m": 0.556187280135927
+    },
+    {
+      "start_s": 72.694799112,
+      "end_s": 73.34977773400004,
+      "duration_s": 0.6549786220000442,
+      "command": {
+        "x": 0.6,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "odom_forward_m": 0.33979644336791737,
+      "odom_lateral_m": -0.012189167630063474,
+      "odom_yaw_change_deg": -2.8393429829083088,
+      "odom_distance_m": 0.3400149978059792
+    },
+    {
+      "start_s": 76.367344533,
+      "end_s": 77.403467347,
+      "duration_s": 1.0361228140000094,
+      "command": {
+        "x": -0.6,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "odom_forward_m": -0.4058200356321646,
+      "odom_lateral_m": -0.012109124844863178,
+      "odom_yaw_change_deg": 0.3754364439725806,
+      "odom_distance_m": 0.4060006554489781
+    },
+    {
+      "start_s": 84.81704625000003,
+      "end_s": 86.577702942,
+      "duration_s": 1.7606566919999693,
+      "command": {
+        "x": 0.6,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "odom_forward_m": 0.9056562671339895,
+      "odom_lateral_m": 0.03551058459004919,
+      "odom_yaw_change_deg": 2.469684077709318,
+      "odom_distance_m": 0.9063521808971384
+    },
+    {
+      "start_s": 92.242009182,
+      "end_s": 93.48477383599996,
+      "duration_s": 1.2427646539999557,
+      "command": {
+        "x": 0.6,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "odom_forward_m": 0.5501252276641407,
+      "odom_lateral_m": 0.0039178213943235896,
+      "odom_yaw_change_deg": -2.2767484193996976,
+      "odom_distance_m": 0.5501391782421977
+    },
+    {
+      "start_s": 93.69803303700002,
+      "end_s": 96.95029704899997,
+      "duration_s": 3.252264011999955,
+      "command": {
+        "x": 0.6,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "odom_forward_m": 0.13414002446689383,
+      "odom_lateral_m": 0.021676400647274663,
+      "odom_yaw_change_deg": -1.5516285122712865,
+      "odom_distance_m": 0.13588014023027808
+    },
+    {
+      "start_s": 102.56551375500004,
+      "end_s": 106.35089670200006,
+      "duration_s": 3.7853829470000164,
+      "command": {
+        "x": -0.6,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "odom_forward_m": -0.09227991150076569,
+      "odom_lateral_m": -0.028543737288780457,
+      "odom_yaw_change_deg": 8.65647818777902,
+      "odom_distance_m": 0.09659361782747379
+    },
+    {
+      "start_s": 107.18636653100003,
+      "end_s": 112.53276798799999,
+      "duration_s": 5.346401456999956,
+      "command": {
+        "x": -0.6,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "odom_forward_m": -1.8852947007849779,
+      "odom_lateral_m": -0.5055729691637819,
+      "odom_yaw_change_deg": 16.340321202212834,
+      "odom_distance_m": 1.9519067948949307
+    }
+  ],
+  "observed_receive_hz": {
+    "ULIDAR_ARRAY": 7.1,
+    "ULIDAR_STATE": 5.0,
+    "LOW_STATE": 20.0,
+    "LF_SPORT_MOD_STATE": 20.0,
+    "ROBOTODOM": 18.71
+  },
+  "unique_timestamps": {
+    "ULIDAR_ARRAY": 2,
+    "ULIDAR_STATE": 2,
+    "LOW_STATE": 1,
+    "LF_SPORT_MOD_STATE": 5582,
+    "ROBOTODOM": 5221
+  },
+  "stop_reasons": {
+    "Окно не активно — остановлено": 10,
+    "Проверка StopMove перед допуском": 7,
+    "Клавиши отпущены": 12,
+    "Нет свежего подтверждения от Raspberry Pi": 4,
+    "Просроченная команда: нужен новый arm": 8,
+    "Завершение записи / предел 300 секунд": 1
+  },
+  "autonomous_motion_ready": false,
+  "odom_bounds_xy_m": {
+    "min": [
+      0.009504,
+      0.012903
+    ],
+    "max": [
+      2.332531,
+      5.448725
+    ]
+  },
+  "camera_receive_span_s": 278.030726866,
+  "camera_pts_span_s": 2.6473333333333335
+}

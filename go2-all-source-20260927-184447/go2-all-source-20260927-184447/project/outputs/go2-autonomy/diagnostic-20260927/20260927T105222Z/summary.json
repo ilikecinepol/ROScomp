@@ -1,0 +1,916 @@
+{
+  "executed": true,
+  "time_utc": "2026-09-27T10:52:38.267809+00:00",
+  "plan": {
+    "vx_m_s": 0.0,
+    "vy_m_s": 0,
+    "vyaw_rad_s": 0.15,
+    "duration_s": 1.0
+  },
+  "errors": [],
+  "pulse": {
+    "move_attempts": 9,
+    "stop_acknowledged": true,
+    "stop_reason": "bounded_duration_limit",
+    "pulse_elapsed_s": 1.0397067369999604
+  },
+  "final_stop_acknowledged": true,
+  "counts": {
+    "LF_SPORT_MOD_STATE": 368,
+    "ROBOTODOM": 345,
+    "CAMERA": 253,
+    "LOW_STATE": 18
+  },
+  "camera_records": [
+    {
+      "file": "camera_000.jpg",
+      "elapsed_s": 1.4246644739998828,
+      "phase": "preflight",
+      "pts": 480,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_001.jpg",
+      "elapsed_s": 1.5642653229999723,
+      "phase": "preflight",
+      "pts": 600,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_002.jpg",
+      "elapsed_s": 1.7045429279999098,
+      "phase": "preflight",
+      "pts": 720,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_003.jpg",
+      "elapsed_s": 1.8422366749998673,
+      "phase": "preflight",
+      "pts": 840,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_004.jpg",
+      "elapsed_s": 1.9841078279998783,
+      "phase": "preflight",
+      "pts": 960,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_005.jpg",
+      "elapsed_s": 2.1236453249998704,
+      "phase": "preflight",
+      "pts": 1080,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_006.jpg",
+      "elapsed_s": 2.262314474999812,
+      "phase": "preflight",
+      "pts": 1200,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_007.jpg",
+      "elapsed_s": 2.4014390299998922,
+      "phase": "preflight",
+      "pts": 1320,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_008.jpg",
+      "elapsed_s": 2.5424141869998493,
+      "phase": "preflight",
+      "pts": 1440,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_009.jpg",
+      "elapsed_s": 2.6835192689998166,
+      "phase": "preflight",
+      "pts": 1560,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_010.jpg",
+      "elapsed_s": 2.824223019999863,
+      "phase": "preflight",
+      "pts": 1680,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_011.jpg",
+      "elapsed_s": 2.9639724979999755,
+      "phase": "preflight",
+      "pts": 1800,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_012.jpg",
+      "elapsed_s": 3.1041266029999406,
+      "phase": "preflight",
+      "pts": 1920,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_013.jpg",
+      "elapsed_s": 3.24344749099987,
+      "phase": "preflight",
+      "pts": 2040,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_014.jpg",
+      "elapsed_s": 3.3869544859999223,
+      "phase": "preflight",
+      "pts": 2160,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_015.jpg",
+      "elapsed_s": 3.5241115329999957,
+      "phase": "preflight",
+      "pts": 2280,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_016.jpg",
+      "elapsed_s": 3.6632423659998494,
+      "phase": "preflight",
+      "pts": 2400,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_017.jpg",
+      "elapsed_s": 3.8011992419999387,
+      "phase": "preflight",
+      "pts": 2520,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_018.jpg",
+      "elapsed_s": 3.948762049999914,
+      "phase": "preflight",
+      "pts": 2640,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_019.jpg",
+      "elapsed_s": 4.08337647999997,
+      "phase": "preflight",
+      "pts": 2760,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_020.jpg",
+      "elapsed_s": 4.222965235999936,
+      "phase": "preflight",
+      "pts": 2880,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_021.jpg",
+      "elapsed_s": 4.363801004999914,
+      "phase": "preflight",
+      "pts": 3000,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_022.jpg",
+      "elapsed_s": 4.503648685999906,
+      "phase": "preflight",
+      "pts": 3120,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_023.jpg",
+      "elapsed_s": 4.643172553999875,
+      "phase": "preflight",
+      "pts": 3240,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_024.jpg",
+      "elapsed_s": 4.7834267700000055,
+      "phase": "preflight",
+      "pts": 3360,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_025.jpg",
+      "elapsed_s": 4.922780175999833,
+      "phase": "preflight",
+      "pts": 3480,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_026.jpg",
+      "elapsed_s": 5.062602449999986,
+      "phase": "preflight",
+      "pts": 3600,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_027.jpg",
+      "elapsed_s": 5.204672026999788,
+      "phase": "preflight",
+      "pts": 3720,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_028.jpg",
+      "elapsed_s": 5.343873062999819,
+      "phase": "preflight",
+      "pts": 3840,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_029.jpg",
+      "elapsed_s": 5.487508168999966,
+      "phase": "preflight",
+      "pts": 3960,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_030.jpg",
+      "elapsed_s": 5.623432814999887,
+      "phase": "preflight",
+      "pts": 4080,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_031.jpg",
+      "elapsed_s": 5.763641456999949,
+      "phase": "preflight",
+      "pts": 4200,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_032.jpg",
+      "elapsed_s": 5.904151430999946,
+      "phase": "preflight",
+      "pts": 4320,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_033.jpg",
+      "elapsed_s": 6.043338392999885,
+      "phase": "preflight",
+      "pts": 4440,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_034.jpg",
+      "elapsed_s": 6.183162814999832,
+      "phase": "preflight",
+      "pts": 4560,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_035.jpg",
+      "elapsed_s": 6.323360586999797,
+      "phase": "preflight",
+      "pts": 4680,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_036.jpg",
+      "elapsed_s": 6.464297724999824,
+      "phase": "preflight",
+      "pts": 4800,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_037.jpg",
+      "elapsed_s": 6.6057259539998086,
+      "phase": "preflight",
+      "pts": 4920,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_038.jpg",
+      "elapsed_s": 6.743642866999835,
+      "phase": "preflight",
+      "pts": 5040,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_039.jpg",
+      "elapsed_s": 6.8820758519998435,
+      "phase": "preflight",
+      "pts": 5160,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_040.jpg",
+      "elapsed_s": 7.023934688999816,
+      "phase": "preflight",
+      "pts": 5280,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_041.jpg",
+      "elapsed_s": 7.163917369999808,
+      "phase": "preflight",
+      "pts": 5400,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_042.jpg",
+      "elapsed_s": 7.304754637999849,
+      "phase": "preflight",
+      "pts": 5520,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_043.jpg",
+      "elapsed_s": 7.445626296,
+      "phase": "preflight",
+      "pts": 5640,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_044.jpg",
+      "elapsed_s": 7.587043709,
+      "phase": "preflight",
+      "pts": 5760,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_045.jpg",
+      "elapsed_s": 7.724423717999798,
+      "phase": "preflight",
+      "pts": 5880,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_046.jpg",
+      "elapsed_s": 7.864453878999939,
+      "phase": "preflight",
+      "pts": 6000,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_047.jpg",
+      "elapsed_s": 8.003658840999833,
+      "phase": "preflight",
+      "pts": 6120,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_048.jpg",
+      "elapsed_s": 8.143774872999984,
+      "phase": "preflight",
+      "pts": 6240,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_049.jpg",
+      "elapsed_s": 8.287957531999837,
+      "phase": "preflight",
+      "pts": 6360,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_050.jpg",
+      "elapsed_s": 8.427822768999931,
+      "phase": "preflight",
+      "pts": 6480,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_051.jpg",
+      "elapsed_s": 8.563747358,
+      "phase": "preflight",
+      "pts": 6600,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_052.jpg",
+      "elapsed_s": 8.704144054999915,
+      "phase": "preflight",
+      "pts": 6720,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_053.jpg",
+      "elapsed_s": 8.843272980999927,
+      "phase": "preflight",
+      "pts": 6840,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_054.jpg",
+      "elapsed_s": 8.984310136999966,
+      "phase": "preflight",
+      "pts": 6960,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_055.jpg",
+      "elapsed_s": 9.12496566599998,
+      "phase": "preflight",
+      "pts": 7080,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_056.jpg",
+      "elapsed_s": 9.27041402199984,
+      "phase": "preflight",
+      "pts": 7200,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_057.jpg",
+      "elapsed_s": 9.405149432999906,
+      "phase": "preflight",
+      "pts": 7320,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_058.jpg",
+      "elapsed_s": 9.546892307999997,
+      "phase": "preflight",
+      "pts": 7440,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_059.jpg",
+      "elapsed_s": 9.689470012999891,
+      "phase": "preflight",
+      "pts": 7560,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_060.jpg",
+      "elapsed_s": 9.824467976999813,
+      "phase": "preflight",
+      "pts": 7680,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_061.jpg",
+      "elapsed_s": 9.97006918499983,
+      "phase": "mode_setup",
+      "pts": 7800,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_062.jpg",
+      "elapsed_s": 10.103917488999969,
+      "phase": "before",
+      "pts": 7920,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_063.jpg",
+      "elapsed_s": 10.245345606,
+      "phase": "before",
+      "pts": 8040,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_064.jpg",
+      "elapsed_s": 10.393220487999997,
+      "phase": "before",
+      "pts": 8160,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_065.jpg",
+      "elapsed_s": 10.52514776399994,
+      "phase": "before",
+      "pts": 8280,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_066.jpg",
+      "elapsed_s": 10.66599938499985,
+      "phase": "before",
+      "pts": 8400,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_067.jpg",
+      "elapsed_s": 10.807141095999896,
+      "phase": "before",
+      "pts": 8520,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_068.jpg",
+      "elapsed_s": 10.943781145000003,
+      "phase": "before",
+      "pts": 8640,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_069.jpg",
+      "elapsed_s": 11.08405715799995,
+      "phase": "before",
+      "pts": 8760,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_070.jpg",
+      "elapsed_s": 11.226476899999852,
+      "phase": "before",
+      "pts": 8880,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_071.jpg",
+      "elapsed_s": 11.364708958999927,
+      "phase": "before",
+      "pts": 9000,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_072.jpg",
+      "elapsed_s": 11.505818207999937,
+      "phase": "before",
+      "pts": 9120,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_073.jpg",
+      "elapsed_s": 11.647235991999878,
+      "phase": "before",
+      "pts": 9240,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_074.jpg",
+      "elapsed_s": 11.795542537999836,
+      "phase": "before",
+      "pts": 9360,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_075.jpg",
+      "elapsed_s": 11.927126778999991,
+      "phase": "before",
+      "pts": 9480,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_076.jpg",
+      "elapsed_s": 12.06899972799988,
+      "phase": "before",
+      "pts": 9600,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_077.jpg",
+      "elapsed_s": 12.208233615999916,
+      "phase": "before",
+      "pts": 9720,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_078.jpg",
+      "elapsed_s": 12.34808679699995,
+      "phase": "before",
+      "pts": 9840,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_079.jpg",
+      "elapsed_s": 12.488159402999827,
+      "phase": "before",
+      "pts": 9960,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_080.jpg",
+      "elapsed_s": 12.62807980599996,
+      "phase": "before",
+      "pts": 10080,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_081.jpg",
+      "elapsed_s": 12.766686307999862,
+      "phase": "before",
+      "pts": 10200,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_082.jpg",
+      "elapsed_s": 12.90684204299987,
+      "phase": "before",
+      "pts": 10320,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_083.jpg",
+      "elapsed_s": 13.048334640999883,
+      "phase": "before",
+      "pts": 10440,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_084.jpg",
+      "elapsed_s": 13.187627880999798,
+      "phase": "move",
+      "pts": 10560,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_085.jpg",
+      "elapsed_s": 13.332366758999797,
+      "phase": "move",
+      "pts": 10680,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_086.jpg",
+      "elapsed_s": 13.473718487999804,
+      "phase": "move",
+      "pts": 10800,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_087.jpg",
+      "elapsed_s": 13.610055057999944,
+      "phase": "move",
+      "pts": 10920,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_088.jpg",
+      "elapsed_s": 13.749625998999818,
+      "phase": "move",
+      "pts": 11040,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_089.jpg",
+      "elapsed_s": 13.89463376499998,
+      "phase": "move",
+      "pts": 11160,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_090.jpg",
+      "elapsed_s": 14.0276531479999,
+      "phase": "move",
+      "pts": 11280,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_091.jpg",
+      "elapsed_s": 14.170313888999999,
+      "phase": "after",
+      "pts": 11400,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_092.jpg",
+      "elapsed_s": 14.309542053999849,
+      "phase": "after",
+      "pts": 11520,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_093.jpg",
+      "elapsed_s": 14.451330539999844,
+      "phase": "after",
+      "pts": 11640,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_094.jpg",
+      "elapsed_s": 14.588231809999797,
+      "phase": "after",
+      "pts": 11760,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_095.jpg",
+      "elapsed_s": 14.72688995999988,
+      "phase": "after",
+      "pts": 11880,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_096.jpg",
+      "elapsed_s": 14.869579811999984,
+      "phase": "after",
+      "pts": 12000,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_097.jpg",
+      "elapsed_s": 15.005948065999974,
+      "phase": "after",
+      "pts": 12120,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_098.jpg",
+      "elapsed_s": 15.14573130299982,
+      "phase": "after",
+      "pts": 12240,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_099.jpg",
+      "elapsed_s": 15.285834204999901,
+      "phase": "after",
+      "pts": 12360,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_100.jpg",
+      "elapsed_s": 15.424860223999985,
+      "phase": "after",
+      "pts": 12480,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_101.jpg",
+      "elapsed_s": 15.56541908700001,
+      "phase": "after",
+      "pts": 12600,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_102.jpg",
+      "elapsed_s": 15.704886991999956,
+      "phase": "after",
+      "pts": 12720,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_103.jpg",
+      "elapsed_s": 15.845192133999944,
+      "phase": "after",
+      "pts": 12840,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_104.jpg",
+      "elapsed_s": 15.992174777999935,
+      "phase": "after",
+      "pts": 12960,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_105.jpg",
+      "elapsed_s": 16.12711272499996,
+      "phase": "after",
+      "pts": 13080,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_106.jpg",
+      "elapsed_s": 16.26663227799986,
+      "phase": "after",
+      "pts": 13200,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_107.jpg",
+      "elapsed_s": 16.40592440699993,
+      "phase": "after",
+      "pts": 13320,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_108.jpg",
+      "elapsed_s": 16.545216923999988,
+      "phase": "after",
+      "pts": 13440,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_109.jpg",
+      "elapsed_s": 16.685212696999997,
+      "phase": "after",
+      "pts": 13560,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_110.jpg",
+      "elapsed_s": 16.824918748999835,
+      "phase": "after",
+      "pts": 13680,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_111.jpg",
+      "elapsed_s": 16.966272995999816,
+      "phase": "after",
+      "pts": 13800,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_112.jpg",
+      "elapsed_s": 17.106028899999956,
+      "phase": "after",
+      "pts": 13920,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_113.jpg",
+      "elapsed_s": 17.245744710999816,
+      "phase": "after",
+      "pts": 14040,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_114.jpg",
+      "elapsed_s": 17.38554674399984,
+      "phase": "after",
+      "pts": 14160,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_115.jpg",
+      "elapsed_s": 17.52442381899982,
+      "phase": "after",
+      "pts": 14280,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_116.jpg",
+      "elapsed_s": 17.664949477999926,
+      "phase": "after",
+      "pts": 14400,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_117.jpg",
+      "elapsed_s": 17.805098416999954,
+      "phase": "after",
+      "pts": 14520,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_118.jpg",
+      "elapsed_s": 17.949298150000004,
+      "phase": "after",
+      "pts": 14640,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_119.jpg",
+      "elapsed_s": 18.088806703999808,
+      "phase": "after",
+      "pts": 14760,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_120.jpg",
+      "elapsed_s": 18.225739843999918,
+      "phase": "after",
+      "pts": 14880,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_121.jpg",
+      "elapsed_s": 18.365263711999887,
+      "phase": "after",
+      "pts": 15000,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_122.jpg",
+      "elapsed_s": 18.5059931469998,
+      "phase": "after",
+      "pts": 15120,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_123.jpg",
+      "elapsed_s": 18.646014030999822,
+      "phase": "after",
+      "pts": 15240,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_124.jpg",
+      "elapsed_s": 18.786455727999964,
+      "phase": "after",
+      "pts": 15360,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_125.jpg",
+      "elapsed_s": 18.92594020699994,
+      "phase": "after",
+      "pts": 15480,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_126.jpg",
+      "elapsed_s": 19.064709615999845,
+      "phase": "after",
+      "pts": 15600,
+      "time_base": "1/90000"
+    }
+  ],
+  "final_health_errors": []
+}

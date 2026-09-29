@@ -1,0 +1,364 @@
+{
+  "scope": "offline_diagnostic_unverified_geometry",
+  "snapshots": [
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000000.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 26.2
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000001.json",
+      "poles": 18,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 29.3
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000002.json",
+      "poles": 16,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 29.3
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000003.json",
+      "poles": 18,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 28.4
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000004.json",
+      "poles": 16,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 28.7
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000005.json",
+      "poles": 16,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 29.4
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000006.json",
+      "poles": 18,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 28.2
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000007.json",
+      "poles": 18,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 27.2
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000008.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 31.5
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000009.json",
+      "poles": 16,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 28.8
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000010.json",
+      "poles": 18,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 28.2
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000011.json",
+      "poles": 16,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 27.9
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000012.json",
+      "poles": 16,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 28.8
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000013.json",
+      "poles": 18,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 28.8
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000014.json",
+      "poles": 16,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 30.7
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000015.json",
+      "poles": 16,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 28.6
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000016.json",
+      "poles": 16,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 28.4
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000017.json",
+      "poles": 16,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 28.0
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000018.json",
+      "poles": 16,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 29.9
+    },
+    {
+      "session": "20260926T142430.175205Z",
+      "snapshot": "cloud_000019.json",
+      "poles": 16,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 28.5
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000001.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 32.2
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000002.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 31.3
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000003.json",
+      "poles": 19,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 30.5
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000004.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 31.4
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000005.json",
+      "poles": 19,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 31.2
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000006.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 31.2
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000007.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 31.1
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000008.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 30.0
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000009.json",
+      "poles": 18,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 28.8
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000010.json",
+      "poles": 19,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 31.6
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000011.json",
+      "poles": 19,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 29.9
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000012.json",
+      "poles": 19,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 30.3
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000013.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 30.9
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000014.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 31.0
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000015.json",
+      "poles": 19,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 31.1
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000016.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 31.4
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000017.json",
+      "poles": 19,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 30.9
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000018.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 31.6
+    },
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000019.json",
+      "poles": 17,
+      "rows": 0,
+      "route_previews": 0,
+      "motion_authorized": false,
+      "elapsed_ms": 31.1
+    }
+  ],
+  "skipped": [
+    {
+      "session": "20260926T142840.158195Z",
+      "snapshot": "cloud_000000.json",
+      "reason": "pose_missing"
+    }
+  ],
+  "note": "Геометрическая гипотеза при общих координатах; калибровка не выполнена, разрешение движения не выдаётся."
+}

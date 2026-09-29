@@ -1,0 +1,666 @@
+{
+  "scope": "observation_only",
+  "started": false,
+  "mission_phase": "WAIT_START",
+  "completed": [],
+  "fault": null,
+  "shutdown_reason": null,
+  "sensor_report": {
+    "streams": {
+      "ULIDAR_STATE": {
+        "received": 101,
+        "age_s": 0.056293019999884564,
+        "median_hz": 5.000287078980422,
+        "source_scale_by_receive": 0.0,
+        "duplicate_stamps": 100,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "ROBOTODOM": {
+        "received": 377,
+        "age_s": 0.009085796999897866,
+        "median_hz": 18.811600466990747,
+        "source_scale_by_receive": 1.0003661975761706,
+        "duplicate_stamps": 0,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "LF_SPORT_MOD_STATE": {
+        "received": 402,
+        "age_s": 0.011880856000061613,
+        "median_hz": 20.026031437768758,
+        "source_scale_by_receive": 0.9999987484825186,
+        "duplicate_stamps": 0,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "LOW_STATE": {
+        "received": 401,
+        "age_s": 0.03813024100008988,
+        "median_hz": 19.97597529404233,
+        "source_scale_by_receive": null,
+        "duplicate_stamps": 0,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "ULIDAR_ARRAY": {
+        "received": 154,
+        "age_s": 0.062494722999872465,
+        "median_hz": 7.6477239325882636,
+        "source_scale_by_receive": 0.0,
+        "duplicate_stamps": 153,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "CAMERA": {
+        "received": 265,
+        "age_s": 0.05077679099986199,
+        "median_hz": 14.273400419270828,
+        "source_scale_by_receive": 0.009519661197156207,
+        "duplicate_stamps": 0,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      }
+    },
+    "identity": {
+      "software_version": "1.0.0.38"
+    },
+    "faults": [],
+    "frame_epoch": 0
+  },
+  "consistency": {
+    "diagnostic_only": true,
+    "hardware_verdict": null,
+    "correction_applied": false,
+    "evidence_scope": "pixel_correspondence_and_received_pose_only",
+    "status": "static_pixel_evidence",
+    "reasons": [],
+    "normalized_width_px": 640,
+    "tracked_features": 262,
+    "p95_displacement_px": 0.0,
+    "static_duration_s": 7.28471539200018,
+    "static_samples": 15,
+    "pose_yaw_change_deg": 0.03194286045230751,
+    "pose_xy_change_m": 0.00042751842065577773,
+    "exact_duplicate_duration_s": 0.0,
+    "pose_change_with_exact_same_frame": false,
+    "last_pose_delta_xy_m": 7.71556867636325e-05,
+    "last_pose_delta_yaw_deg": 0.00523339458910953,
+    "processing_ms": 16.314689999944676,
+    "thresholds": {
+      "minimum_tracked_features": 40,
+      "static_duration_s": 5.0,
+      "p95_displacement_px_strictly_below": 1.0,
+      "yaw_change_deg_strictly_above": 2.0,
+      "xy_change_m_strictly_below": 0.04,
+      "duplicate_duration_s_strictly_above": 3.0,
+      "duplicate_motion_xy_m_strictly_above": 0.02,
+      "duplicate_motion_yaw_deg_strictly_above": 1.0,
+      "max_sample_gap_s": 1.5
+    },
+    "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+  },
+  "stop_acknowledged": null,
+  "journal_dropped": 0,
+  "journal_failed": false,
+  "physical_success_verified": false,
+  "packet_audit": {
+    "packets": 154,
+    "distinct_stamps": 1,
+    "distinct_payloads": 154,
+    "first_header": {
+      "stamp": 1790417000.0,
+      "frame_id": "odom",
+      "resolution": 0.05,
+      "src_size": 77824,
+      "origin": [
+        -0.625,
+        -0.825,
+        -0.625
+      ],
+      "width": [
+        128,
+        128,
+        38
+      ]
+    },
+    "transport_status": "content_changes_source_time_unavailable",
+    "packet_age_s": 0.06764654900007372,
+    "content_change_age_s": 0.06764654900007372,
+    "content_changes": 153,
+    "acquisition_age_verified": false
+  },
+  "source_audit": {
+    "ULIDAR": {
+      "received": 0,
+      "advances": 0,
+      "duplicates": 0,
+      "backwards": 0,
+      "valid_stamps": 0,
+      "header": {},
+      "last_stamp": null,
+      "receive_age_s": null,
+      "acquisition_age_verified": false
+    },
+    "SLAM_ODOMETRY": {
+      "received": 0,
+      "advances": 0,
+      "duplicates": 0,
+      "backwards": 0,
+      "valid_stamps": 0,
+      "header": {},
+      "last_stamp": null,
+      "receive_age_s": null,
+      "acquisition_age_verified": false
+    },
+    "LIDAR_MAPPING_ODOM": {
+      "received": 0,
+      "advances": 0,
+      "duplicates": 0,
+      "backwards": 0,
+      "valid_stamps": 0,
+      "header": {},
+      "last_stamp": null,
+      "receive_age_s": null,
+      "acquisition_age_verified": false
+    },
+    "LIDAR_LOCALIZATION_ODOM": {
+      "received": 0,
+      "advances": 0,
+      "duplicates": 0,
+      "backwards": 0,
+      "valid_stamps": 0,
+      "header": {},
+      "last_stamp": null,
+      "receive_age_s": null,
+      "acquisition_age_verified": false
+    },
+    "LIDAR_MAPPING_CLOUD_POINT": {
+      "received": 0,
+      "advances": 0,
+      "duplicates": 0,
+      "backwards": 0,
+      "valid_stamps": 0,
+      "header": {},
+      "last_stamp": null,
+      "receive_age_s": null,
+      "acquisition_age_verified": false
+    },
+    "LIDAR_LOCALIZATION_CLOUD_POINT": {
+      "received": 0,
+      "advances": 0,
+      "duplicates": 0,
+      "backwards": 0,
+      "valid_stamps": 0,
+      "header": {},
+      "last_stamp": null,
+      "receive_age_s": null,
+      "acquisition_age_verified": false
+    },
+    "UWB_STATE": {
+      "received": 0,
+      "advances": 0,
+      "duplicates": 0,
+      "backwards": 0,
+      "valid_stamps": 0,
+      "header": {},
+      "last_stamp": null,
+      "receive_age_s": null,
+      "acquisition_age_verified": false
+    }
+  },
+  "scene_audit": {
+    "scope": "diagnostic_only",
+    "route_verified": false,
+    "pole_candidates": [
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          5.000000000000001,
+          3.5500000000000003
+        ],
+        "width_xy_m": [
+          0.3,
+          0.15000000000000052
+        ],
+        "observed_height_range_m": [
+          0.4499999999999999,
+          1.25
+        ],
+        "height_levels": 14,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      }
+    ],
+    "reason": "Геометрия требует проверки; диагностические кандидаты не являются маршрутом",
+    "points": 45362,
+    "floor_coefficients": [
+      8.164171395976921e-18,
+      4.938880959910753e-18,
+      0.025000000000000064
+    ],
+    "assumed_pose": [
+      2.620254,
+      2.385021,
+      -1.1288116595478945,
+      0.30665
+    ],
+    "point_frame": "odom",
+    "slalom_pole_candidates": [
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          5.000000000000001,
+          3.5500000000000003
+        ],
+        "width_xy_m": [
+          0.3,
+          0.15000000000000052
+        ],
+        "observed_height_range_m": [
+          0.4499999999999999,
+          1.25
+        ],
+        "height_levels": 14,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+        "connected_extent_m": 0.3500000000000007,
+        "row_eligible": true
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          3.5500000000000003,
+          -0.4499999999999999
+        ],
+        "width_xy_m": [
+          0.14999999999999963,
+          0.14999999999999997
+        ],
+        "observed_height_range_m": [
+          0.35,
+          0.8
+        ],
+        "height_levels": 9,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+        "connected_extent_m": 0.14999999999999997,
+        "row_eligible": true
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          3.4499999999999997,
+          0.6000000000000002
+        ],
+        "width_xy_m": [
+          0.15000000000000052,
+          0.24999999999999994
+        ],
+        "observed_height_range_m": [
+          0.35,
+          0.7
+        ],
+        "height_levels": 7,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+        "connected_extent_m": 0.24999999999999994,
+        "row_eligible": true
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          3.5500000000000003,
+          1.7
+        ],
+        "width_xy_m": [
+          0.4000000000000005,
+          0.24999999999999972
+        ],
+        "observed_height_range_m": [
+          0.35,
+          0.75
+        ],
+        "height_levels": 8,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+        "connected_extent_m": 0.4000000000000005,
+        "row_eligible": true
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          3.1,
+          2.6
+        ],
+        "width_xy_m": [
+          0.09999999999999983,
+          0.09999999999999983
+        ],
+        "observed_height_range_m": [
+          0.75,
+          1.2
+        ],
+        "height_levels": 6,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+        "connected_extent_m": 1.250000000000001,
+        "row_eligible": false,
+        "row_exclusion_reason": "Узкий фрагмент соединён с протяжённым объектом; не подтверждена отдельная стойка"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          5.4,
+          3.4499999999999997
+        ],
+        "width_xy_m": [
+          0.09999999999999983,
+          0.05
+        ],
+        "observed_height_range_m": [
+          0.6000000000000001,
+          0.95
+        ],
+        "height_levels": 6,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+        "connected_extent_m": 0.20000000000000034,
+        "row_eligible": true
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          0.32500000000000007,
+          2.5000000000000004
+        ],
+        "width_xy_m": [
+          0.1999999999999999,
+          0.20000000000000034
+        ],
+        "observed_height_range_m": [
+          0.35,
+          0.6000000000000001
+        ],
+        "height_levels": 6,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+        "connected_extent_m": 2.75,
+        "row_eligible": false,
+        "row_exclusion_reason": "Узкий фрагмент соединён с протяжённым объектом; не подтверждена отдельная стойка"
+      }
+    ],
+    "slalom_row_candidates": [
+      {
+        "pole_indices": [
+          1,
+          2,
+          3
+        ],
+        "centers_xy": [
+          [
+            3.5500000000000003,
+            -0.4499999999999999
+          ],
+          [
+            3.4499999999999997,
+            0.6000000000000002
+          ],
+          [
+            3.5500000000000003,
+            1.7
+          ]
+        ],
+        "spacing_m": [
+          1.0499274189945227,
+          1.1000720189703241
+        ],
+        "max_line_residual_m": 0.06665459815202182,
+        "route_verified": false,
+        "reason": "Гипотеза группы стоек; полнота ряда, цвет и свободный коридор ещё не подтверждены"
+      }
+    ],
+    "current_footprint": {
+      "clear": false,
+      "occupied_cells": 116,
+      "unknown_cells": 0,
+      "outside_cells": 0,
+      "reason": "Корпус пересекает занятость, неизвестность или край карты"
+    },
+    "slalom_route_previews": [
+      {
+        "pole_indices": [
+          1,
+          2,
+          3
+        ],
+        "path": [],
+        "reason": "Оба варианта заблокированы или опора неизвестна",
+        "variants": [
+          {
+            "first_side": "left",
+            "path": [],
+            "length_m": null,
+            "reason": "Нет наблюдённого прохода для всего корпуса между соседними точками",
+            "blocked_leg": {
+              "leg_index": 0,
+              "from_xy": [
+                3.518104378592171,
+                2.605023299198569
+              ],
+              "to_xy": [
+                4.454999763422413,
+                1.6993456259650996
+              ],
+              "start_footprint": {
+                "clear": false,
+                "occupied_cells": 156,
+                "unknown_cells": 5,
+                "outside_cells": 0,
+                "reason": "Корпус пересекает занятость, неизвестность или край карты"
+              },
+              "end_footprint": {
+                "clear": false,
+                "occupied_cells": 3,
+                "unknown_cells": 0,
+                "outside_cells": 0,
+                "reason": "Корпус пересекает занятость, неизвестность или край карты"
+              }
+            },
+            "alternating_waypoints_xy": [
+              [
+                4.454999763422413,
+                1.6993456259650996
+              ],
+              [
+                2.545000236577587,
+                0.6006543740349005
+              ],
+              [
+                4.454999763422413,
+                -0.4506543740349002
+              ]
+            ]
+          },
+          {
+            "first_side": "right",
+            "path": [],
+            "length_m": null,
+            "reason": "Нет наблюдённого прохода для всего корпуса между соседними точками",
+            "blocked_leg": {
+              "leg_index": 0,
+              "from_xy": [
+                3.518104378592171,
+                2.605023299198569
+              ],
+              "to_xy": [
+                2.6450002365775873,
+                1.7006543740349003
+              ],
+              "start_footprint": {
+                "clear": false,
+                "occupied_cells": 159,
+                "unknown_cells": 5,
+                "outside_cells": 0,
+                "reason": "Корпус пересекает занятость, неизвестность или край карты"
+              },
+              "end_footprint": {
+                "clear": false,
+                "occupied_cells": 20,
+                "unknown_cells": 2,
+                "outside_cells": 0,
+                "reason": "Корпус пересекает занятость, неизвестность или край карты"
+              }
+            },
+            "alternating_waypoints_xy": [
+              [
+                2.6450002365775873,
+                1.7006543740349003
+              ],
+              [
+                4.354999763422413,
+                0.5993456259650999
+              ],
+              [
+                2.6450002365775873,
+                -0.4493456259650996
+              ]
+            ]
+          }
+        ],
+        "assumptions_verified": false,
+        "route_verified": false
+      }
+    ],
+    "camera_striped_poles": [
+      {
+        "bbox_xyxy": [
+          362,
+          0,
+          563,
+          664
+        ],
+        "red_sections": 3,
+        "white_gaps": 3,
+        "touches_edge": true,
+        "distance_verified": false,
+        "route_verified": false
+      },
+      {
+        "bbox_xyxy": [
+          636,
+          114,
+          741,
+          494
+        ],
+        "red_sections": 4,
+        "white_gaps": 6,
+        "touches_edge": false,
+        "distance_verified": false,
+        "route_verified": false
+      },
+      {
+        "bbox_xyxy": [
+          804,
+          208,
+          826,
+          308
+        ],
+        "red_sections": 3,
+        "white_gaps": 3,
+        "touches_edge": false,
+        "distance_verified": false,
+        "route_verified": false
+      },
+      {
+        "bbox_xyxy": [
+          826,
+          256,
+          843,
+          322
+        ],
+        "red_sections": 3,
+        "white_gaps": 3,
+        "touches_edge": false,
+        "distance_verified": false,
+        "route_verified": false
+      }
+    ]
+  },
+  "preparation": {
+    "mode": "automatic_measurement_review",
+    "ready_for_motion": false,
+    "profile_modified": false,
+    "timing_estimates": {
+      "ULIDAR_STATE": {
+        "samples": 101,
+        "verified": false,
+        "absolute_latency_s": null,
+        "status": "constant_source_stamp"
+      },
+      "ROBOTODOM": {
+        "samples": 200,
+        "verified": false,
+        "absolute_latency_s": null,
+        "status": "scale_estimate_only",
+        "source_to_receive_scale": 0.9999969988404589,
+        "receive_residual_p90_s": 0.005814628852450987,
+        "reason": "Смещение часов и задержка доставки неразличимы по пассивной записи; контракт времени не создан"
+      },
+      "LF_SPORT_MOD_STATE": {
+        "samples": 200,
+        "verified": false,
+        "absolute_latency_s": null,
+        "status": "scale_estimate_only",
+        "source_to_receive_scale": 1.0000146360553157,
+        "receive_residual_p90_s": 0.005478485805116673,
+        "reason": "Смещение часов и задержка доставки неразличимы по пассивной записи; контракт времени не создан"
+      },
+      "LOW_STATE": {
+        "samples": 0,
+        "verified": false,
+        "absolute_latency_s": null,
+        "status": "insufficient_samples"
+      },
+      "ULIDAR_ARRAY": {
+        "samples": 154,
+        "verified": false,
+        "absolute_latency_s": null,
+        "status": "constant_source_stamp"
+      },
+      "CAMERA": {
+        "samples": 200,
+        "verified": false,
+        "absolute_latency_s": null,
+        "status": "scale_estimate_only",
+        "source_to_receive_scale": 105.03579255749858,
+        "receive_residual_p90_s": 0.012358835510303479,
+        "reason": "Смещение часов и задержка доставки неразличимы по пассивной записи; контракт времени не создан"
+      }
+    },
+    "camera_poles": 4,
+    "lidar_row_hypotheses": 1,
+    "blockers": [
+      "Бортовой профиль не настроен: нужны измерения систем координат и времени",
+      "Не установлена задержка от измерения лидара до использования облака",
+      "Содержимое лидара обновляется, но метка времени не продвигается",
+      "Стойки камеры и лидара ещё не сопоставлены; свободный маршрут не подтверждён",
+      "Автоматическая подготовка не подтверждает прохождение навыков на роботе"
+    ],
+    "next_step": "Привязать камеру и лидар к корпусу по измерениям и установить временной контракт; затем испытать короткий сегмент"
+  }
+}

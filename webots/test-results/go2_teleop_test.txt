@@ -1,0 +1,1 @@
+[go2-teleop-test] PASS: forward=0.121 m, yaw=33.8 deg, base z=0.333 m, upright=1.000

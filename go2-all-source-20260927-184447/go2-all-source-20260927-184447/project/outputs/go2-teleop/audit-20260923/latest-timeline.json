@@ -1,0 +1,150 @@
+[
+  {
+    "elapsed_s": 1.079050235000068,
+    "event": "profile_changed",
+    "monotonic_s": 3527.575958696,
+    "profile": "obstacle"
+  },
+  {
+    "elapsed_s": 1.1844199439997283,
+    "event": "profile_changed",
+    "monotonic_s": 3527.681328275,
+    "profile": "obstacle"
+  },
+  {
+    "elapsed_s": 54.95242240200014,
+    "event": "profile_changed",
+    "monotonic_s": 3581.449330807,
+    "profile": "floor"
+  },
+  {
+    "elapsed_s": 55.05900228500013,
+    "event": "profile_changed",
+    "monotonic_s": 3581.55591045,
+    "profile": "floor"
+  },
+  {
+    "elapsed_s": 89.93878111499998,
+    "event": "record_start",
+    "profile": "floor",
+    "source_sha256": "2865bcce577a21b86943b216a56c04b6cab4dcaa30df19d5e71a4aff24f541fb",
+    "time_utc": "2026-09-23T10:22:29.639982+00:00"
+  },
+  {
+    "elapsed_s": 94.41198676800013,
+    "event": "stop_requested",
+    "monotonic_s": 3620.908893951,
+    "reason": "Просроченная команда: нужен новый arm",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 94.52316707299997,
+    "event": "stop_requested",
+    "monotonic_s": 3621.020074515,
+    "reason": "Просроченная команда: нужен новый arm",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 94.65001942399977,
+    "event": "stop_requested",
+    "monotonic_s": 3621.146926737,
+    "reason": "Просроченная команда: нужен новый arm",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 96.0978554469998,
+    "event": "stop_requested",
+    "monotonic_s": 3622.594763482,
+    "reason": "Проверка StopMove перед допуском",
+    "disarm": false
+  },
+  {
+    "elapsed_s": 104.67001606899976,
+    "event": "stop_requested",
+    "monotonic_s": 3631.166923918,
+    "reason": "Датчики или запись: Наклон больше 35° крена / 40° тангажа",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 106.44955274599988,
+    "event": "stop_requested",
+    "monotonic_s": 3632.946460948,
+    "reason": "Проверка StopMove перед допуском",
+    "disarm": false
+  },
+  {
+    "elapsed_s": 109.27199401799999,
+    "event": "stop_requested",
+    "monotonic_s": 3635.768901608,
+    "reason": "Датчики или запись: Наклон больше 35° крена / 40° тангажа",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 110.7784054079998,
+    "event": "stop_requested",
+    "monotonic_s": 3637.27531285,
+    "reason": "Просроченная команда: нужен новый arm",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 110.78797654499976,
+    "event": "stop_requested",
+    "monotonic_s": 3637.284884709,
+    "reason": "Просроченная команда: нужен новый arm",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 110.79857256100013,
+    "event": "stop_requested",
+    "monotonic_s": 3637.295480688,
+    "reason": "Просроченная команда: нужен новый arm",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 111.45443060499974,
+    "event": "stop_requested",
+    "monotonic_s": 3637.951337806,
+    "reason": "Просроченная команда: нужен новый arm",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 111.49801390199991,
+    "event": "stop_requested",
+    "monotonic_s": 3637.994922307,
+    "reason": "Просроченная команда: нужен новый arm",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 111.55959575999987,
+    "event": "stop_requested",
+    "monotonic_s": 3638.056503776,
+    "reason": "Просроченная команда: нужен новый arm",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 111.569295452,
+    "event": "stop_requested",
+    "monotonic_s": 3638.066203597,
+    "reason": "Просроченная команда: нужен новый arm",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 111.62342858000011,
+    "event": "stop_requested",
+    "monotonic_s": 3638.120335652,
+    "reason": "Просроченная команда: нужен новый arm",
+    "disarm": true
+  },
+  {
+    "elapsed_s": 120.38039485199988,
+    "event": "marker",
+    "monotonic_s": 3646.877302997,
+    "label": "застрял упал",
+    "seq": 1014
+  },
+  {
+    "elapsed_s": 172.3001467260001,
+    "event": "record_stop",
+    "time_utc": "2026-09-23T10:23:52.001351+00:00"
+  }
+]

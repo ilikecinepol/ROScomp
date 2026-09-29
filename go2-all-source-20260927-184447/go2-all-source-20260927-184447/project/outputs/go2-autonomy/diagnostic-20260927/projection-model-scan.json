@@ -1,0 +1,2659 @@
+{
+  "per_session_best": {
+    "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+      "frames": 18,
+      "best_three_matches": 18,
+      "equally_scoring_models": [
+        {
+          "focal_scale": 0.8500000000000001,
+          "offset_px": 30
+        },
+        {
+          "focal_scale": 0.8500000000000001,
+          "offset_px": 40
+        }
+      ]
+    },
+    "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+      "frames": 18,
+      "best_three_matches": 18,
+      "equally_scoring_models": [
+        {
+          "focal_scale": 0.8,
+          "offset_px": 40
+        },
+        {
+          "focal_scale": 0.8500000000000001,
+          "offset_px": 30
+        },
+        {
+          "focal_scale": 0.8500000000000001,
+          "offset_px": 40
+        }
+      ]
+    },
+    "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+      "frames": 1,
+      "best_three_matches": 1,
+      "equally_scoring_models": [
+        {
+          "focal_scale": 0.9,
+          "offset_px": 40
+        },
+        {
+          "focal_scale": 0.95,
+          "offset_px": 20
+        },
+        {
+          "focal_scale": 0.95,
+          "offset_px": 30
+        },
+        {
+          "focal_scale": 0.95,
+          "offset_px": 40
+        },
+        {
+          "focal_scale": 1.0,
+          "offset_px": 0
+        },
+        {
+          "focal_scale": 1.0,
+          "offset_px": 10
+        },
+        {
+          "focal_scale": 1.0,
+          "offset_px": 20
+        },
+        {
+          "focal_scale": 1.0,
+          "offset_px": 30
+        },
+        {
+          "focal_scale": 1.0,
+          "offset_px": 40
+        },
+        {
+          "focal_scale": 1.05,
+          "offset_px": -10
+        },
+        {
+          "focal_scale": 1.05,
+          "offset_px": 0
+        },
+        {
+          "focal_scale": 1.05,
+          "offset_px": 10
+        },
+        {
+          "focal_scale": 1.1,
+          "offset_px": -30
+        },
+        {
+          "focal_scale": 1.1,
+          "offset_px": -20
+        },
+        {
+          "focal_scale": 1.1,
+          "offset_px": -10
+        },
+        {
+          "focal_scale": 1.15,
+          "offset_px": -40
+        }
+      ]
+    },
+    "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+      "frames": 1,
+      "best_three_matches": 1,
+      "equally_scoring_models": [
+        {
+          "focal_scale": 0.9,
+          "offset_px": 40
+        },
+        {
+          "focal_scale": 0.95,
+          "offset_px": 20
+        },
+        {
+          "focal_scale": 0.95,
+          "offset_px": 30
+        },
+        {
+          "focal_scale": 1.0,
+          "offset_px": 0
+        },
+        {
+          "focal_scale": 1.0,
+          "offset_px": 10
+        }
+      ]
+    },
+    "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+      "frames": 16,
+      "best_three_matches": 12,
+      "equally_scoring_models": [
+        {
+          "focal_scale": 0.8500000000000001,
+          "offset_px": 10
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "focal_scale": 0.8,
+      "offset_px": -40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 16
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8,
+      "offset_px": -30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 5
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8,
+      "offset_px": -20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 6
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 8,
+          "total_matches": 40
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8,
+      "offset_px": -10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 11,
+          "total_matches": 43
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8,
+      "offset_px": 0,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8,
+      "offset_px": 10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 17
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8,
+      "offset_px": 20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 13
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 10
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8,
+      "offset_px": 30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 4,
+          "total_matches": 37
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 10
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8,
+      "offset_px": 40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 9,
+          "total_matches": 45
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 18,
+          "total_matches": 54
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 4
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8500000000000001,
+      "offset_px": -40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 0
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8500000000000001,
+      "offset_px": -30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 5
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8500000000000001,
+      "offset_px": -20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 16
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8500000000000001,
+      "offset_px": -10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 21
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 19
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 6,
+          "total_matches": 36
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8500000000000001,
+      "offset_px": 0,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 23
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 19
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 11,
+          "total_matches": 43
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8500000000000001,
+      "offset_px": 10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 8
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 30
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 12,
+          "total_matches": 44
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8500000000000001,
+      "offset_px": 20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 10,
+          "total_matches": 46
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 23
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8500000000000001,
+      "offset_px": 30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 18,
+          "total_matches": 54
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 18,
+          "total_matches": 54
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 27
+        }
+      }
+    },
+    {
+      "focal_scale": 0.8500000000000001,
+      "offset_px": 40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 18,
+          "total_matches": 54
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 18,
+          "total_matches": 54
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    },
+    {
+      "focal_scale": 0.9,
+      "offset_px": -40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 15
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 4
+        }
+      }
+    },
+    {
+      "focal_scale": 0.9,
+      "offset_px": -30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 23
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 7
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 13
+        }
+      }
+    },
+    {
+      "focal_scale": 0.9,
+      "offset_px": -20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 26
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 34
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 0.9,
+      "offset_px": -10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 28
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 0.9,
+      "offset_px": 0,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 17
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 34
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 0.9,
+      "offset_px": 10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 16,
+          "total_matches": 52
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 27
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 8,
+          "total_matches": 40
+        }
+      }
+    },
+    {
+      "focal_scale": 0.9,
+      "offset_px": 20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 15,
+          "total_matches": 51
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 6,
+          "total_matches": 42
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 11,
+          "total_matches": 43
+        }
+      }
+    },
+    {
+      "focal_scale": 0.9,
+      "offset_px": 30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 13,
+          "total_matches": 49
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 17,
+          "total_matches": 53
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 32
+        }
+      }
+    },
+    {
+      "focal_scale": 0.9,
+      "offset_px": 40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 10,
+          "total_matches": 46
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 2,
+          "total_matches": 38
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    },
+    {
+      "focal_scale": 0.95,
+      "offset_px": -40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 27
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 23
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    },
+    {
+      "focal_scale": 0.95,
+      "offset_px": -30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 28
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 34
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    },
+    {
+      "focal_scale": 0.95,
+      "offset_px": -20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 13
+        }
+      }
+    },
+    {
+      "focal_scale": 0.95,
+      "offset_px": -10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 28
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 0.95,
+      "offset_px": 0,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 31
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 7,
+          "total_matches": 38
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 0.95,
+      "offset_px": 10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 10,
+          "total_matches": 46
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 3,
+          "total_matches": 32
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 0.95,
+      "offset_px": 20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 9,
+          "total_matches": 45
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 1,
+          "total_matches": 31
+        }
+      }
+    },
+    {
+      "focal_scale": 0.95,
+      "offset_px": 30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 8,
+          "total_matches": 44
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 0.95,
+      "offset_px": 40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 31
+        }
+      }
+    },
+    {
+      "focal_scale": 1.0,
+      "offset_px": -40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 24
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 19
+        }
+      }
+    },
+    {
+      "focal_scale": 1.0,
+      "offset_px": -30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 32
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 35
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 25
+        }
+      }
+    },
+    {
+      "focal_scale": 1.0,
+      "offset_px": -20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 11,
+          "total_matches": 46
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 35
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 26
+        }
+      }
+    },
+    {
+      "focal_scale": 1.0,
+      "offset_px": -10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 28
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 27
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    },
+    {
+      "focal_scale": 1.0,
+      "offset_px": 0,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 8,
+          "total_matches": 44
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 27
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 13
+        }
+      }
+    },
+    {
+      "focal_scale": 1.0,
+      "offset_px": 10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 24
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 1.0,
+      "offset_px": 20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 1
+        }
+      }
+    },
+    {
+      "focal_scale": 1.0,
+      "offset_px": 30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    },
+    {
+      "focal_scale": 1.0,
+      "offset_px": 40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 19
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 1.05,
+      "offset_px": -40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 28
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 17
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 24
+        }
+      }
+    },
+    {
+      "focal_scale": 1.05,
+      "offset_px": -30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 8,
+          "total_matches": 44
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 23
+        }
+      }
+    },
+    {
+      "focal_scale": 1.05,
+      "offset_px": -20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 1,
+          "total_matches": 26
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 1.05,
+      "offset_px": -10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 27
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 30
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 28
+        }
+      }
+    },
+    {
+      "focal_scale": 1.05,
+      "offset_px": 0,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 24
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    },
+    {
+      "focal_scale": 1.05,
+      "offset_px": 10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 15
+        }
+      }
+    },
+    {
+      "focal_scale": 1.05,
+      "offset_px": 20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 1
+        }
+      }
+    },
+    {
+      "focal_scale": 1.05,
+      "offset_px": 30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 0
+        }
+      }
+    },
+    {
+      "focal_scale": 1.05,
+      "offset_px": 40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 10
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 0
+        }
+      }
+    },
+    {
+      "focal_scale": 1.1,
+      "offset_px": -40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 1.1,
+      "offset_px": -30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 18
+        }
+      }
+    },
+    {
+      "focal_scale": 1.1,
+      "offset_px": -20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 31
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 24
+        }
+      }
+    },
+    {
+      "focal_scale": 1.1,
+      "offset_px": -10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 27
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 18
+        }
+      }
+    },
+    {
+      "focal_scale": 1.1,
+      "offset_px": 0,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 26
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 25
+        }
+      }
+    },
+    {
+      "focal_scale": 1.1,
+      "offset_px": 10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 24
+        }
+      }
+    },
+    {
+      "focal_scale": 1.1,
+      "offset_px": 20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 4
+        }
+      }
+    },
+    {
+      "focal_scale": 1.1,
+      "offset_px": 30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 1
+        }
+      }
+    },
+    {
+      "focal_scale": 1.1,
+      "offset_px": 40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 14
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 0
+        }
+      }
+    },
+    {
+      "focal_scale": 1.15,
+      "offset_px": -40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 1,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 1.15,
+      "offset_px": -30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 35
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 1.15,
+      "offset_px": -20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 33
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 30
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 1.15,
+      "offset_px": -10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 24
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 24
+        }
+      }
+    },
+    {
+      "focal_scale": 1.15,
+      "offset_px": 0,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 29
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 26
+        }
+      }
+    },
+    {
+      "focal_scale": 1.15,
+      "offset_px": 10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 29
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 15
+        }
+      }
+    },
+    {
+      "focal_scale": 1.15,
+      "offset_px": 20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    },
+    {
+      "focal_scale": 1.15,
+      "offset_px": 30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 3
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 17
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 8
+        }
+      }
+    },
+    {
+      "focal_scale": 1.15,
+      "offset_px": 40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 12
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 4
+        }
+      }
+    },
+    {
+      "focal_scale": 1.2,
+      "offset_px": -40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 29
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 1.2,
+      "offset_px": -30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 31
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 1.2,
+      "offset_px": -20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 36
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 27
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 2
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 1.2,
+      "offset_px": -10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 19
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 28
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 1.2,
+      "offset_px": 0,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 23
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 15
+        }
+      }
+    },
+    {
+      "focal_scale": 1.2,
+      "offset_px": 10,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 12
+        }
+      }
+    },
+    {
+      "focal_scale": 1.2,
+      "offset_px": 20,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 16
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 18
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 4
+        }
+      }
+    },
+    {
+      "focal_scale": 1.2,
+      "offset_px": 30,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 13
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    },
+    {
+      "focal_scale": 1.2,
+      "offset_px": 40,
+      "sessions": {
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 0
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z": {
+          "frames": 18,
+          "three_matches": 0,
+          "total_matches": 8
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z": {
+          "frames": 1,
+          "three_matches": 0,
+          "total_matches": 1
+        },
+        "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z": {
+          "frames": 16,
+          "three_matches": 0,
+          "total_matches": 16
+        }
+      }
+    }
+  ],
+  "calibration_verified": false,
+  "profile_modified": false,
+  "motion_authorized": false,
+  "limitation": "Поиск использует все сеансы для диагностики; это не независимая проверка выбранной калибровки."
+}

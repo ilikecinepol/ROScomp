@@ -1,0 +1,141 @@
+{
+  "created_moscow": "27.09.2026 16:48 МСК",
+  "latest_robot_update_moscow": "2026-09-27 14:21",
+  "html": "Go2 — вся работа и причины неготовности.html",
+  "sections": 27,
+  "html_sha256": "d04628486d90b8f4df2da7f44b42f65bfefd54a21786d2a00cd71bfaa44eaed1",
+  "sources": [
+    {
+      "id": "s01",
+      "label": "Последняя установка и изменения, 14:21 МСК",
+      "relative_path": "..\\Настройка 20260927-1421.md",
+      "sha256": "89017b2a892426e137b7d4814092633dd0b5f8ce601ced55ecb32a05f56a7a3e"
+    },
+    {
+      "id": "s02",
+      "label": "Снимок Pi и установленных пакетов",
+      "relative_path": "pi-inventory.json",
+      "sha256": "5dd84fe83112c4b3a257331858c6b80484cd1c1012aed9a849a1536cb5f6e660"
+    },
+    {
+      "id": "s03",
+      "label": "Ручные проходы: разбор 23 сентября",
+      "relative_path": "..\\..\\go2-teleop\\audit-20260923\\Go2 — анализ записей и план.html",
+      "sha256": "89fd68962dea00a28809a1ad860a05374ce769948432981e97be2e5aae0080d1"
+    },
+    {
+      "id": "s04",
+      "label": "Ручные записи: разбор 24 сентября",
+      "relative_path": "..\\..\\go2-teleop\\audit-20260924\\Go2 — новые записи 24 сентября.html",
+      "sha256": "0464503cb1e11228c6fe9305e7b803157fa73c60a40a7342a29f40a5744b5c93"
+    },
+    {
+      "id": "s05",
+      "label": "Успешный ручной проход рампы 25 сентября",
+      "relative_path": "..\\..\\go2-teleop\\audit-20260925\\Рампа — успешный проход и разбор.html",
+      "sha256": "ab2775f6864f753b532745b30b0ee69c86a4019cd7001a87b6a2ad1ff72269e3"
+    },
+    {
+      "id": "s06",
+      "label": "Проверка поворотов 27 сентября",
+      "relative_path": "..\\Проверка поворотов 20260927.md",
+      "sha256": "bd521d0e1c9bc8f8c3dfdc9637fbbdafea621d2e46934441659c3ae07305c34c"
+    },
+    {
+      "id": "s07",
+      "label": "Точные метки в полученных пакетах",
+      "relative_path": "..\\diagnostic-20260927\\20260927T111747.160191Z\\wire-stamps.jsonl",
+      "sha256": "45e3a52d31eccb59df6bba3659c9ccd7fc3483dd930ff1d93b1a7865094296c2"
+    },
+    {
+      "id": "s08",
+      "label": "Полный результат observe 11:17 UTC",
+      "relative_path": "..\\diagnostic-20260927\\20260927T111747.160191Z\\report.json",
+      "sha256": "63e093fa005aa4a027ab3d51c9f29b0d650d101ada221c341f8478c0d2264266"
+    },
+    {
+      "id": "s09",
+      "label": "Параметры видеопотока",
+      "relative_path": "..\\Параметры видео 20260927-1346.md",
+      "sha256": "58314a8c365927528d97c88030ea51f1fb67633902ed5a8d81bfa9293855d5a7"
+    },
+    {
+      "id": "s10",
+      "label": "Геометрия стоек и ложные соответствия",
+      "relative_path": "..\\Геометрия стоек 20260927.md",
+      "sha256": "a4edb1237f0ba67bca0fe37c1aeba10d4518f1b68e7bbabe64220850f7035f5b"
+    },
+    {
+      "id": "s11",
+      "label": "Повторяемость соответствий",
+      "relative_path": "..\\Устойчивость соответствий 20260927.md",
+      "sha256": "67fba37daa1569004a1267b5680dd0f1db292aa713eaf829337da2aa2c9ddc93"
+    },
+    {
+      "id": "s12",
+      "label": "Проверка гипотез о параметрах камеры",
+      "relative_path": "..\\Проверка моделей камеры 20260927.md",
+      "sha256": "14b4de87b60f82b7dda5f632e5a8ff3d4c0ac452af7830ebd8efc08ab73b718a"
+    },
+    {
+      "id": "s13",
+      "label": "Блокировки текущего профиля — исходник",
+      "relative_path": "..\\..\\..\\work\\go2-autonomy\\wolf_go2\\profile.py",
+      "sha256": "215063cb1964d4a434322de9800945a0db781b69f22cd214f06f8d4f49c4c91d"
+    },
+    {
+      "id": "s14",
+      "label": "Подтверждение ряда — текущий исходник",
+      "relative_path": "..\\..\\..\\work\\go2-autonomy\\wolf_go2\\cylinder_slalom.py",
+      "sha256": "4a33cd6f7436626dd32a93c00bc2c904ea8a4c50d56f09acc4f859ee3e19e1a0"
+    },
+    {
+      "id": "s15",
+      "label": "Автомат миссии — текущий исходник",
+      "relative_path": "..\\..\\..\\work\\go2-autonomy\\wolf_go2\\mission.py",
+      "sha256": "9bbe74d531676b8563af600d99cbcfcd1f5a011851c194c365e12899e9483f6b"
+    },
+    {
+      "id": "s16",
+      "label": "Полный предыдущий технический аудит",
+      "relative_path": "Go2 — полный технический отчёт.html",
+      "sha256": "3baf892814068d43d07904402ba59a1c24ce53d9c7ef00c99a504735caa4cad6"
+    },
+    {
+      "id": "s17",
+      "label": "Рекурсивный список ручных записей на ПК",
+      "relative_path": "recordings-recursive-inventory.json",
+      "sha256": "acf56dd1153409ec083cd5c778c49576d414660ba8cb47c02700a01bb463b5d2"
+    },
+    {
+      "id": "s18",
+      "label": "Подготовка после слота 26 сентября",
+      "relative_path": "..\\Подготовка после слота 20260926.md",
+      "sha256": "7b0b72ea69ed69b4b4451b80c21e3188fd5a03c73b6de7cd119c875416889e0a"
+    },
+    {
+      "id": "s19",
+      "label": "Сравнение отражений у корпуса",
+      "relative_path": "..\\Продолжение настройки 20260927.md",
+      "sha256": "b4d0904e9ff77ba0ea75c0e08bf8e76c166f4bc97b4614c993bd178095d14329"
+    },
+    {
+      "id": "s20",
+      "label": "Работа ручного клиента — исходник",
+      "relative_path": "..\\..\\..\\work\\go2-teleop\\keyboard_client.py",
+      "sha256": "435f89e0824a25029fe3bca27137f66469e34dd5f86b079344aecde59ae55a0b"
+    },
+    {
+      "id": "s21",
+      "label": "Запись и управление на Pi — исходник",
+      "relative_path": "..\\..\\..\\work\\go2-teleop\\remote_teleop.py",
+      "sha256": "c2680b1dbf4709f6f2f8edf33cdc468b11aad0733778be1d84c8c4b072ad27dd"
+    },
+    {
+      "id": "s22",
+      "label": "Пакет последней установленной версии",
+      "relative_path": "..\\training-alignment-settle.zip",
+      "sha256": "bc3e1fd08b2e139d5a0290301d89fa4f98479ccdf6e5740f7cbe243bb223e15b"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "forward-015": {
+    "scope": "single_motion_pulse",
+    "robot_profile_verified": false,
+    "plan": {
+      "vx_m_s": 0.15,
+      "vy_m_s": 0,
+      "vyaw_rad_s": 0,
+      "duration_s": 1.5
+    },
+    "net_forward_m": 0.009776520770277885,
+    "net_left_m": -0.002317437297603542,
+    "net_yaw_rad": 0.02210110262013855,
+    "settled_position_spread_m": 9.501578816164817e-05,
+    "stop_acknowledged": true,
+    "translation_observed": false,
+    "rotation_observed": false,
+    "errors": [],
+    "evidence_sha256": {
+      "summary.json": "48bbac5e55914c321b024a9b261be4cb77a32fba731f43876b080995a755e053",
+      "samples.jsonl": "e677b5441d2f5564be5b503d6345c17c9b025426e909ddaf370e4a7ed9b8c442"
+    },
+    "limitation": "Одно измерение одометрии после остановки; не подтверждает другие скорости, направления и препятствия"
+  },
+  "forward-030": {
+    "scope": "single_motion_pulse",
+    "robot_profile_verified": false,
+    "plan": {
+      "vx_m_s": 0.3,
+      "vy_m_s": 0,
+      "vyaw_rad_s": 0,
+      "duration_s": 1.5
+    },
+    "net_forward_m": 0.3498014135306223,
+    "net_left_m": 0.02560040564090061,
+    "net_yaw_rad": 0.04366103267996671,
+    "settled_position_spread_m": 9.889893831595326e-05,
+    "stop_acknowledged": true,
+    "translation_observed": true,
+    "rotation_observed": false,
+    "errors": [],
+    "evidence_sha256": {
+      "summary.json": "2209d88c86d2cb627f9c77ed6a9113c12dda96625c6a4019a28cdb0e7131809f",
+      "samples.jsonl": "865b1a43303531ed8f2c8702d98d0307ac0640bd6a2c49926134308103451b98"
+    },
+    "limitation": "Одно измерение одометрии после остановки; не подтверждает другие скорости, направления и препятствия"
+  },
+  "lateral-025": {
+    "scope": "single_motion_pulse",
+    "robot_profile_verified": false,
+    "plan": {
+      "vx_m_s": 0.0,
+      "vy_m_s": 0.25,
+      "vyaw_rad_s": 0,
+      "duration_s": 1.0
+    },
+    "net_forward_m": -0.00011618165094053794,
+    "net_left_m": 0.03324060396298444,
+    "net_yaw_rad": 0.23057865753443724,
+    "settled_position_spread_m": 0.0008176117660601321,
+    "stop_acknowledged": true,
+    "translation_observed": false,
+    "rotation_observed": false,
+    "errors": [],
+    "evidence_sha256": {
+      "summary.json": "c2cc650ed5e4d9d3f99db446d5c1e4871214aa7eda404ee88ce215377f86def9",
+      "samples.jsonl": "4cd444b3c9a12f6ed0dab2f44b56ab9f2f326fbba2b253a9bebebe88146e2c89"
+    },
+    "limitation": "Одно измерение одометрии после остановки; не подтверждает другие скорости, направления и препятствия"
+  },
+  "yaw-050": {
+    "scope": "single_motion_pulse",
+    "robot_profile_verified": false,
+    "plan": {
+      "vx_m_s": 0.0,
+      "vy_m_s": 0,
+      "vyaw_rad_s": 0.5,
+      "duration_s": 1.0
+    },
+    "net_forward_m": 0.002474545708157489,
+    "net_left_m": 0.0121035770141822,
+    "net_yaw_rad": 0.20270665030202872,
+    "settled_position_spread_m": 9.552486587262386e-05,
+    "stop_acknowledged": true,
+    "translation_observed": false,
+    "rotation_observed": true,
+    "errors": [],
+    "evidence_sha256": {
+      "summary.json": "cc13d1d9ed963fd02922d1afc6aae11a752746c5997fc6da1f6e32ef1e938e6f",
+      "samples.jsonl": "42afcfad070c3b52adbb337f9b99253e407c8102f3416cf0b39d4deccf8ed578"
+    },
+    "limitation": "Одно измерение одометрии после остановки; не подтверждает другие скорости, направления и препятствия"
+  }
+}

@@ -1,0 +1,2049 @@
+{
+  "summary": {
+    "frames": 93,
+    "processed": 93,
+    "duplicate_pairs_skipped": 1,
+    "frames_with_three_camera_candidates": 38,
+    "frames_with_three_accepted": 10,
+    "errors": 0,
+    "calibration_verified": false,
+    "motion_authorized": false
+  },
+  "frames": [
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000002.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 22.100471704511364,
+          "alternative_margin_px": 10.360469338778643,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 10.847665631666406,
+          "alternative_margin_px": 24.152335368333596,
+          "accepted": true,
+          "lidar_index": 11
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000003.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 22.67589007462762,
+          "alternative_margin_px": 10.211536308441751,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 9.914739678732309,
+          "alternative_margin_px": 25.085261321267694,
+          "accepted": true,
+          "lidar_index": 12
+        },
+        {
+          "image_index": 3,
+          "pixel_residual": 21.339563772818455,
+          "alternative_margin_px": 13.660437227181546,
+          "accepted": true,
+          "lidar_index": 17
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 3,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000004.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 21.90464151028096,
+          "alternative_margin_px": 11.273078575451123,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 9.63828420515065,
+          "alternative_margin_px": 25.361716794849343,
+          "accepted": true,
+          "lidar_index": 11
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000005.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 21.820848040356037,
+          "alternative_margin_px": 11.437620203595259,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 9.555787061346836,
+          "alternative_margin_px": 25.44421393865315,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 3,
+          "pixel_residual": 22.564233396566998,
+          "alternative_margin_px": 12.435767603432993,
+          "accepted": true,
+          "lidar_index": 16
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 3,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000006.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 21.82247645762791,
+          "alternative_margin_px": 11.937333574327695,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 9.580348580438855,
+          "alternative_margin_px": 25.419652419561146,
+          "accepted": true,
+          "lidar_index": 12
+        },
+        {
+          "image_index": 3,
+          "pixel_residual": 22.057208810499077,
+          "alternative_margin_px": 12.94279218950092,
+          "accepted": true,
+          "lidar_index": 17
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 3,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000007.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 21.500706092205004,
+          "alternative_margin_px": 12.081919928673841,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 9.752022410292515,
+          "alternative_margin_px": 25.247978589707486,
+          "accepted": true,
+          "lidar_index": 12
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000008.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 21.11036298123178,
+          "alternative_margin_px": 12.36959106364526,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 9.823935340294431,
+          "alternative_margin_px": 25.17606565970557,
+          "accepted": true,
+          "lidar_index": 11
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000009.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 24.25974187749185,
+          "alternative_margin_px": 7.533323231558597,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 8.682005122992217,
+          "alternative_margin_px": 26.317995877007775,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 3,
+          "pixel_residual": 23.42054857364794,
+          "alternative_margin_px": 11.579452426352049,
+          "accepted": true,
+          "lidar_index": 16
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 3,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000010.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 23.990727271974606,
+          "alternative_margin_px": 8.067784859321293,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 8.409462672197142,
+          "alternative_margin_px": 26.59053832780286,
+          "accepted": true,
+          "lidar_index": 12
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000011.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 21.471191792240635,
+          "alternative_margin_px": 12.643263518960097,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 8.673060594166515,
+          "alternative_margin_px": 26.326940405833483,
+          "accepted": true,
+          "lidar_index": 11
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000012.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 20.624741975776868,
+          "alternative_margin_px": 13.8097430379229,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 8.337336075349643,
+          "alternative_margin_px": 26.662664924650358,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 3,
+          "pixel_residual": 23.158940397662647,
+          "alternative_margin_px": 11.84106060233735,
+          "accepted": true,
+          "lidar_index": 16
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 3,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000013.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 20.166474186940054,
+          "alternative_margin_px": 14.712953798391652,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 7.8404412830977295,
+          "alternative_margin_px": 27.159559716902265,
+          "accepted": true,
+          "lidar_index": 12
+        },
+        {
+          "image_index": 3,
+          "pixel_residual": 24.146582805249594,
+          "alternative_margin_px": 10.853418194750404,
+          "accepted": true,
+          "lidar_index": 17
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 3,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000014.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 20.26922849506243,
+          "alternative_margin_px": 14.498507025371822,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 7.441951408879992,
+          "alternative_margin_px": 27.55804959112001,
+          "accepted": true,
+          "lidar_index": 11
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000015.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 20.482275180538082,
+          "alternative_margin_px": 14.51772581946193,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 8.150864066730202,
+          "alternative_margin_px": 26.849136933269804,
+          "accepted": true,
+          "lidar_index": 11
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000016.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 20.116374851116625,
+          "alternative_margin_px": 14.88362614888338,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 7.2350017100144175,
+          "alternative_margin_px": 27.764999289985596,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 3,
+          "pixel_residual": 24.27243647242988,
+          "alternative_margin_px": 10.727564527570124,
+          "accepted": true,
+          "lidar_index": 16
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 3,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000017.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 19.442127904301977,
+          "alternative_margin_px": 15.557873095698014,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 7.056109544520735,
+          "alternative_margin_px": 27.943891455479246,
+          "accepted": true,
+          "lidar_index": 11
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000018.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 19.650336722433966,
+          "alternative_margin_px": 15.34966427756602,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 7.239837145440082,
+          "alternative_margin_px": 27.760163854559906,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 3,
+          "pixel_residual": 25.262836845747007,
+          "alternative_margin_px": 9.73716415425298,
+          "accepted": true,
+          "lidar_index": 16
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 3,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000019.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 19.159349463781453,
+          "alternative_margin_px": 15.840651536218544,
+          "accepted": true,
+          "lidar_index": 10
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 6.7719789655760385,
+          "alternative_margin_px": 28.228022034423958,
+          "accepted": true,
+          "lidar_index": 11
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000002.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 21.046435914626173,
+          "alternative_margin_px": 13.953565085373825,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 15.014357876806818,
+          "alternative_margin_px": 19.985643123193185,
+          "accepted": true,
+          "lidar_index": 12
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000003.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 20.868771632757973,
+          "alternative_margin_px": 14.131229367242028,
+          "accepted": true,
+          "lidar_index": 12
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 15.652269538116766,
+          "alternative_margin_px": 19.347731461883228,
+          "accepted": true,
+          "lidar_index": 13
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000004.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 20.171363578925053,
+          "alternative_margin_px": 14.828637421074944,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 15.810306861533043,
+          "alternative_margin_px": 19.18969413846696,
+          "accepted": true,
+          "lidar_index": 12
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000005.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 19.061812630073934,
+          "alternative_margin_px": 15.938188369926067,
+          "accepted": true,
+          "lidar_index": 12
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 15.985910409909701,
+          "alternative_margin_px": 19.01409059009029,
+          "accepted": true,
+          "lidar_index": 13
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000006.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 19.90508185790996,
+          "alternative_margin_px": 15.094919142090035,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 16.149543866900938,
+          "alternative_margin_px": 18.850457133099056,
+          "accepted": true,
+          "lidar_index": 12
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000007.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 19.435798857171577,
+          "alternative_margin_px": 15.564202142828421,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 16.610639053889383,
+          "alternative_margin_px": 18.38936194611061,
+          "accepted": true,
+          "lidar_index": 12
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000008.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 26.000973523348804,
+          "alternative_margin_px": 3.5778858114587706,
+          "accepted": false,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 16.975457341065272,
+          "alternative_margin_px": 18.024543658934732,
+          "accepted": true,
+          "lidar_index": 12
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 1,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000009.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 22.535947824285195,
+          "alternative_margin_px": 10.98377859190117,
+          "accepted": true,
+          "lidar_index": 12
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 17.328425485145825,
+          "alternative_margin_px": 17.67157551485417,
+          "accepted": true,
+          "lidar_index": 13
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000010.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 18.5448944675469,
+          "alternative_margin_px": 16.4551065324531,
+          "accepted": true,
+          "lidar_index": 12
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 17.622088782274552,
+          "alternative_margin_px": 17.377912217725452,
+          "accepted": true,
+          "lidar_index": 13
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000011.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 17.722899304285477,
+          "alternative_margin_px": 17.27710169571452,
+          "accepted": true,
+          "lidar_index": 12
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 18.457021989636907,
+          "alternative_margin_px": 16.542979010363098,
+          "accepted": true,
+          "lidar_index": 13
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000012.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 18.042034345767302,
+          "alternative_margin_px": 16.957966654232692,
+          "accepted": true,
+          "lidar_index": 12
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 18.136176810708587,
+          "alternative_margin_px": 16.863824189291407,
+          "accepted": true,
+          "lidar_index": 13
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000013.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 17.341429634620802,
+          "alternative_margin_px": 17.658571365379203,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 18.86437853749403,
+          "alternative_margin_px": 16.135622462505964,
+          "accepted": true,
+          "lidar_index": 12
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000014.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 15.933888386932864,
+          "alternative_margin_px": 19.066112613067133,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 18.75500072396685,
+          "alternative_margin_px": 16.245000276033153,
+          "accepted": true,
+          "lidar_index": 12
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000015.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 15.393734473423368,
+          "alternative_margin_px": 19.606266526576633,
+          "accepted": true,
+          "lidar_index": 12
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 19.32355051470134,
+          "alternative_margin_px": 15.676450485298659,
+          "accepted": true,
+          "lidar_index": 13
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000016.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 24.20766614622286,
+          "alternative_margin_px": 6.628750185515216,
+          "accepted": true,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 20.12565169343853,
+          "alternative_margin_px": 14.87434930656147,
+          "accepted": true,
+          "lidar_index": 12
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000017.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 24.82405088995857,
+          "alternative_margin_px": 5.406140442989795,
+          "accepted": true,
+          "lidar_index": 12
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 21.262590693832813,
+          "alternative_margin_px": 13.737410306167192,
+          "accepted": true,
+          "lidar_index": 13
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 2,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000018.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 25.85515638300701,
+          "alternative_margin_px": 4.3684717134275814,
+          "accepted": false,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 21.300375424612678,
+          "alternative_margin_px": 13.699625575387302,
+          "accepted": true,
+          "lidar_index": 12
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 1,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000019.json",
+      "matches": [
+        {
+          "image_index": 1,
+          "pixel_residual": 26.79033732460163,
+          "alternative_margin_px": 3.014313370633843,
+          "accepted": false,
+          "lidar_index": 11
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 21.184860154293784,
+          "alternative_margin_px": 13.815140845706225,
+          "accepted": true,
+          "lidar_index": 12
+        }
+      ],
+      "camera_candidates": 4,
+      "accepted_matches": 1,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000001.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000002.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000003.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000004.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000005.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000006.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000007.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000008.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000009.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000010.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000011.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000012.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000013.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000014.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000015.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000016.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000017.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000018.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000019.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000001.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000002.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000003.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000004.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000005.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000006.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000007.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000008.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000009.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000010.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000011.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000012.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000013.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000014.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000015.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000016.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000017.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000018.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000019.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000002.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000003.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000004.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000005.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000006.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000007.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000008.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000009.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000010.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000011.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000012.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000013.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000014.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000015.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000016.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000017.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000018.json",
+      "matches": [],
+      "camera_candidates": 0,
+      "accepted_matches": 0,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z\\cloud_000010.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 16.909619611272927,
+          "alternative_margin_px": 18.090381388727074,
+          "accepted": true,
+          "lidar_index": 6
+        },
+        {
+          "image_index": 1,
+          "pixel_residual": 27.03618061222385,
+          "alternative_margin_px": 7.96382038777616,
+          "accepted": true,
+          "lidar_index": 7
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 14.050470460913482,
+          "alternative_margin_px": 20.949530539086517,
+          "accepted": true,
+          "lidar_index": 9
+        }
+      ],
+      "camera_candidates": 3,
+      "accepted_matches": 3,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z\\cloud_000010.json",
+      "matches": [
+        {
+          "image_index": 0,
+          "pixel_residual": 18.28149260280388,
+          "alternative_margin_px": 16.28814435873906,
+          "accepted": true,
+          "lidar_index": 6
+        },
+        {
+          "image_index": 1,
+          "pixel_residual": 28.22214769499477,
+          "alternative_margin_px": 6.777853305005209,
+          "accepted": true,
+          "lidar_index": 7
+        },
+        {
+          "image_index": 2,
+          "pixel_residual": 19.364885977504336,
+          "alternative_margin_px": 15.635115022495654,
+          "accepted": true,
+          "lidar_index": 10
+        }
+      ],
+      "camera_candidates": 3,
+      "accepted_matches": 3,
+      "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+      "assumptions": [
+        "Калибровка другого экземпляра",
+        "Ориентация из ROBOTODOM",
+        "Согласование по времени приёма, не съёмки"
+      ],
+      "calibration_verified": false,
+      "profile_modified": false,
+      "motion_authorized": false
+    }
+  ]
+}

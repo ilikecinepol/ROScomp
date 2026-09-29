@@ -1,0 +1,20 @@
+{
+  "installed_at_utc": "20260927T094529519598Z",
+  "release": "training-73dd2d1117e9f857f8e6",
+  "previous_release": null,
+  "python": "/home/ubuntu/ai-robot/venv/bin/python",
+  "dependencies": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "cv2": "5.0.0",
+    "aiortc": "1.15.0",
+    "av": "17.1.0",
+    "lz4.block": "import_ok"
+  },
+  "compile_ok": true,
+  "motion_started": false,
+  "autonomy_pass_verified": false,
+  "profile_exists": false,
+  "free_disk_bytes": 51983212544,
+  "note": "Установка пакета подтверждена; калибровка датчиков и автономный проход не подтверждены"
+}

@@ -1,0 +1,14 @@
+{
+  "native_cells": 29428,
+  "mesh_vertices": 44422,
+  "mesh_vertices_without_native_neighbour": 0,
+  "unexplained_examples": [],
+  "resolution": 0.05,
+  "origin": [
+    -7.225,
+    -1.425,
+    -0.575
+  ],
+  "note": "Согласие декодеров не проверяет привязку к корпусу или свежесть измерения.",
+  "motion_authorized": false
+}

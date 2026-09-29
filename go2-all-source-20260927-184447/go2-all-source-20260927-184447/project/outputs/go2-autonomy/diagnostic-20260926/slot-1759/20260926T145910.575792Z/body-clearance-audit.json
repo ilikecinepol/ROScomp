@@ -1,0 +1,321 @@
+{
+  "expanded": {
+    "clear": false,
+    "occupied_cells": 59,
+    "unknown_cells": 0,
+    "outside_cells": 0,
+    "reason": "Корпус пересекает занятость, неизвестность или край карты"
+  },
+  "uncertainty_only": {
+    "clear": false,
+    "occupied_cells": 39,
+    "unknown_cells": 0,
+    "outside_cells": 0,
+    "reason": "Корпус пересекает занятость, неизвестность или край карты"
+  },
+  "nominal": {
+    "clear": false,
+    "occupied_cells": 16,
+    "unknown_cells": 0,
+    "outside_cells": 0,
+    "reason": "Корпус пересекает занятость, неизвестность или край карты"
+  },
+  "occupied_centers": [
+    {
+      "forward": -0.336,
+      "left": 0.378,
+      "height_above_floor": 0.75
+    },
+    {
+      "forward": -0.386,
+      "left": 0.38,
+      "height_above_floor": 0.9
+    },
+    {
+      "forward": -0.436,
+      "left": 0.382,
+      "height_above_floor": 1.0
+    },
+    {
+      "forward": -0.388,
+      "left": 0.33,
+      "height_above_floor": 1.05
+    },
+    {
+      "forward": -0.438,
+      "left": 0.332,
+      "height_above_floor": 1.1
+    },
+    {
+      "forward": -0.341,
+      "left": 0.278,
+      "height_above_floor": 0.85
+    },
+    {
+      "forward": -0.391,
+      "left": 0.28,
+      "height_above_floor": 0.8
+    },
+    {
+      "forward": -0.441,
+      "left": 0.282,
+      "height_above_floor": 0.65
+    },
+    {
+      "forward": -0.293,
+      "left": 0.225,
+      "height_above_floor": 0.55
+    },
+    {
+      "forward": -0.343,
+      "left": 0.228,
+      "height_above_floor": 0.55
+    },
+    {
+      "forward": -0.393,
+      "left": 0.23,
+      "height_above_floor": 0.9
+    },
+    {
+      "forward": -0.443,
+      "left": 0.232,
+      "height_above_floor": 0.75
+    },
+    {
+      "forward": -0.345,
+      "left": 0.178,
+      "height_above_floor": 0.8
+    },
+    {
+      "forward": -0.395,
+      "left": 0.18,
+      "height_above_floor": 1.1
+    },
+    {
+      "forward": -0.445,
+      "left": 0.182,
+      "height_above_floor": 0.85
+    },
+    {
+      "forward": -0.348,
+      "left": 0.128,
+      "height_above_floor": 0.95
+    },
+    {
+      "forward": -0.398,
+      "left": 0.13,
+      "height_above_floor": 0.85
+    },
+    {
+      "forward": -0.35,
+      "left": 0.078,
+      "height_above_floor": 0.7
+    },
+    {
+      "forward": -0.4,
+      "left": 0.08,
+      "height_above_floor": 0.85
+    },
+    {
+      "forward": -0.45,
+      "left": 0.082,
+      "height_above_floor": 0.8
+    },
+    {
+      "forward": -0.352,
+      "left": 0.028,
+      "height_above_floor": 1.05
+    },
+    {
+      "forward": -0.402,
+      "left": 0.03,
+      "height_above_floor": 0.65
+    },
+    {
+      "forward": -0.452,
+      "left": 0.032,
+      "height_above_floor": 0.7
+    },
+    {
+      "forward": -0.354,
+      "left": -0.022,
+      "height_above_floor": 0.95
+    },
+    {
+      "forward": -0.404,
+      "left": -0.02,
+      "height_above_floor": 0.65
+    },
+    {
+      "forward": -0.454,
+      "left": -0.017,
+      "height_above_floor": 0.75
+    },
+    {
+      "forward": -0.504,
+      "left": -0.015,
+      "height_above_floor": 0.45
+    },
+    {
+      "forward": -0.257,
+      "left": -0.077,
+      "height_above_floor": 0.55
+    },
+    {
+      "forward": -0.307,
+      "left": -0.074,
+      "height_above_floor": 0.45
+    },
+    {
+      "forward": -0.357,
+      "left": -0.072,
+      "height_above_floor": 1.1
+    },
+    {
+      "forward": -0.407,
+      "left": -0.07,
+      "height_above_floor": 0.7
+    },
+    {
+      "forward": -0.359,
+      "left": -0.122,
+      "height_above_floor": 0.95
+    },
+    {
+      "forward": -0.409,
+      "left": -0.12,
+      "height_above_floor": 1.0
+    },
+    {
+      "forward": -0.459,
+      "left": -0.117,
+      "height_above_floor": 0.45
+    },
+    {
+      "forward": -0.361,
+      "left": -0.172,
+      "height_above_floor": 0.85
+    },
+    {
+      "forward": -0.411,
+      "left": -0.17,
+      "height_above_floor": 1.05
+    },
+    {
+      "forward": -0.314,
+      "left": -0.224,
+      "height_above_floor": 0.7
+    },
+    {
+      "forward": -0.364,
+      "left": -0.222,
+      "height_above_floor": 0.8
+    },
+    {
+      "forward": -0.413,
+      "left": -0.22,
+      "height_above_floor": 0.75
+    },
+    {
+      "forward": -0.463,
+      "left": -0.217,
+      "height_above_floor": 0.65
+    },
+    {
+      "forward": -0.513,
+      "left": -0.215,
+      "height_above_floor": 0.4
+    },
+    {
+      "forward": -0.266,
+      "left": -0.276,
+      "height_above_floor": 0.55
+    },
+    {
+      "forward": -0.316,
+      "left": -0.274,
+      "height_above_floor": 0.55
+    },
+    {
+      "forward": -0.366,
+      "left": -0.272,
+      "height_above_floor": 0.9
+    },
+    {
+      "forward": -0.416,
+      "left": -0.269,
+      "height_above_floor": 0.9
+    },
+    {
+      "forward": -0.466,
+      "left": -0.267,
+      "height_above_floor": 0.6
+    },
+    {
+      "forward": 0.481,
+      "left": -0.36,
+      "height_above_floor": 0.75
+    },
+    {
+      "forward": 0.081,
+      "left": -0.342,
+      "height_above_floor": -0.1
+    },
+    {
+      "forward": 0.031,
+      "left": -0.34,
+      "height_above_floor": -0.1
+    },
+    {
+      "forward": -0.318,
+      "left": -0.324,
+      "height_above_floor": 0.95
+    },
+    {
+      "forward": -0.368,
+      "left": -0.322,
+      "height_above_floor": 0.95
+    },
+    {
+      "forward": -0.418,
+      "left": -0.319,
+      "height_above_floor": 1.0
+    },
+    {
+      "forward": -0.518,
+      "left": -0.315,
+      "height_above_floor": 0.45
+    },
+    {
+      "forward": -0.568,
+      "left": -0.313,
+      "height_above_floor": 0.4
+    },
+    {
+      "forward": -0.32,
+      "left": -0.374,
+      "height_above_floor": 1.15
+    },
+    {
+      "forward": -0.37,
+      "left": -0.372,
+      "height_above_floor": 1.2
+    },
+    {
+      "forward": -0.42,
+      "left": -0.369,
+      "height_above_floor": 0.85
+    },
+    {
+      "forward": -0.52,
+      "left": -0.365,
+      "height_above_floor": 0.5
+    },
+    {
+      "forward": -0.57,
+      "left": -0.363,
+      "height_above_floor": 0.35
+    }
+  ],
+  "scope": "diagnostic_assumed_frame_not_verified"
+}

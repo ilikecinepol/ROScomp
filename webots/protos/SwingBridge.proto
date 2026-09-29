@@ -1,0 +1,134 @@
+#VRML_SIM R2025a utf8
+
+PROTO SwingBridge [
+  field SFVec3f translation       -2.65 -2.30 0
+  field SFColor obstacleColor     0.25 0.27 0.29
+  field SFColor matColor          0.18 0.19 0.20
+]
+{
+  Solid {
+    translation IS translation
+    children [
+      Pose {
+        translation 0 0 0.045
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor IS matColor
+              roughness 0.92
+            }
+            geometry Box { size 4.15 1.25 0.09 }
+          }
+        ]
+      }
+      Pose {
+        translation -1.465 0 0.185
+        rotation 0 1 0 -0.143057
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor IS obstacleColor
+              roughness 0.88
+            }
+            geometry Box { size 1.192 0.58 0.055 }
+          }
+        ]
+      }
+      Pose {
+        translation 1.465 0 0.185
+        rotation 0 1 0 0.143057
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor IS obstacleColor
+              roughness 0.88
+            }
+            geometry Box { size 1.192 0.58 0.055 }
+          }
+        ]
+      }
+      Pose {
+        translation -0.72 -0.22 0.145
+        children [ Shape { appearance PBRAppearance { baseColor 0.025 0.028 0.030 roughness 0.6 metalness 0.5 } geometry Box { size 0.055 0.055 0.25 } } ]
+      }
+      Pose {
+        translation -0.72 0.22 0.145
+        children [ Shape { appearance PBRAppearance { baseColor 0.025 0.028 0.030 roughness 0.6 metalness 0.5 } geometry Box { size 0.055 0.055 0.25 } } ]
+      }
+      Pose {
+        translation 0.72 -0.22 0.145
+        children [ Shape { appearance PBRAppearance { baseColor 0.025 0.028 0.030 roughness 0.6 metalness 0.5 } geometry Box { size 0.055 0.055 0.25 } } ]
+      }
+      Pose {
+        translation 0.72 0.22 0.145
+        children [ Shape { appearance PBRAppearance { baseColor 0.025 0.028 0.030 roughness 0.6 metalness 0.5 } geometry Box { size 0.055 0.055 0.25 } } ]
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters {
+          axis 1 0 0
+          anchor 0 0 0.27
+          minStop -0.139626
+          maxStop 0.139626
+          dampingConstant 0.45
+          staticFriction 0.06
+        }
+        endPoint DEF BRIDGE_DECK Solid {
+          translation 0 0 0.27
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor IS obstacleColor
+                roughness 0.88
+              }
+              geometry Box { size 1.75 0.55 0.07 }
+            }
+          ]
+          name "bridge moving deck"
+          contactMaterial "arena_rubber"
+          boundingObject Box { size 1.75 0.55 0.07 }
+          physics Physics {
+            density -1
+            mass 8
+          }
+        }
+      }
+    ]
+    name "bridge static frame"
+    contactMaterial "arena_rubber"
+    boundingObject Group {
+      children [
+        Pose {
+          translation 0 0 0.045
+          children [ Box { size 4.15 1.25 0.09 } ]
+        }
+        Pose {
+          translation -1.465 0 0.185
+          rotation 0 1 0 -0.143057
+          children [ Box { size 1.192 0.58 0.055 } ]
+        }
+        Pose {
+          translation 1.465 0 0.185
+          rotation 0 1 0 0.143057
+          children [ Box { size 1.192 0.58 0.055 } ]
+        }
+        Pose {
+          translation -0.72 -0.22 0.145
+          children [ Box { size 0.055 0.055 0.25 } ]
+        }
+        Pose {
+          translation -0.72 0.22 0.145
+          children [ Box { size 0.055 0.055 0.25 } ]
+        }
+        Pose {
+          translation 0.72 -0.22 0.145
+          children [ Box { size 0.055 0.055 0.25 } ]
+        }
+        Pose {
+          translation 0.72 0.22 0.145
+          children [ Box { size 0.055 0.055 0.25 } ]
+        }
+      ]
+    }
+    locked TRUE
+  }
+}

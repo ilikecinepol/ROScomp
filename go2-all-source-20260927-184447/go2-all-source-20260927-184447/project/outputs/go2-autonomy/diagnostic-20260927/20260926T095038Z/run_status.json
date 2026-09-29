@@ -1,0 +1,9 @@
+{
+  "fleet_was_active": true,
+  "output": "/home/ubuntu/ai-robot/team_wolf_setup/motion_logs/20260926T095038Z",
+  "wrapper_pid": 105379,
+  "probe_pid": 105439,
+  "probe_exit_code": 0,
+  "fleet_start_exit_code": 0,
+  "fleet_restored": true
+}

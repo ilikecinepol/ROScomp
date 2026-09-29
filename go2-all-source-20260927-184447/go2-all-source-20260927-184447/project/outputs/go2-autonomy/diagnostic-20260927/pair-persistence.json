@@ -1,0 +1,1819 @@
+{
+  "frames": [
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000002.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000003.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 2,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 2,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 2,
+          "xy": [
+            8.05,
+            2.2
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            8.05,
+            2.2
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000004.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 3,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 3,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000005.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 4,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 4,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 3,
+          "xy": [
+            8.05,
+            2.2
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            8.05,
+            2.2
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000006.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 5,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 5,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 3,
+          "xy": [
+            8.05,
+            2.2
+          ],
+          "consecutive_frames": 2,
+          "anchor_xy": [
+            8.05,
+            2.2
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000007.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 6,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 6,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000008.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 7,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 7,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000009.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.050000000000001,
+            2.05
+          ],
+          "consecutive_frames": 8,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 8,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 4,
+          "xy": [
+            8.05,
+            2.2
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            8.05,
+            2.2
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000010.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.050000000000001,
+            2.05
+          ],
+          "consecutive_frames": 9,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 9,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000011.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 10,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 10,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000012.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 11,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 11,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 5,
+          "xy": [
+            8.05,
+            2.2
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            8.05,
+            2.2
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000013.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 12,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 12,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 5,
+          "xy": [
+            8.05,
+            2.2
+          ],
+          "consecutive_frames": 2,
+          "anchor_xy": [
+            8.05,
+            2.2
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000014.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 13,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 13,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000015.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 14,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 14,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000016.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 15,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 15,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 6,
+          "xy": [
+            8.05,
+            2.2
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            8.05,
+            2.2
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000017.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 16,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 16,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000018.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 17,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 17,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 7,
+          "xy": [
+            8.05,
+            2.2
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            8.05,
+            2.2
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000019.json",
+      "tracks": [
+        {
+          "id": 0,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 18,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 1,
+          "xy": [
+            7.15,
+            2.15
+          ],
+          "consecutive_frames": 18,
+          "anchor_xy": [
+            7.15,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000002.json",
+      "tracks": [
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000003.json",
+      "tracks": [
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 2,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000004.json",
+      "tracks": [
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 3,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000005.json",
+      "tracks": [
+        {
+          "id": 9,
+          "xy": [
+            6.1000000000000005,
+            2.0
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.0
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 4,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000006.json",
+      "tracks": [
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 5,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000007.json",
+      "tracks": [
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 6,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000008.json",
+      "tracks": [
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 7,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000009.json",
+      "tracks": [
+        {
+          "id": 10,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 8,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000010.json",
+      "tracks": [
+        {
+          "id": 10,
+          "xy": [
+            6.1000000000000005,
+            2.0
+          ],
+          "consecutive_frames": 2,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 9,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000011.json",
+      "tracks": [
+        {
+          "id": 10,
+          "xy": [
+            6.1000000000000005,
+            2.0
+          ],
+          "consecutive_frames": 3,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 10,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000012.json",
+      "tracks": [
+        {
+          "id": 10,
+          "xy": [
+            6.1000000000000005,
+            2.0
+          ],
+          "consecutive_frames": 4,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 11,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000013.json",
+      "tracks": [
+        {
+          "id": 10,
+          "xy": [
+            6.1000000000000005,
+            2.0
+          ],
+          "consecutive_frames": 5,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 12,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000014.json",
+      "tracks": [
+        {
+          "id": 10,
+          "xy": [
+            6.1000000000000005,
+            2.0
+          ],
+          "consecutive_frames": 6,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 13,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000015.json",
+      "tracks": [
+        {
+          "id": 10,
+          "xy": [
+            6.1000000000000005,
+            2.0
+          ],
+          "consecutive_frames": 7,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 14,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000016.json",
+      "tracks": [
+        {
+          "id": 10,
+          "xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "consecutive_frames": 8,
+          "anchor_xy": [
+            6.1000000000000005,
+            2.05
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 15,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 2
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000017.json",
+      "tracks": [
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 16,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000018.json",
+      "tracks": [
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 17,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000019.json",
+      "tracks": [
+        {
+          "id": 8,
+          "xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "consecutive_frames": 18,
+          "anchor_xy": [
+            7.1000000000000005,
+            2.15
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000001.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000002.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000003.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000004.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000005.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000006.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000007.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000008.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000009.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000010.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000011.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000012.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000013.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000014.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000015.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000016.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000017.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000018.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000019.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000001.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000002.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000003.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000004.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000005.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000006.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000007.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000008.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000009.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000010.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000011.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000012.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000013.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000014.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000015.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000016.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000017.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000018.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000019.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000002.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000003.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000004.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000005.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000006.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000007.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000008.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000009.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000010.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000011.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000012.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000013.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000014.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000015.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000016.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000017.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000018.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z\\cloud_000010.json",
+      "tracks": [
+        {
+          "id": 11,
+          "xy": [
+            -0.8499999999999991,
+            1.0999999999999999
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            -0.8499999999999991,
+            1.0999999999999999
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 12,
+          "xy": [
+            -1.7499999999999996,
+            1.2
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            -1.7499999999999996,
+            1.2
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 13,
+          "xy": [
+            -2.849999999999999,
+            1.2500000000000002
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            -2.849999999999999,
+            1.2500000000000002
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z\\cloud_000010.json",
+      "tracks": [
+        {
+          "id": 14,
+          "xy": [
+            -0.9499999999999996,
+            0.5500000000000002
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            -0.9499999999999996,
+            0.5500000000000002
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 15,
+          "xy": [
+            -1.9249999999999994,
+            0.85
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            -1.9249999999999994,
+            0.85
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 16,
+          "xy": [
+            -2.9999999999999996,
+            1.0999999999999999
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            -2.9999999999999996,
+            1.0999999999999999
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000003.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000004.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000005.json",
+      "tracks": [
+        {
+          "id": 17,
+          "xy": [
+            6.65,
+            3.85
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            6.65,
+            3.85
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000006.json",
+      "tracks": [
+        {
+          "id": 17,
+          "xy": [
+            6.65,
+            3.85
+          ],
+          "consecutive_frames": 2,
+          "anchor_xy": [
+            6.65,
+            3.85
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000007.json",
+      "tracks": [
+        {
+          "id": 17,
+          "xy": [
+            6.65,
+            3.85
+          ],
+          "consecutive_frames": 3,
+          "anchor_xy": [
+            6.65,
+            3.85
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000008.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000009.json",
+      "tracks": [],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000010.json",
+      "tracks": [
+        {
+          "id": 18,
+          "xy": [
+            6.65,
+            3.85
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            6.65,
+            3.85
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000011.json",
+      "tracks": [
+        {
+          "id": 18,
+          "xy": [
+            6.65,
+            3.85
+          ],
+          "consecutive_frames": 2,
+          "anchor_xy": [
+            6.65,
+            3.85
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 0
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000012.json",
+      "tracks": [
+        {
+          "id": 18,
+          "xy": [
+            6.65,
+            3.85
+          ],
+          "consecutive_frames": 3,
+          "anchor_xy": [
+            6.65,
+            3.85
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000013.json",
+      "tracks": [
+        {
+          "id": 18,
+          "xy": [
+            6.65,
+            3.85
+          ],
+          "consecutive_frames": 4,
+          "anchor_xy": [
+            6.65,
+            3.85
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000014.json",
+      "tracks": [
+        {
+          "id": 18,
+          "xy": [
+            6.65,
+            3.85
+          ],
+          "consecutive_frames": 5,
+          "anchor_xy": [
+            6.65,
+            3.85
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000015.json",
+      "tracks": [
+        {
+          "id": 18,
+          "xy": [
+            6.65,
+            3.85
+          ],
+          "consecutive_frames": 6,
+          "anchor_xy": [
+            6.65,
+            3.85
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000016.json",
+      "tracks": [
+        {
+          "id": 18,
+          "xy": [
+            6.65,
+            3.85
+          ],
+          "consecutive_frames": 7,
+          "anchor_xy": [
+            6.65,
+            3.85
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000017.json",
+      "tracks": [
+        {
+          "id": 18,
+          "xy": [
+            6.65,
+            3.85
+          ],
+          "consecutive_frames": 8,
+          "anchor_xy": [
+            6.65,
+            3.85
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    },
+    {
+      "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000018.json",
+      "tracks": [
+        {
+          "id": 19,
+          "xy": [
+            5.6,
+            3.5500000000000003
+          ],
+          "consecutive_frames": 1,
+          "anchor_xy": [
+            5.6,
+            3.5500000000000003
+          ],
+          "calibration_verified": false
+        },
+        {
+          "id": 18,
+          "xy": [
+            6.65,
+            3.85
+          ],
+          "consecutive_frames": 9,
+          "anchor_xy": [
+            6.65,
+            3.85
+          ],
+          "calibration_verified": false
+        }
+      ],
+      "persistent_pairs": 1
+    }
+  ],
+  "summary": {
+    "processed": 109,
+    "with_three_persistent_pairs": 0,
+    "maximum_persistent_pairs": 2,
+    "calibration_verified": false,
+    "motion_authorized": false,
+    "limitation": "Повторяемость пары не доказывает правильность калибровки, возраст измерения или полноту ряда."
+  },
+  "per_session": {
+    "20260926T142430.175205Z": {
+      "frames": 18,
+      "max_persistent": 2,
+      "frames_with_two": 16
+    },
+    "20260926T142840.158195Z": {
+      "frames": 18,
+      "max_persistent": 2,
+      "frames_with_two": 6
+    },
+    "20260926T145910.575792Z": {
+      "frames": 19,
+      "max_persistent": 0,
+      "frames_with_two": 0
+    },
+    "20260926T151311.430261Z": {
+      "frames": 19,
+      "max_persistent": 0,
+      "frames_with_two": 0
+    },
+    "20260927T093307.263822Z": {
+      "frames": 17,
+      "max_persistent": 0,
+      "frames_with_two": 0
+    },
+    "20260927T093642.002810Z": {
+      "frames": 1,
+      "max_persistent": 0,
+      "frames_with_two": 0
+    },
+    "20260927T095407.476020Z": {
+      "frames": 1,
+      "max_persistent": 0,
+      "frames_with_two": 0
+    },
+    "20260927T102612.913780Z": {
+      "frames": 16,
+      "max_persistent": 1,
+      "frames_with_two": 0
+    }
+  }
+}

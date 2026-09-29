@@ -1,0 +1,39 @@
+#VRML_SIM R2025a utf8
+
+PROTO ArenaCylinder [
+  field SFVec3f    translation       0 0 0
+  field SFRotation rotation          0 0 1 0
+  field SFFloat    radius            0.1
+  field SFFloat    height            1
+  field SFColor    color             0.95 0.21 0.025
+  field SFString   name              "arena cylinder"
+  field SFString   contactMaterial   "arena_rubber"
+]
+{
+  Solid {
+    translation IS translation
+    rotation IS rotation
+    children [
+      Shape {
+        appearance PBRAppearance {
+          baseColor IS color
+          roughness 0.78
+          metalness 0
+        }
+        geometry Cylinder {
+          radius IS radius
+          height IS height
+          subdivision 24
+        }
+      }
+    ]
+    name IS name
+    contactMaterial IS contactMaterial
+    boundingObject Cylinder {
+      radius IS radius
+      height IS height
+      subdivision 16
+    }
+    locked TRUE
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "single_motion_pulse",
+  "robot_profile_verified": false,
+  "plan": {
+    "vx_m_s": 0.0,
+    "vy_m_s": 0,
+    "vyaw_rad_s": -0.15,
+    "duration_s": 1.0
+  },
+  "net_forward_m": -0.0008571379095404137,
+  "net_left_m": 0.00012262383140759087,
+  "net_yaw_rad": -0.003808420247613853,
+  "settled_position_spread_m": 8.947066558434791e-05,
+  "stop_acknowledged": true,
+  "translation_observed": false,
+  "rotation_observed": false,
+  "errors": [],
+  "evidence_sha256": {
+    "summary.json": "2f84cae719b2b7310906f0fbc3492383efb481a9a6ccdd15e3fc5592f7472fbf",
+    "samples.jsonl": "3cd076af480b5f89c309889d1c0106b4a6e5cc6915e3167e8b732e7b4eac1941"
+  },
+  "limitation": "Одно измерение одометрии после остановки; не подтверждает другие скорости, направления и препятствия"
+}

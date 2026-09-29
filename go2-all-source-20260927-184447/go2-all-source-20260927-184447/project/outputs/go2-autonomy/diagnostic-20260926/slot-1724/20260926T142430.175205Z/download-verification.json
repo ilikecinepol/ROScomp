@@ -1,0 +1,15 @@
+{
+  "version": "training-15ec808879f6094df74c",
+  "deployment_confirmed": true,
+  "remote_archive_sha256": "15ec808879f6094df74c72eb321826a6c0b531ffe5e7b3750dd4a3c4c2f005f3",
+  "pi_boot_id": "3b18788a-c2c7-440b-bb19-fdd023163aef",
+  "session": "20260926T142430.175205Z",
+  "paired_clouds": 20,
+  "missing_files": [],
+  "scope": "observation_only",
+  "fault": null,
+  "journal_failed": false,
+  "journal_dropped": 0,
+  "fleet_restored": true,
+  "motion_started": false
+}

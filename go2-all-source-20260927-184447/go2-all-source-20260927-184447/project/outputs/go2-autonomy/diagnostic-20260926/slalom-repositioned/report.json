@@ -1,0 +1,466 @@
+{
+  "scope": "observation_only",
+  "started": false,
+  "mission_phase": "WAIT_START",
+  "completed": [],
+  "fault": null,
+  "shutdown_reason": null,
+  "sensor_report": {
+    "streams": {
+      "ROBOTODOM": {
+        "received": 376,
+        "age_s": 0.05019190000029994,
+        "median_hz": 18.764168237151264,
+        "source_scale_by_receive": 1.0001567221477892,
+        "duplicate_stamps": 0,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "LF_SPORT_MOD_STATE": {
+        "received": 401,
+        "age_s": 0.05073369299998376,
+        "median_hz": 19.99484093125564,
+        "source_scale_by_receive": 1.0003581525475458,
+        "duplicate_stamps": 0,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "ULIDAR_ARRAY": {
+        "received": 155,
+        "age_s": 0.052503383999919606,
+        "median_hz": 7.696391841840613,
+        "source_scale_by_receive": 0.0,
+        "duplicate_stamps": 154,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "LOW_STATE": {
+        "received": 401,
+        "age_s": 0.04015252799990776,
+        "median_hz": 20.015970743023047,
+        "source_scale_by_receive": null,
+        "duplicate_stamps": 0,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "ULIDAR_STATE": {
+        "received": 100,
+        "age_s": 0.1506992919998993,
+        "median_hz": 4.999962625281275,
+        "source_scale_by_receive": 0.0,
+        "duplicate_stamps": 99,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "CAMERA": {
+        "received": 261,
+        "age_s": 0.05725957200002085,
+        "median_hz": 14.248502692537713,
+        "source_scale_by_receive": 0.009520044247213779,
+        "duplicate_stamps": 0,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      }
+    },
+    "identity": {
+      "software_version": "1.0.0.38"
+    },
+    "faults": [],
+    "frame_epoch": 0
+  },
+  "consistency": {
+    "diagnostic_only": true,
+    "hardware_verdict": null,
+    "correction_applied": false,
+    "evidence_scope": "pixel_correspondence_and_received_pose_only",
+    "status": "static_pixel_evidence",
+    "reasons": [],
+    "normalized_width_px": 640,
+    "tracked_features": 223,
+    "p95_displacement_px": 0.0,
+    "static_duration_s": 6.797522281000056,
+    "static_samples": 14,
+    "pose_yaw_change_deg": 0.08404299114863277,
+    "pose_xy_change_m": 0.00018721645226859002,
+    "exact_duplicate_duration_s": 0.0,
+    "pose_change_with_exact_same_frame": false,
+    "last_pose_delta_xy_m": 6.109828148154393e-05,
+    "last_pose_delta_yaw_deg": 0.015039215028524289,
+    "processing_ms": 15.441240999734873,
+    "thresholds": {
+      "minimum_tracked_features": 40,
+      "static_duration_s": 5.0,
+      "p95_displacement_px_strictly_below": 1.0,
+      "yaw_change_deg_strictly_above": 2.0,
+      "xy_change_m_strictly_below": 0.04,
+      "duplicate_duration_s_strictly_above": 3.0,
+      "duplicate_motion_xy_m_strictly_above": 0.02,
+      "duplicate_motion_yaw_deg_strictly_above": 1.0,
+      "max_sample_gap_s": 1.5
+    },
+    "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+  },
+  "stop_acknowledged": null,
+  "journal_dropped": 0,
+  "journal_failed": false,
+  "physical_success_verified": false,
+  "packet_audit": {
+    "packets": 155,
+    "distinct_stamps": 1,
+    "distinct_payloads": 155,
+    "first_header": {
+      "stamp": 1790413000.0,
+      "frame_id": "odom",
+      "resolution": 0.05,
+      "src_size": 77824,
+      "origin": [
+        -1.325,
+        -2.825,
+        -0.575
+      ],
+      "width": [
+        128,
+        128,
+        38
+      ]
+    },
+    "transport_status": "content_changes_source_time_unavailable",
+    "packet_age_s": 0.04850330099998246,
+    "content_change_age_s": 0.04850330099998246,
+    "content_changes": 154,
+    "acquisition_age_verified": false
+  },
+  "scene_audit": {
+    "scope": "diagnostic_only",
+    "route_verified": false,
+    "pole_candidates": [
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          -1.25,
+          0.5499999999999999
+        ],
+        "width_xy_m": [
+          0.35000000000000014,
+          0.15000000000000008
+        ],
+        "observed_height_range_m": [
+          0.35,
+          0.9500000000000001
+        ],
+        "height_levels": 11,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          -0.5999999999999999,
+          0.6000000000000002
+        ],
+        "width_xy_m": [
+          0.1999999999999999,
+          0.14999999999999963
+        ],
+        "observed_height_range_m": [
+          0.35,
+          1.0
+        ],
+        "height_levels": 11,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          0.2500000000000001,
+          1.3000000000000003
+        ],
+        "width_xy_m": [
+          0.25,
+          0.20000000000000034
+        ],
+        "observed_height_range_m": [
+          0.4,
+          1.05
+        ],
+        "height_levels": 11,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          0.6500000000000002,
+          1.4499999999999997
+        ],
+        "width_xy_m": [
+          0.39999999999999986,
+          0.14999999999999963
+        ],
+        "observed_height_range_m": [
+          0.35,
+          1.0
+        ],
+        "height_levels": 11,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          1.0000000000000002,
+          1.5500000000000003
+        ],
+        "width_xy_m": [
+          0.2999999999999999,
+          0.09999999999999983
+        ],
+        "observed_height_range_m": [
+          0.35,
+          0.95
+        ],
+        "height_levels": 10,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          1.3,
+          1.65
+        ],
+        "width_xy_m": [
+          0.09999999999999983,
+          0.19999999999999946
+        ],
+        "observed_height_range_m": [
+          0.35,
+          0.95
+        ],
+        "height_levels": 10,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          1.6000000000000003,
+          1.7499999999999996
+        ],
+        "width_xy_m": [
+          0.1999999999999999,
+          0.14999999999999963
+        ],
+        "observed_height_range_m": [
+          0.35,
+          0.95
+        ],
+        "height_levels": 9,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          3.5000000000000004,
+          2.0000000000000004
+        ],
+        "width_xy_m": [
+          0.25000000000000017,
+          0.09999999999999983
+        ],
+        "observed_height_range_m": [
+          0.4499999999999999,
+          1.0
+        ],
+        "height_levels": 10,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          4.95,
+          2.1999999999999997
+        ],
+        "width_xy_m": [
+          0.20000000000000034,
+          0.09999999999999983
+        ],
+        "observed_height_range_m": [
+          0.39999999999999997,
+          1.2
+        ],
+        "height_levels": 12,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      }
+    ],
+    "reason": "Геометрия требует проверки; диагностические кандидаты не являются маршрутом",
+    "points": 32010,
+    "floor_coefficients": [
+      1.0362439284932822e-17,
+      -1.6005835302852624e-18,
+      0.02500000000000008
+    ],
+    "assumed_pose": [
+      1.882424,
+      0.357587,
+      -1.7426238042476703,
+      0.311749
+    ],
+    "point_frame": "odom",
+    "slalom_pole_candidates": [
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          1.95,
+          -2.2
+        ],
+        "width_xy_m": [
+          0.1500000000000003,
+          0.25000000000000017
+        ],
+        "observed_height_range_m": [
+          0.30000000000000004,
+          0.8
+        ],
+        "height_levels": 8,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          1.55,
+          -1.2500000000000002
+        ],
+        "width_xy_m": [
+          0.1999999999999999,
+          0.20000000000000012
+        ],
+        "observed_height_range_m": [
+          0.30000000000000004,
+          0.6500000000000001
+        ],
+        "height_levels": 6,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          -1.2,
+          0.5499999999999999
+        ],
+        "width_xy_m": [
+          0.35000000000000014,
+          0.20000000000000034
+        ],
+        "observed_height_range_m": [
+          0.30000000000000004,
+          0.9500000000000001
+        ],
+        "height_levels": 11,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          3.2499999999999996,
+          2.0000000000000004
+        ],
+        "width_xy_m": [
+          0.15000000000000052,
+          0.14999999999999963
+        ],
+        "observed_height_range_m": [
+          0.39999999999999997,
+          0.8
+        ],
+        "height_levels": 6,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          4.425000000000001,
+          2.4499999999999997
+        ],
+        "width_xy_m": [
+          0.25000000000000017,
+          0.14999999999999963
+        ],
+        "observed_height_range_m": [
+          0.39999999999999997,
+          0.7
+        ],
+        "height_levels": 6,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          4.1000000000000005,
+          2.5000000000000004
+        ],
+        "width_xy_m": [
+          0.19999999999999946,
+          0.09999999999999983
+        ],
+        "observed_height_range_m": [
+          0.39999999999999997,
+          0.7
+        ],
+        "height_levels": 6,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      },
+      {
+        "kind": "vertical_pole_candidate",
+        "center_xy": [
+          4.95,
+          2.6
+        ],
+        "width_xy_m": [
+          0.15000000000000052,
+          0.24999999999999928
+        ],
+        "observed_height_range_m": [
+          0.39999999999999997,
+          0.75
+        ],
+        "height_levels": 7,
+        "metric_target": false,
+        "verified": false,
+        "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+      }
+    ],
+    "slalom_row_candidates": []
+  }
+}

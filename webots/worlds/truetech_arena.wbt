@@ -1,0 +1,117 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "../protos/TrueTechArena.proto"
+EXTERNPROTO "../protos/Go2.proto"
+
+WorldInfo {
+  title "True Tech Arena 2026 — Track 2"
+  info [
+    "Real-scale arena reconstructed from the competition specification, CCTV frames and user layout markup."
+    "Units: metres. Coordinate system: ENU, matching ROS convention."
+  ]
+  basicTimeStep 8
+  FPS 60
+  coordinateSystem "ENU"
+  randomSeed 17
+  defaultDamping Damping {
+    linear 0.05
+    angular 0.12
+  }
+  contactProperties [
+    ContactProperties {
+      material1 "arena_floor"
+      material2 "arena_rubber"
+      coulombFriction [ 1.25 ]
+      bounce 0
+      softERP 0.35
+      softCFM 0.0001
+      bumpSound ""
+      rollSound ""
+      slideSound ""
+    }
+    ContactProperties {
+      material1 "arena_rubber"
+      material2 "arena_rubber"
+      coulombFriction [ 1.10 ]
+      bounce 0
+      softERP 0.30
+      softCFM 0.0001
+      bumpSound ""
+      rollSound ""
+      slideSound ""
+    }
+    ContactProperties {
+      material1 "arena_floor"
+      material2 "default"
+      coulombFriction [ 1.25 ]
+      bounce 0
+      softERP 0.35
+      softCFM 0.0001
+      bumpSound ""
+      rollSound ""
+      slideSound ""
+    }
+    ContactProperties {
+      material1 "arena_rubber"
+      material2 "default"
+      coulombFriction [ 1.10 ]
+      bounce 0
+      softERP 0.30
+      softCFM 0.0001
+      bumpSound ""
+      rollSound ""
+      slideSound ""
+    }
+  ]
+}
+
+Viewpoint {
+  # Plan view rotated 180 degrees to match the accepted room scheme on opening.
+  orientation 0 0 1 3.141593
+  position 0 0 10.5
+  fieldOfView 0.95
+  near 0.05
+  far 100
+}
+
+Background {
+  skyColor [ 0.14 0.15 0.17 ]
+}
+
+DirectionalLight {
+  direction -0.3 -0.4 -1
+  intensity 2.2
+  ambientIntensity 0.65
+  castShadows TRUE
+}
+
+PointLight {
+  location -2.8 0 3.1
+  intensity 1.4
+  radius 12
+  attenuation 0 0 1
+  castShadows TRUE
+}
+
+PointLight {
+  location 2.8 0 3.1
+  intensity 1.4
+  radius 12
+  attenuation 0 0 1
+  castShadows TRUE
+}
+
+DEF TRUE_TECH_ARENA TrueTechArena {
+}
+
+# Go2 starts on the green marker and faces into the course (+Y).
+DEF GO2 Go2 {
+  translation 4.25 -2.75 0.34
+  rotation 0 0 1 1.570796
+  name "Unitree Go2"
+  controller "go2_virtual_sport"
+  controllerArgs [ "--kinematic-nav" "--udp-port=15000" ]
+  supervisor TRUE
+  selfCollision FALSE
+}
+

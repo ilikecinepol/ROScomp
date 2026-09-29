@@ -1,0 +1,44 @@
+[
+  {
+    "file": "camera_325.jpg",
+    "elapsed_s": 93.56063713200001,
+    "phase": "before",
+    "pts": 79560,
+    "time_base": "1/90000"
+  },
+  {
+    "file": "camera_335.jpg",
+    "elapsed_s": 96.36314054800005,
+    "phase": "before",
+    "pts": 81960,
+    "time_base": "1/90000"
+  },
+  {
+    "file": "camera_336.jpg",
+    "elapsed_s": 96.64405974500005,
+    "phase": "move",
+    "pts": 82200,
+    "time_base": "1/90000"
+  },
+  {
+    "file": "camera_339.jpg",
+    "elapsed_s": 97.48380268699975,
+    "phase": "move",
+    "pts": 82920,
+    "time_base": "1/90000"
+  },
+  {
+    "file": "camera_340.jpg",
+    "elapsed_s": 97.76644211299981,
+    "phase": "after",
+    "pts": 83160,
+    "time_base": "1/90000"
+  },
+  {
+    "file": "camera_357.jpg",
+    "elapsed_s": 102.52584670599981,
+    "phase": "after",
+    "pts": 87240,
+    "time_base": "1/90000"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "bbox_xyxy": [
+      352,
+      228,
+      397,
+      406
+    ],
+    "red_sections": 4,
+    "white_gaps": 5,
+    "touches_edge": false,
+    "distance_verified": false,
+    "route_verified": false
+  },
+  {
+    "bbox_xyxy": [
+      466,
+      174,
+      534,
+      453
+    ],
+    "red_sections": 4,
+    "white_gaps": 6,
+    "touches_edge": false,
+    "distance_verified": false,
+    "route_verified": false
+  },
+  {
+    "bbox_xyxy": [
+      620,
+      62,
+      750,
+      551
+    ],
+    "red_sections": 4,
+    "white_gaps": 5,
+    "touches_edge": false,
+    "distance_verified": false,
+    "route_verified": false
+  }
+]

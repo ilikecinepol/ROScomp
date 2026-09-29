@@ -1,0 +1,39 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "../protos/Go2.proto"
+
+WorldInfo {
+  title "Go2 ramp regression test"
+  basicTimeStep 8
+  coordinateSystem "ENU"
+}
+
+Viewpoint { orientation 0.57735 0.57735 0.57735 2.094395 position 2.5 -3.5 1.8 }
+Background { skyColor [ 0.14 0.15 0.17 ] }
+DirectionalLight { direction -0.3 -0.4 -1 intensity 2 ambientIntensity 0.6 }
+
+Solid {
+  translation 0 0 -0.05
+  name "ramp test floor"
+  children [ Shape { appearance PBRAppearance { baseColor 0.48 0.47 0.43 roughness 0.9 } geometry Box { size 8 6 0.1 } } ]
+  boundingObject Box { size 8 6 0.1 }
+  locked TRUE
+}
+
+Solid {
+  translation 0.9 0 0.29
+  rotation 0 1 0 -0.25
+  name "test ramp"
+  contactMaterial "arena_rubber"
+  children [ Shape { appearance PBRAppearance { baseColor 0.25 0.27 0.29 roughness 0.88 } geometry Box { size 2.0 1.0 0.08 } } ]
+  boundingObject Box { size 2.0 1.0 0.08 }
+  locked TRUE
+}
+
+DEF GO2 Go2 {
+  translation -0.3 0 0.34
+  supervisor TRUE
+  controller "go2_virtual_sport"
+  controllerArgs [ "--demo" "--ramp-test" "--udp-port=15001" ]
+  name "Go2 ramp test"
+}

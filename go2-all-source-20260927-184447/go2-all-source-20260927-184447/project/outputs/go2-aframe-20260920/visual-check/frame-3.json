@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "image_size": {
+    "width": 1146,
+    "height": 643
+  },
+  "candidates": [],
+  "diagnostics": {
+    "horizontal_line_count": 89,
+    "quadrilateral_hypotheses_tested": 280,
+    "rejected": {
+      "geometry": 34,
+      "transverse_support": 215,
+      "surface": 0,
+      "side_boundaries": 31
+    },
+    "accepted_before_overlap_filter": 0,
+    "scene_median_value_0_255": 167.0,
+    "method": "parallel_transverse_lines_and_dark_neutral_surface",
+    "calibrated": false,
+    "limitations": [
+      "Проверено только на небольшой локальной выборке, качество на других ракурсах неизвестно.",
+      "Нижняя грань принимается за вход при приблизительно горизонтальной камере.",
+      "Нужны минимум две видимые внутренние поперечины; гладкая рампа может быть пропущена.",
+      "Направление на изображении не является курсом робота; расстояние и уклон не определяются."
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "capture": "20260916T112503Z",
+  "camera": [
+    {
+      "file": "camera_00.jpg",
+      "processing_ms_excludes_io_overlay": 79.8953999983496,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_01.jpg",
+      "processing_ms_excludes_io_overlay": 79.02300000205287,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_02.jpg",
+      "processing_ms_excludes_io_overlay": 90.45200000036857,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_03.jpg",
+      "processing_ms_excludes_io_overlay": 94.61760000340291,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_04.jpg",
+      "processing_ms_excludes_io_overlay": 84.51079999940703,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_05.jpg",
+      "processing_ms_excludes_io_overlay": 86.40879999802564,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_06.jpg",
+      "processing_ms_excludes_io_overlay": 87.622699997155,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_07.jpg",
+      "processing_ms_excludes_io_overlay": 96.17470000011963,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_08.jpg",
+      "processing_ms_excludes_io_overlay": 75.03709999946295,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_09.jpg",
+      "processing_ms_excludes_io_overlay": 72.0779000002949,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_10.jpg",
+      "processing_ms_excludes_io_overlay": 75.83030000023427,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_11.jpg",
+      "processing_ms_excludes_io_overlay": 96.63739999814425,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_12.jpg",
+      "processing_ms_excludes_io_overlay": 73.03519999913988,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_13.jpg",
+      "processing_ms_excludes_io_overlay": 77.09819999945466,
+      "candidate_count": 1,
+      "metric_target_status": "blocked",
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    }
+  ],
+  "voxel": [
+    {
+      "file": "lidar_00.npz",
+      "processing_ms_includes_npz_load": 34.921899998153094,
+      "candidate_count": 0
+    },
+    {
+      "file": "lidar_01.npz",
+      "processing_ms_includes_npz_load": 34.495899999456014,
+      "candidate_count": 0
+    },
+    {
+      "file": "lidar_02.npz",
+      "processing_ms_includes_npz_load": 34.58429999955115,
+      "candidate_count": 0
+    },
+    {
+      "file": "lidar_03.npz",
+      "processing_ms_includes_npz_load": 34.8597999982303,
+      "candidate_count": 0
+    },
+    {
+      "file": "lidar_04.npz",
+      "processing_ms_includes_npz_load": 34.58849999879021,
+      "candidate_count": 0
+    }
+  ],
+  "errors": [],
+  "actuation": false,
+  "camera_lidar_fusion": false,
+  "sensor_clock_synchronization_verified": false,
+  "capture_observed_hz": {
+    "ROBOTODOM": 18.72,
+    "LOW_STATE": 20.0,
+    "ULIDAR_STATE": 5.0,
+    "LF_SPORT_MOD_STATE": 20.0,
+    "ULIDAR_ARRAY": 7.7,
+    "CAMERA": 14.31
+  },
+  "camera_input_width": 640,
+  "notes": [
+    "Работа только с записью. Время обработки не является задержкой живого управления.",
+    "Поза подобрана по времени приёма среди сохранённых сообщений; это не синхронизация датчиков.",
+    "Кандидаты камеры и карты не сопоставлены друг с другом; подход не разрешён."
+  ],
+  "camera_timing_ms": {
+    "mean": 83.45864999968659,
+    "max": 96.63739999814425,
+    "n": 14
+  },
+  "voxel_timing_ms": {
+    "mean": 34.690079998836154,
+    "max": 34.921899998153094,
+    "n": 5
+  }
+}

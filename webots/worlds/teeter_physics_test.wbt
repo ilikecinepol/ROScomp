@@ -1,0 +1,54 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "../protos/Teeter.proto"
+
+WorldInfo {
+  title "True Tech Arena — teeter physics test"
+  basicTimeStep 8
+  coordinateSystem "ENU"
+}
+
+Viewpoint {
+  orientation 0.57735 0.57735 0.57735 2.094395
+  position 3 -4 2.5
+}
+
+Background { skyColor [ 0.14 0.15 0.17 ] }
+DirectionalLight { direction -0.3 -0.4 -1 intensity 2 ambientIntensity 0.6 }
+
+Solid {
+  translation 0 0 -0.05
+  children [
+    Shape {
+      appearance PBRAppearance { baseColor 0.48 0.47 0.43 roughness 0.9 }
+      geometry Box { size 4 3 0.1 }
+    }
+  ]
+  name "test floor"
+  boundingObject Box { size 4 3 0.1 }
+  locked TRUE
+}
+
+DEF TEST_TEETER Teeter {
+  translation 0 0 0
+  rotation 0 0 1 0
+}
+
+DEF TEST_LOAD Solid {
+  translation 0.65 0 0.85
+  children [
+    Shape {
+      appearance PBRAppearance { baseColor 0.8 0.12 0.05 roughness 0.7 }
+      geometry Box { size 0.34 0.34 0.24 }
+    }
+  ]
+  name "12 kg off-centre test load"
+  boundingObject Box { size 0.34 0.34 0.24 }
+  physics Physics { density -1 mass 12 }
+}
+
+Robot {
+  supervisor TRUE
+  controller "teeter_physics_test"
+  name "teeter physics test supervisor"
+}

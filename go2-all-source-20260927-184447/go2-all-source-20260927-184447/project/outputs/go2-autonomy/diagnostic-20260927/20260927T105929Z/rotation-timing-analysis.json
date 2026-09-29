@@ -1,0 +1,589 @@
+{
+  "frames": [
+    {
+      "t": 2.9241939759999696,
+      "file": "camera_012.jpg",
+      "phase": "before",
+      "shift_x_px": 0.0,
+      "shift_y_px": 0.0,
+      "inliers": 363,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 3.064563876000193,
+      "file": "camera_013.jpg",
+      "phase": "before",
+      "shift_x_px": -0.09089615259051698,
+      "shift_y_px": -0.015855304483238797,
+      "inliers": 363,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 3.2067288369999005,
+      "file": "camera_014.jpg",
+      "phase": "before",
+      "shift_x_px": 0.06093423707898182,
+      "shift_y_px": 0.010234292502786957,
+      "inliers": 358,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 3.343742001999999,
+      "file": "camera_015.jpg",
+      "phase": "before",
+      "shift_x_px": -0.11690981700462544,
+      "shift_y_px": -0.00818111451110326,
+      "inliers": 354,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 3.4838167739999335,
+      "file": "camera_016.jpg",
+      "phase": "before",
+      "shift_x_px": -0.05080148298475251,
+      "shift_y_px": -0.0006087358771083018,
+      "inliers": 351,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 3.623963989999993,
+      "file": "camera_017.jpg",
+      "phase": "before",
+      "shift_x_px": 0.14696013137086084,
+      "shift_y_px": 0.0034326568897427023,
+      "inliers": 348,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 3.763676895000117,
+      "file": "camera_018.jpg",
+      "phase": "before",
+      "shift_x_px": -0.13982762411421845,
+      "shift_y_px": -0.01667280317673203,
+      "inliers": 350,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 3.903219616000115,
+      "file": "camera_019.jpg",
+      "phase": "before",
+      "shift_x_px": 0.09281829643975925,
+      "shift_y_px": 0.0017196899303826285,
+      "inliers": 350,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 4.042783114000031,
+      "file": "camera_020.jpg",
+      "phase": "before",
+      "shift_x_px": -0.05185583506488456,
+      "shift_y_px": -0.010543294780177348,
+      "inliers": 350,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 4.182180428000265,
+      "file": "camera_021.jpg",
+      "phase": "before",
+      "shift_x_px": -0.08259885743791529,
+      "shift_y_px": -0.004993559649051349,
+      "inliers": 350,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 4.35155693500019,
+      "file": "camera_022.jpg",
+      "phase": "before",
+      "shift_x_px": 0.09306440370301061,
+      "shift_y_px": 0.013917364435997115,
+      "inliers": 348,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 4.472675305999928,
+      "file": "camera_023.jpg",
+      "phase": "before",
+      "shift_x_px": -0.20459542581909318,
+      "shift_y_px": -0.01067011682488328,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 4.602574170000025,
+      "file": "camera_024.jpg",
+      "phase": "before",
+      "shift_x_px": -0.009063343628668008,
+      "shift_y_px": 0.022779063724954085,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 4.742364666999947,
+      "file": "camera_025.jpg",
+      "phase": "before",
+      "shift_x_px": -0.03170915051941847,
+      "shift_y_px": 0.009773483097660574,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 4.884519610000098,
+      "file": "camera_026.jpg",
+      "phase": "before",
+      "shift_x_px": -0.027025967341273827,
+      "shift_y_px": 0.004528023219108945,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 5.025702299999921,
+      "file": "camera_027.jpg",
+      "phase": "before",
+      "shift_x_px": 0.012506105183206273,
+      "shift_y_px": 0.004743982738034447,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 5.172741503999987,
+      "file": "camera_028.jpg",
+      "phase": "before",
+      "shift_x_px": -0.04356547279746792,
+      "shift_y_px": 8.559885003478485e-05,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 5.305709309000122,
+      "file": "camera_029.jpg",
+      "phase": "before",
+      "shift_x_px": -0.05705233534513354,
+      "shift_y_px": 0.006532673369974873,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 5.443013250000149,
+      "file": "camera_030.jpg",
+      "phase": "before",
+      "shift_x_px": -0.021869186965091103,
+      "shift_y_px": 0.006897178754002198,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 5.582654321000064,
+      "file": "camera_031.jpg",
+      "phase": "before",
+      "shift_x_px": -0.20252495808199455,
+      "shift_y_px": 0.003797002469354993,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 5.72239818900016,
+      "file": "camera_032.jpg",
+      "phase": "before",
+      "shift_x_px": 0.005902245348352153,
+      "shift_y_px": 0.017164833756055486,
+      "inliers": 348,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 5.863315974000216,
+      "file": "camera_033.jpg",
+      "phase": "move",
+      "shift_x_px": -0.073292280444889,
+      "shift_y_px": 0.002756887191253554,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 6.002491253000244,
+      "file": "camera_034.jpg",
+      "phase": "move",
+      "shift_x_px": -0.7068310421989281,
+      "shift_y_px": 0.11596384299213014,
+      "inliers": 346,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 6.158481040999959,
+      "file": "camera_035.jpg",
+      "phase": "move",
+      "shift_x_px": -7.083909643815105,
+      "shift_y_px": 0.12723779406087488,
+      "inliers": 344,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 6.28775227899996,
+      "file": "camera_036.jpg",
+      "phase": "move",
+      "shift_x_px": -7.982270166701937,
+      "shift_y_px": 0.15616299727867045,
+      "inliers": 328,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 6.423603915000058,
+      "file": "camera_037.jpg",
+      "phase": "move",
+      "shift_x_px": -8.37951895929109,
+      "shift_y_px": 0.1757549851791964,
+      "inliers": 327,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 6.561008244000277,
+      "file": "camera_038.jpg",
+      "phase": "move",
+      "shift_x_px": -9.082168471270052,
+      "shift_y_px": 0.13738659498488914,
+      "inliers": 339,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 6.705592188000082,
+      "file": "camera_039.jpg",
+      "phase": "move",
+      "shift_x_px": -9.105866266941462,
+      "shift_y_px": 0.10859445312820526,
+      "inliers": 322,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 6.843827844000316,
+      "file": "camera_040.jpg",
+      "phase": "move",
+      "shift_x_px": -9.362854765930479,
+      "shift_y_px": 0.1547545877985499,
+      "inliers": 322,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 6.983413287000076,
+      "file": "camera_041.jpg",
+      "phase": "after",
+      "shift_x_px": -8.946427697665285,
+      "shift_y_px": 0.0573267761291163,
+      "inliers": 322,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 7.123936445000254,
+      "file": "camera_042.jpg",
+      "phase": "after",
+      "shift_x_px": -3.7698171788657646,
+      "shift_y_px": 0.1136323118691962,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 7.263064057000065,
+      "file": "camera_043.jpg",
+      "phase": "after",
+      "shift_x_px": -3.705642023995779,
+      "shift_y_px": 0.05791762466071759,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 7.405752385000142,
+      "file": "camera_044.jpg",
+      "phase": "after",
+      "shift_x_px": -3.2310269785466517,
+      "shift_y_px": 0.06766464818116447,
+      "inliers": 346,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 7.544202706000306,
+      "file": "camera_045.jpg",
+      "phase": "after",
+      "shift_x_px": -3.114007781628402,
+      "shift_y_px": 0.05273265310313491,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 7.684319034000055,
+      "file": "camera_046.jpg",
+      "phase": "after",
+      "shift_x_px": -3.081308018821005,
+      "shift_y_px": 0.06470236703569299,
+      "inliers": 346,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 7.8245338609999635,
+      "file": "camera_047.jpg",
+      "phase": "after",
+      "shift_x_px": -3.0495982084773914,
+      "shift_y_px": 0.07147285727660346,
+      "inliers": 346,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 7.963551493000068,
+      "file": "camera_048.jpg",
+      "phase": "after",
+      "shift_x_px": -3.053351391723595,
+      "shift_y_px": 0.06738253639446157,
+      "inliers": 346,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 8.122537000000193,
+      "file": "camera_049.jpg",
+      "phase": "after",
+      "shift_x_px": -3.090235342505025,
+      "shift_y_px": 0.0718555071831588,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 8.247223734000272,
+      "file": "camera_050.jpg",
+      "phase": "after",
+      "shift_x_px": -2.913469519624641,
+      "shift_y_px": 0.06682932850560519,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 8.38340429400023,
+      "file": "camera_051.jpg",
+      "phase": "after",
+      "shift_x_px": -3.0071831729451333,
+      "shift_y_px": 0.07855089011604832,
+      "inliers": 346,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 8.524859075000222,
+      "file": "camera_052.jpg",
+      "phase": "after",
+      "shift_x_px": -2.9704698873791813,
+      "shift_y_px": 0.06158942202023354,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 8.67209242600029,
+      "file": "camera_053.jpg",
+      "phase": "after",
+      "shift_x_px": -2.8429752705595774,
+      "shift_y_px": 0.08097084317381587,
+      "inliers": 346,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 8.802659063000192,
+      "file": "camera_054.jpg",
+      "phase": "after",
+      "shift_x_px": -2.9900977557269925,
+      "shift_y_px": 0.0566081796951039,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 8.94411167699991,
+      "file": "camera_055.jpg",
+      "phase": "after",
+      "shift_x_px": -2.8274243393111647,
+      "shift_y_px": 0.0677488915883373,
+      "inliers": 346,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 9.083272567000222,
+      "file": "camera_056.jpg",
+      "phase": "after",
+      "shift_x_px": -2.9130870270840887,
+      "shift_y_px": 0.07413844735827979,
+      "inliers": 346,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 9.223123897000278,
+      "file": "camera_057.jpg",
+      "phase": "after",
+      "shift_x_px": -2.9145708946110744,
+      "shift_y_px": 0.0774584326197214,
+      "inliers": 346,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 9.362468230000104,
+      "file": "camera_058.jpg",
+      "phase": "after",
+      "shift_x_px": -2.8410411712745827,
+      "shift_y_px": 0.08526526385458055,
+      "inliers": 346,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 9.506599066000035,
+      "file": "camera_059.jpg",
+      "phase": "after",
+      "shift_x_px": -2.9101806164121626,
+      "shift_y_px": 0.06003162906273474,
+      "inliers": 345,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 9.643120253000234,
+      "file": "camera_060.jpg",
+      "phase": "after",
+      "shift_x_px": -2.8047030393174737,
+      "shift_y_px": 0.10997209943576536,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 9.783145711000088,
+      "file": "camera_061.jpg",
+      "phase": "after",
+      "shift_x_px": -2.858656825746266,
+      "shift_y_px": 0.06700855256826799,
+      "inliers": 348,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 9.92435156800002,
+      "file": "camera_062.jpg",
+      "phase": "after",
+      "shift_x_px": -2.8659004290667554,
+      "shift_y_px": 0.06865793712631785,
+      "inliers": 345,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 10.066205290000198,
+      "file": "camera_063.jpg",
+      "phase": "after",
+      "shift_x_px": -2.768398844351964,
+      "shift_y_px": 0.06482183792815022,
+      "inliers": 347,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 10.20367326700034,
+      "file": "camera_064.jpg",
+      "phase": "after",
+      "shift_x_px": -3.002793554711616,
+      "shift_y_px": 0.04626385777999076,
+      "inliers": 348,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 10.343657373000042,
+      "file": "camera_065.jpg",
+      "phase": "after",
+      "shift_x_px": -2.824999585499768,
+      "shift_y_px": 0.06961713129157943,
+      "inliers": 343,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 10.482672412000284,
+      "file": "camera_066.jpg",
+      "phase": "after",
+      "shift_x_px": -2.926769024902569,
+      "shift_y_px": 0.03821005322902238,
+      "inliers": 353,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 10.624354820999997,
+      "file": "camera_067.jpg",
+      "phase": "after",
+      "shift_x_px": -2.96179908555132,
+      "shift_y_px": 0.04781418760109091,
+      "inliers": 346,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 10.761258543000167,
+      "file": "camera_068.jpg",
+      "phase": "after",
+      "shift_x_px": -2.8373313979360546,
+      "shift_y_px": 0.06707686638208088,
+      "inliers": 342,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 10.902989710999918,
+      "file": "camera_069.jpg",
+      "phase": "after",
+      "shift_x_px": -2.9847457735014586,
+      "shift_y_px": 0.03519414629573703,
+      "inliers": 327,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 11.04185839899992,
+      "file": "camera_070.jpg",
+      "phase": "after",
+      "shift_x_px": -2.7962446812036887,
+      "shift_y_px": 0.06681026198793916,
+      "inliers": 341,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 11.185346980000304,
+      "file": "camera_071.jpg",
+      "phase": "after",
+      "shift_x_px": -2.8658261609270994,
+      "shift_y_px": 0.062162153780377594,
+      "inliers": 336,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 11.324601722000352,
+      "file": "camera_072.jpg",
+      "phase": "after",
+      "shift_x_px": -2.8580566564596666,
+      "shift_y_px": 0.0576642232729796,
+      "inliers": 342,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 11.463133524000114,
+      "file": "camera_073.jpg",
+      "phase": "after",
+      "shift_x_px": -2.8097759793740806,
+      "shift_y_px": 0.050696911262093636,
+      "inliers": 340,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 11.605548168000041,
+      "file": "camera_074.jpg",
+      "phase": "after",
+      "shift_x_px": -2.8380354250557502,
+      "shift_y_px": 0.06968960300974913,
+      "inliers": 337,
+      "method": "optical_flow_homography"
+    },
+    {
+      "t": 11.743331530999967,
+      "file": "camera_075.jpg",
+      "phase": "after",
+      "shift_x_px": -2.796967421508839,
+      "shift_y_px": 0.05011477673161835,
+      "inliers": 335,
+      "method": "optical_flow_homography"
+    }
+  ],
+  "relative_alignment_candidates": [],
+  "source": "received_camera_and_received_odometry",
+  "absolute_latency_verified": false,
+  "calibration_verified": false,
+  "correction_applied": false,
+  "limitation": "Один короткий поворот не разделяет задержки источников, погрешность одометрии и движение корпуса.",
+  "status": "insufficient_rotation",
+  "odometry_yaw_span_deg": 0.6672573907609153,
+  "minimum_yaw_span_deg": 1.0
+}

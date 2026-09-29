@@ -1,0 +1,68 @@
+[
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z\\cloud_000010.json",
+    "matches": [
+      {
+        "image_index": 0,
+        "lidar_index": 6,
+        "pixel_residual": 18.571571657932857,
+        "within_35px": true
+      },
+      {
+        "image_index": 1,
+        "lidar_index": 7,
+        "pixel_residual": 29.195503593424785,
+        "within_35px": true
+      },
+      {
+        "image_index": 2,
+        "lidar_index": 9,
+        "pixel_residual": 21.77997189378184,
+        "within_35px": true
+      }
+    ],
+    "camera_candidates": 3,
+    "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+    "assumptions": [
+      "Калибровка другого экземпляра",
+      "Нулевые roll/pitch",
+      "Согласование по времени приёма, не съёмки"
+    ],
+    "calibration_verified": false,
+    "profile_modified": false,
+    "motion_authorized": false
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T095407.476020Z\\cloud_000010.json",
+    "matches": [
+      {
+        "image_index": 0,
+        "lidar_index": 6,
+        "pixel_residual": 19.923452387611846,
+        "within_35px": true
+      },
+      {
+        "image_index": 1,
+        "lidar_index": 7,
+        "pixel_residual": 30.20549095298377,
+        "within_35px": true
+      },
+      {
+        "image_index": 2,
+        "lidar_index": 10,
+        "pixel_residual": 16.377037993168635,
+        "within_35px": true
+      }
+    ],
+    "camera_candidates": 3,
+    "calibration_source": "go2_ros2_sdk b440609591a249e7bdd4bbc88e056a3660575447",
+    "assumptions": [
+      "Калибровка другого экземпляра",
+      "Нулевые roll/pitch",
+      "Согласование по времени приёма, не съёмки"
+    ],
+    "calibration_verified": false,
+    "profile_modified": false,
+    "motion_authorized": false
+  }
+]

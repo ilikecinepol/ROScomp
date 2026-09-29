@@ -1,0 +1,57 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "../protos/Go2.proto"
+
+WorldInfo {
+  title "Go2 autonomous A-frame climb"
+  basicTimeStep 32
+  coordinateSystem "ENU"
+  contactProperties [
+    ContactProperties {
+      material1 "arena_rubber"
+      material2 "go2_foot"
+      coulombFriction [ 1.4 ]
+      bounce 0
+      softCFM 0.0001
+    }
+  ]
+}
+
+Viewpoint { orientation 0.36 0.89 0.28 1.70 position 3.2 -4.0 2.2 }
+Background { skyColor [ 0.14 0.15 0.17 ] }
+DirectionalLight { direction -0.3 -0.4 -1 intensity 2 ambientIntensity 0.6 }
+
+Solid {
+  translation 1.2 0 -0.05
+  children [ Shape { appearance PBRAppearance { baseColor 0.48 0.47 0.43 roughness 0.9 } geometry Box { size 5 3 0.1 } } ]
+  boundingObject Box { size 5 3 0.1 }
+  locked TRUE
+}
+
+# 25-degree A-frame, 0.60 m wide, 1.20 m along each slope.
+Solid {
+  translation 0.846 0 0.294
+  rotation 0 1 0 -0.436332
+  name "A-frame ascent"
+  contactMaterial "arena_rubber"
+  children [ Shape { appearance PBRAppearance { baseColor 0.22 0.24 0.27 roughness 0.95 } geometry Box { size 1.2 0.6 0.08 } } ]
+  boundingObject Box { size 1.2 0.6 0.08 }
+  locked TRUE
+}
+Solid {
+  translation 1.934 0 0.294
+  rotation 0 1 0 0.436332
+  name "A-frame descent"
+  contactMaterial "arena_rubber"
+  children [ Shape { appearance PBRAppearance { baseColor 0.22 0.24 0.27 roughness 0.95 } geometry Box { size 1.2 0.6 0.08 } } ]
+  boundingObject Box { size 1.2 0.6 0.08 }
+  locked TRUE
+}
+
+DEF GO2 Go2 {
+  translation -0.05 0 0.34
+  supervisor TRUE
+  controller "go2_virtual_sport"
+  controllerArgs [ "--aframe-test" "--udp-port=15002" ]
+  name "Go2 A-frame test"
+}

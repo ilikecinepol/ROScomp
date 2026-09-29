@@ -1,0 +1,21 @@
+[
+  {
+    "kind": "vertical_pole_candidate",
+    "center_xy": [
+      11.55,
+      4.25
+    ],
+    "width_xy_m": [
+      0.3,
+      0.3
+    ],
+    "observed_height_range_m": [
+      0.35,
+      1.1500000000000001
+    ],
+    "height_levels": 14,
+    "metric_target": false,
+    "verified": false,
+    "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+  }
+]

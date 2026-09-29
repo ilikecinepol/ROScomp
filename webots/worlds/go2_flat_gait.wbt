@@ -1,0 +1,47 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "../protos/Go2.proto"
+
+WorldInfo {
+  title "Go2 flat-ground gait development"
+  basicTimeStep 32
+  coordinateSystem "ENU"
+  contactProperties [
+    ContactProperties {
+      material1 "arena_rubber"
+      material2 "go2_foot"
+      coulombFriction [ 1.4 ]
+      bounce 0
+      softCFM 0.0001
+    }
+  ]
+}
+
+DEF FOLLOW_VIEW Viewpoint {
+  orientation -0.116698 0.116698 0.986288 1.584603
+  position 0 -3.5 1.1
+}
+Background { skyColor [ 0.12 0.14 0.17 ] }
+DirectionalLight { direction -0.3 -0.4 -1 intensity 2 ambientIntensity 0.7 }
+
+Solid {
+  translation 40 0 -0.05
+  name "flat rubber floor"
+  contactMaterial "arena_rubber"
+  children [
+    Shape {
+      appearance PBRAppearance { baseColor 0.38 0.40 0.42 roughness 0.9 }
+      geometry Box { size 100 4 0.1 }
+    }
+  ]
+  boundingObject Box { size 100 4 0.1 }
+  locked TRUE
+}
+
+DEF GO2 Go2 {
+  translation 0 0 0.34
+  supervisor TRUE
+  controller "go2_virtual_sport"
+  controllerArgs [ "--flat-gait-test" "--flat-demo" "--udp-port=15003" ]
+  name "Go2 flat gait"
+}

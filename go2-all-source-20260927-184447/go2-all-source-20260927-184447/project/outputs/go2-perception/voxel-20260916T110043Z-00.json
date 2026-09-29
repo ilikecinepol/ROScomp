@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "frame_id": "odom",
+  "resolution_m": 0.05,
+  "source_kind": "occupied_voxel_map_not_raw_lidar_rays",
+  "decode": {
+    "encoding": "native_metric_occupied_voxels",
+    "formula": "points уже в метрах; повторного преобразования нет",
+    "point_count": 103011,
+    "sources": [
+      "https://github.com/legion1581/unitree_ui/blob/main/src/ui/scene/voxel-map.ts",
+      "https://github.com/legion1581/unitree_webrtc_connect/blob/master/unitree_webrtc_connect/lidar/lidar_decoder_libvoxel.py",
+      "https://github.com/legion1581/unitree_webrtc_connect/blob/master/unitree_webrtc_connect/lidar/lidar_decoder_native.py"
+    ],
+    "quantization_m": 0.05,
+    "grid_bounds_validated": true
+  },
+  "robot_pose": {
+    "position_odom_m": [
+      -0.201451,
+      -0.075768,
+      0.312433
+    ],
+    "yaw_rad": 2.9110701834712045
+  },
+  "map": {
+    "point_count": 103011,
+    "observed_xy_cells": 16324,
+    "bounds_min_m": [
+      -3.425,
+      -3.275,
+      -0.575
+    ],
+    "bounds_max_m": [
+      2.9250000000000007,
+      3.0750000000000006,
+      1.2750000000000001
+    ],
+    "height_quantiles_m": [
+      -0.22499999999999992,
+      -0.12499999999999994,
+      0.27500000000000013
+    ],
+    "unknown_xy_fraction": 0.003662109375,
+    "vertical_step_cells": 3381
+  },
+  "floor": {
+    "equation_z_abc": [
+      -0.03285773530441715,
+      -0.006235047112106075,
+      -0.08785674086402265
+    ],
+    "normal_odom": [
+      0.03283937490854912,
+      0.00623156306391549,
+      0.9994412154185939
+    ],
+    "height_at_robot_xy_m": -0.08076510017962246,
+    "support_cells": 1545,
+    "rms_m": 0.013447441415043138,
+    "support_radius_from_robot_m": [
+      0.45,
+      1.8
+    ],
+    "support_bounds_min_m": [
+      -1.9749999999999996,
+      -1.8749999999999998,
+      -0.12499999999999994
+    ],
+    "support_bounds_max_m": [
+      1.5750000000000002,
+      1.6750000000000003,
+      -0.02499999999999991
+    ],
+    "status": "local_floor_estimate"
+  },
+  "inclined_planes": [
+    {
+      "id": "incline_1",
+      "classification": "inclined_plane_candidate",
+      "status": "geometry_only_unverified",
+      "slope_deg": 15.242021801412799,
+      "normal_odom": [
+        0.10307260010515124,
+        0.24184871922689763,
+        0.9648239404761227
+      ],
+      "equation_z_abc": [
+        -0.10683047526192894,
+        -0.2506661672465857,
+        0.19389576322164115
+      ],
+      "centroid_odom_m": [
+        0.22354368932038876,
+        0.8050970873786406,
+        -0.031796116504854297
+      ],
+      "polygon_odom_m": [
+        [
+          0.035810109671488566,
+          1.1830431252441702,
+          -0.10647873370612437
+        ],
+        [
+          -0.15439657391234735,
+          0.7367436939091933,
+          0.025713304596201608
+        ],
+        [
+          0.4965618497963493,
+          0.4593141606601129,
+          0.02571330459620158
+        ],
+        [
+          0.6867685333801852,
+          0.9056135919950898,
+          -0.10647873370612437
+        ]
+      ],
+      "observed_length_m": 0.5351409742434518,
+      "observed_width_m": 0.7576114861391906,
+      "observed_rise_m": 0.15000000000000008,
+      "support_cells": 103,
+      "observed_area_m2": 0.25750000000000006,
+      "coverage_fraction": 0.6351297823407877,
+      "rms_m": 0.01641557386341891,
+      "p95_residual_m": 0.029325515849071428,
+      "lower_edge_above_floor_m": -0.00023940743059150393,
+      "local_floor_extrapolated_at_lower_edge": false,
+      "slope_relative_local_floor_deg": 14.26260169688038,
+      "uphill_direction_xy": [
+        -0.3920647681438408,
+        -0.9199376161350921
+      ],
+      "approach": {
+        "position_odom_m": [
+          0.5573217055977573,
+          1.5042971666871763,
+          -0.11554843365086229
+        ],
+        "target_yaw_rad": -1.9736713143128328,
+        "position_robot_xy_m": [
+          -0.37767791354605623,
+          -1.7116370361025182
+        ],
+        "distance_xy_m": 1.7528097300443979,
+        "yaw_error_rad": 1.3984438093955494,
+        "clearance_verified": false,
+        "motion_authorized": false
+      },
+      "limitations": [
+        "Не проверены свободный путь к подходу, сцепление и прочность поверхности",
+        "Нужны повторное наблюдение с другой позиции и согласование с камерой"
+      ]
+    },
+    {
+      "id": "incline_2",
+      "classification": "inclined_plane_candidate",
+      "status": "geometry_only_unverified",
+      "slope_deg": 21.93252984865206,
+      "normal_odom": [
+        0.3469593415097855,
+        -0.138319558265248,
+        0.9276243394501907
+      ],
+      "equation_z_abc": [
+        -0.3740300105918207,
+        0.14911160949833524,
+        -0.8214350475322653
+      ],
+      "centroid_odom_m": [
+        -2.4517605633802795,
+        -0.6954225352112675,
+        -0.00809859154929569
+      ],
+      "polygon_odom_m": [
+        [
+          -2.1902137146000853,
+          -0.5597810154278751,
+          -0.0856992368391073
+        ],
+        [
+          -2.611152702884481,
+          -0.391968571863862,
+          0.09676736096109417
+        ],
+        [
+          -2.7782909704203522,
+          -0.811216464010304,
+          0.09676736096109428
+        ],
+        [
+          -2.3573519821359565,
+          -0.979028907574317,
+          -0.08569923683910718
+        ]
+      ],
+      "observed_length_m": 0.503156317480862,
+      "observed_width_m": 0.5013357902317599,
+      "observed_rise_m": 0.15000000000000002,
+      "support_cells": 71,
+      "observed_area_m2": 0.17750000000000005,
+      "coverage_fraction": 0.7036662437499666,
+      "rms_m": 0.015236043617886998,
+      "p95_residual_m": 0.026413628228442843,
+      "lower_edge_above_floor_m": -0.07735112712973213,
+      "local_floor_extrapolated_at_lower_edge": true,
+      "slope_relative_local_floor_deg": 20.34140456035162,
+      "uphill_direction_xy": [
+        -0.9289046010092824,
+        0.37031910863981343
+      ],
+      "approach": {
+        "position_odom_m": [
+          -1.8093305478633797,
+          -0.9545645158210028,
+          -0.022454481916442975
+        ],
+        "target_yaw_rad": 2.7622401242092636,
+        "position_robot_xy_m": [
+          1.3645536724669072,
+          1.2229281383685455
+        ],
+        "distance_xy_m": 1.8323645807143512,
+        "yaw_error_rad": -0.14883005926194093,
+        "clearance_verified": false,
+        "motion_authorized": false
+      },
+      "limitations": [
+        "Не проверены свободный путь к подходу, сцепление и прочность поверхности",
+        "Нужны повторное наблюдение с другой позиции и согласование с камерой",
+        "Сравнение нижнего края с полом экстраполирует локальную плоскость за область её оценки"
+      ]
+    }
+  ],
+  "raised_horizontal_surfaces": [],
+  "motion_authorized": false,
+  "limitations": [
+    "Это занятые воксели накопленной карты; отсутствие точки не подтверждает свободное место",
+    "Верхняя огибающая теряет нависающие поверхности и нижние слои",
+    "Оценка пола локальная; её нельзя продолжать на всё помещение как доказанный пол",
+    "Точность ограничена размером ячейки и качеством исходной одометрии",
+    "Метки времени карты и позы должны согласовываться внешним сборщиком",
+    "Кандидаты не подтверждают способность робота подняться или наличие свободного подхода"
+  ],
+  "source_file": "C:\\Users\\VladO\\Documents\\Codex\\2026-09-09\\new-chat\\outputs\\go2-remote-setup\\logs\\20260916T110043Z\\lidar_00.npz",
+  "capture_sync": {
+    "method": "nearest_recorded_receive_time",
+    "pose_minus_lidar_receive_s": -0.0504056629997649,
+    "sensor_clock_synchronization_verified": false,
+    "reported_lidar_minus_pose_stamp_s": -459.4504964351654,
+    "warning": "Часы/точность timestamp датчиков не проверены; близость времени приёма не доказывает синхронность измерений"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "elapsed_s": 0.493859023999903,
+  "semantics": "compressed_voxel_map_not_raw_lidar",
+  "metadata": {
+    "stamp": 1789558000.0,
+    "frame_id": "odom",
+    "resolution": 0.05,
+    "src_size": 77824,
+    "origin": [
+      -3.425,
+      -3.275,
+      -0.575
+    ],
+    "width": [
+      128,
+      128,
+      38
+    ]
+  }
+}

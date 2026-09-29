@@ -1,0 +1,161 @@
+{
+  "note": "Сходство не доказывает собственное отражение. Привязка и время съёмки не проверены; фильтр точек не создаётся.",
+  "frames": [
+    {
+      "path": "C:\\Users\\VladO\\Documents\\Codex\\2026-09-09\\new-chat\\outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000010.json",
+      "pose": {
+        "x": 9.261257,
+        "y": 1.485178,
+        "yaw": 3.0904284425889004,
+        "z": 0.307976
+      },
+      "elevated_points": 0
+    },
+    {
+      "path": "C:\\Users\\VladO\\Documents\\Codex\\2026-09-09\\new-chat\\outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000010.json",
+      "pose": {
+        "x": 9.796949,
+        "y": 2.261849,
+        "yaw": -3.0960157482262014,
+        "z": 0.311109
+      },
+      "elevated_points": 234
+    },
+    {
+      "path": "C:\\Users\\VladO\\Documents\\Codex\\2026-09-09\\new-chat\\outputs\\go2-autonomy\\diagnostic-20260926\\slot-1813\\20260926T151311.430261Z\\cloud_000010.json",
+      "pose": {
+        "x": 9.797379,
+        "y": 2.262487,
+        "yaw": -3.0907301014926487,
+        "z": 0.311111
+      },
+      "elevated_points": 234
+    },
+    {
+      "path": "C:\\Users\\VladO\\Documents\\Codex\\2026-09-09\\new-chat\\outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093307.263822Z\\cloud_000010.json",
+      "pose": {
+        "x": 0.000932,
+        "y": 0.00725,
+        "yaw": -0.06806691767571557,
+        "z": 0.311877
+      },
+      "elevated_points": 0
+    },
+    {
+      "path": "C:\\Users\\VladO\\Documents\\Codex\\2026-09-09\\new-chat\\outputs\\go2-autonomy\\diagnostic-20260927\\20260927T093642.002810Z\\cloud_000010.json",
+      "pose": {
+        "x": -4.056685,
+        "y": 1.763446,
+        "yaw": 0.09467242960228511,
+        "z": 0.308843
+      },
+      "elevated_points": 18
+    }
+  ],
+  "pairs": [
+    {
+      "a": 0,
+      "b": 1,
+      "same_map": true,
+      "pose_distance_m": 0.943495501369773,
+      "independent_position": true,
+      "body": null,
+      "world": null
+    },
+    {
+      "a": 0,
+      "b": 2,
+      "same_map": true,
+      "pose_distance_m": 0.9442648359252815,
+      "independent_position": true,
+      "body": null,
+      "world": null
+    },
+    {
+      "a": 0,
+      "b": 3,
+      "same_map": false,
+      "pose_distance_m": null,
+      "independent_position": false,
+      "body": null,
+      "world": null
+    },
+    {
+      "a": 0,
+      "b": 4,
+      "same_map": false,
+      "pose_distance_m": null,
+      "independent_position": false,
+      "body": null,
+      "world": null
+    },
+    {
+      "a": 1,
+      "b": 2,
+      "same_map": true,
+      "pose_distance_m": 0.0007693789703388329,
+      "independent_position": false,
+      "body": {
+        "fraction_within_9cm": 1.0,
+        "median_distance_m": 0.002823898606143984
+      },
+      "world": {
+        "fraction_within_9cm": 1.0,
+        "median_distance_m": 0.0
+      }
+    },
+    {
+      "a": 1,
+      "b": 3,
+      "same_map": false,
+      "pose_distance_m": null,
+      "independent_position": false,
+      "body": null,
+      "world": null
+    },
+    {
+      "a": 1,
+      "b": 4,
+      "same_map": false,
+      "pose_distance_m": null,
+      "independent_position": false,
+      "body": {
+        "fraction_within_9cm": 0.18162393162393164,
+        "median_distance_m": 0.21058819047482874
+      },
+      "world": null
+    },
+    {
+      "a": 2,
+      "b": 3,
+      "same_map": false,
+      "pose_distance_m": null,
+      "independent_position": false,
+      "body": null,
+      "world": null
+    },
+    {
+      "a": 2,
+      "b": 4,
+      "same_map": false,
+      "pose_distance_m": null,
+      "independent_position": false,
+      "body": {
+        "fraction_within_9cm": 0.18376068376068377,
+        "median_distance_m": 0.21216107166637438
+      },
+      "world": null
+    },
+    {
+      "a": 3,
+      "b": 4,
+      "same_map": true,
+      "pose_distance_m": 4.421366317000323,
+      "independent_position": true,
+      "body": null,
+      "world": null
+    }
+  ],
+  "map_modified": false,
+  "motion_authorized": false
+}

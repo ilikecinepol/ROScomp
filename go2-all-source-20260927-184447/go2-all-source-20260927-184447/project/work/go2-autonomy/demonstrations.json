@@ -1,0 +1,9 @@
+{
+  "examples": [
+    {"kind":"platforms","label":"Полный проход длинной рампы 25 сентября","outcome":"manual_success","segments":[{"session":"20260925T104153.532107Z","run":"run_005"}]},
+    {"kind":"platforms","label":"Падение на спуске для сравнения","outcome":"manual_failure","segments":[{"session":"20260925T104153.532107Z","run":"run_004"}]},
+    {"kind":"slalom","label":"Змейка с отметками оператора","outcome":"manual_reference","segments":[{"session":"20260924T102750.300235Z","run":"run_001"}]},
+    {"kind":"aframe","label":"Малая горка: подъём и спуск в разных сеансах","outcome":"manual_segmented_reference","segments":[{"session":"20260924T102750.300235Z","run":"run_002"},{"session":"20260924T103449.016419Z","run":"run_001"}]},
+    {"kind":"teeter","label":"Качели: вход и выход в разных сеансах","outcome":"manual_segmented_reference","segments":[{"session":"20260924T103449.016419Z","run":"run_003"},{"session":"20260924T104031.431138Z","run":"run_001"}]}
+  ]
+}

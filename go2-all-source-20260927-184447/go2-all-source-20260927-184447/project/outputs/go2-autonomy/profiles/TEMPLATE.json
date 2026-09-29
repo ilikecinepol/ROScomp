@@ -1,0 +1,63 @@
+{
+  "robot_id": "UNASSIGNED",
+  "policy": {
+    "max_vx": 0.35,
+    "max_vy": 0.15,
+    "max_wz": 0.5,
+    "traverse_speed": 0.12,
+    "max_accel": 0.25,
+    "max_yaw_accel": 0.6,
+    "robot_width": 0.4,
+    "robot_length": 0.75,
+    "clearance": 0.1,
+    "waypoint_tolerance": 0.1,
+    "alignment_tolerance": 0.08,
+    "max_localization_error": 0.08,
+    "max_observation_age": 0.6,
+    "max_candidate_age": 2.0,
+    "max_step": 0.12,
+    "max_slope_deg": 28.0,
+    "max_gap": 0.02,
+    "max_lip": 0.02,
+    "max_roll_deg": 15.0,
+    "max_pitch_deg": 35.0,
+    "minimum_body_height": 0.22,
+    "max_body_height": 0.48,
+    "min_battery": 25.0,
+    "max_motor_temperature": 60.0,
+    "max_mission_seconds": 600.0,
+    "verify_seconds": 1.0,
+    "progress_timeout": 12.0,
+    "validated_skills": []
+  },
+  "schema_version": 1,
+  "verified": {
+    "identity": false,
+    "motion_response": false,
+    "geometry_frames": false,
+    "localization": false,
+    "support_geometry": false
+  },
+  "geometry": {
+    "units": null,
+    "up_axis": null,
+    "point_frame": null,
+    "pose_frame": null,
+    "pose_child_frame": null,
+    "source_kind": null,
+    "voxel_size_m": null,
+    "voxel_reference": null,
+    "localization_error_m": null
+  },
+  "time_contracts": {},
+  "expected_identity": {
+    "serial_number": ""
+  },
+  "evidence": {
+    "identity": "",
+    "motion_response": "",
+    "geometry_frames": "",
+    "localization": "",
+    "support_geometry": ""
+  }
+}

@@ -1,0 +1,130 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "ArenaBox.proto"
+EXTERNPROTO "SlalomPole.proto"
+EXTERNPROTO "Teeter.proto"
+EXTERNPROTO "SwingBridge.proto"
+
+PROTO TrueTechArena [
+  field SFVec3f translation 0 0 0
+]
+{
+  Pose {
+    translation IS translation
+    children [
+      # One collision body for the tiled 10.5 x 7.5 m floor.
+      Solid {
+        translation 0 0 -0.05
+        children [
+          Shape {
+            appearance PBRAppearance { baseColor 0.16 0.16 0.15 roughness 0.9 }
+            geometry Box { size 10.5 7.5 0.10 }
+          }
+          Pose { translation 0 -3.50 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.62 0.60 0.54 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 -3.00 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.39 0.39 0.37 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 -2.50 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.62 0.60 0.54 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 -2.00 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.39 0.39 0.37 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 -1.50 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.62 0.60 0.54 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 -1.00 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.39 0.39 0.37 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 -0.50 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.62 0.60 0.54 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 0.00 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.39 0.39 0.37 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 0.50 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.62 0.60 0.54 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 1.00 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.39 0.39 0.37 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 1.50 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.62 0.60 0.54 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 2.00 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.39 0.39 0.37 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 2.50 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.62 0.60 0.54 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 3.00 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.39 0.39 0.37 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+          Pose { translation 0 3.50 0.056 children [ Shape { appearance PBRAppearance { baseColor 0.62 0.60 0.54 roughness 0.9 } geometry Box { size 10.5 0.488 0.012 } } ] }
+        ]
+        name "arena floor"
+        contactMaterial "arena_floor"
+        boundingObject Box { size 10.5 7.5 0.10 }
+        locked TRUE
+      }
+
+      ArenaBox { translation 0 3.78 1.65 size 10.6 0.08 3.3 color 0.72 0.73 0.72 name "north wall" contactMaterial "wall" }
+      ArenaBox { translation 0 -3.78 1.65 size 10.6 0.08 3.3 color 0.72 0.73 0.72 name "south wall" contactMaterial "wall" }
+      ArenaBox { translation 5.28 0 1.65 size 0.08 7.5 3.3 color 0.72 0.73 0.72 name "east wall" contactMaterial "wall" }
+      ArenaBox { translation -5.20 0.15 1.60 size 0.10 6.4 3.2 color 0.008 0.009 0.012 name "black curtain wall" contactMaterial "wall" }
+
+      # Windows and radiators on the north wall (visual scale from CCTV).
+      ArenaBox { translation -2.6 3.70 2.15 size 1.45 0.035 0.92 color 0.42 0.58 0.66 name "window 1" contactMaterial "wall" castShadows FALSE }
+      ArenaBox { translation 0 3.70 2.15 size 1.45 0.035 0.92 color 0.42 0.58 0.66 name "window 2" contactMaterial "wall" castShadows FALSE }
+      ArenaBox { translation 2.6 3.70 2.15 size 1.45 0.035 0.92 color 0.42 0.58 0.66 name "window 3" contactMaterial "wall" castShadows FALSE }
+      ArenaBox { translation -2.6 3.58 0.46 size 1.15 0.18 0.55 color 0.92 0.91 0.86 name "radiator 1" contactMaterial "wall" }
+      ArenaBox { translation 0 3.58 0.46 size 1.15 0.18 0.55 color 0.92 0.91 0.86 name "radiator 2" contactMaterial "wall" }
+      ArenaBox { translation 2.6 3.58 0.46 size 1.15 0.18 0.55 color 0.92 0.91 0.86 name "radiator 3" contactMaterial "wall" }
+
+      # A-frame. Centre and orientation follow the user's marked layout.
+      Solid {
+        translation -2.65 2.55 0
+        children [
+          Pose { translation -1.72 0 0.045 children [ Shape { appearance PBRAppearance { baseColor 0.18 0.19 0.20 roughness 0.92 } geometry Box { size 1.15 1.25 0.09 } } ] }
+          Pose { translation 1.72 0 0.045 children [ Shape { appearance PBRAppearance { baseColor 0.18 0.19 0.20 roughness 0.92 } geometry Box { size 1.15 1.25 0.09 } } ] }
+          Pose { translation -0.545 0 0.345 rotation 0 1 0 -0.429700 children [ Shape { appearance PBRAppearance { baseColor 0.25 0.27 0.29 roughness 0.88 } geometry Box { size 1.20 0.60 0.07 } } ] }
+          Pose { translation 0.545 0 0.345 rotation 0 1 0 0.429700 children [ Shape { appearance PBRAppearance { baseColor 0.25 0.27 0.29 roughness 0.88 } geometry Box { size 1.20 0.60 0.07 } } ] }
+        ]
+        name "A-frame"
+        contactMaterial "arena_rubber"
+        boundingObject Group {
+          children [
+            Pose { translation -1.72 0 0.045 children [ Box { size 1.15 1.25 0.09 } ] }
+            Pose { translation 1.72 0 0.045 children [ Box { size 1.15 1.25 0.09 } ] }
+            Pose { translation -0.545 0 0.345 rotation 0 1 0 -0.429700 children [ Box { size 1.20 0.60 0.07 } ] }
+            Pose { translation 0.545 0 0.345 rotation 0 1 0 0.429700 children [ Box { size 1.20 0.60 0.07 } ] }
+          ]
+        }
+        locked TRUE
+      }
+
+      Teeter { }
+      SwingBridge { }
+
+      # Two-level platform, rotated 90 degrees as in the Blender scene.
+      Solid {
+        translation 2.70 1.55 0
+        rotation 0 0 1 1.570796
+        children [
+          Pose { translation 0 0 0.045 children [ Shape { appearance PBRAppearance { baseColor 0.18 0.19 0.20 roughness 0.92 } geometry Box { size 3.25 1.30 0.09 } } ] }
+          Pose { translation -1.132 0 0.21 rotation 0 1 0 -0.313973 children [ Shape { appearance PBRAppearance { baseColor 0.25 0.27 0.29 roughness 0.88 } geometry Box { size 0.711 0.58 0.06 } } ] }
+          Pose { translation -0.494 0 0.32 children [ Shape { appearance PBRAppearance { baseColor 0.25 0.27 0.29 roughness 0.88 } geometry Box { size 0.60 0.60 0.08 } } ] }
+          Pose { translation -0.154 0 0.39 children [ Shape { appearance PBRAppearance { baseColor 0.11 0.12 0.13 roughness 0.88 } geometry Box { size 0.08 0.60 0.20 } } ] }
+          Pose { translation 0.186 0 0.44 children [ Shape { appearance PBRAppearance { baseColor 0.25 0.27 0.29 roughness 0.88 } geometry Box { size 0.60 0.60 0.08 } } ] }
+          Pose { translation 1.009 0 0.27 rotation 0 1 0 0.338410 children [ Shape { appearance PBRAppearance { baseColor 0.25 0.27 0.29 roughness 0.88 } geometry Box { size 1.024 0.58 0.06 } } ] }
+        ]
+        name "two-level platform"
+        contactMaterial "arena_rubber"
+        boundingObject Group {
+          children [
+            Pose { translation 0 0 0.045 children [ Box { size 3.25 1.30 0.09 } ] }
+            Pose { translation -1.132 0 0.21 rotation 0 1 0 -0.313973 children [ Box { size 0.711 0.58 0.06 } ] }
+            Pose { translation -0.494 0 0.32 children [ Box { size 0.60 0.60 0.08 } ] }
+            Pose { translation -0.154 0 0.39 children [ Box { size 0.08 0.60 0.20 } ] }
+            Pose { translation 0.186 0 0.44 children [ Box { size 0.60 0.60 0.08 } ] }
+            Pose { translation 1.009 0 0.27 rotation 0 1 0 0.338410 children [ Box { size 1.024 0.58 0.06 } ] }
+          ]
+        }
+        locked TRUE
+      }
+
+      # Slalom along the orange-dot line: six poles, 0.90 m spacing.
+      SlalomPole { translation -1.40 -1.30 0 name "slalom pole 1" }
+      SlalomPole { translation -0.50 -1.30 0 name "slalom pole 2" }
+      SlalomPole { translation 0.40 -1.30 0 name "slalom pole 3" }
+      SlalomPole { translation 1.30 -1.30 0 name "slalom pole 4" }
+      SlalomPole { translation 2.20 -1.30 0 name "slalom pole 5" }
+      SlalomPole { translation 3.10 -1.30 0 name "slalom pole 6" }
+
+      # Non-colliding start marker.
+      Pose {
+        translation 4.25 -2.75 0.012
+        children [
+          Shape {
+            appearance PBRAppearance { baseColor 0.03 0.55 0.16 roughness 0.8 }
+            geometry Box { size 0.65 0.65 0.02 }
+          }
+        ]
+      }
+    ]
+  }
+}

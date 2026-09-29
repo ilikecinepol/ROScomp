@@ -1,0 +1,426 @@
+{
+  "scope": "diagnostic_only",
+  "route_verified": false,
+  "pole_candidates": [
+    {
+      "kind": "vertical_pole_candidate",
+      "center_xy": [
+        5.000000000000001,
+        3.5500000000000003
+      ],
+      "width_xy_m": [
+        0.3,
+        0.15000000000000052
+      ],
+      "observed_height_range_m": [
+        0.4499999999999999,
+        1.25
+      ],
+      "height_levels": 14,
+      "metric_target": false,
+      "verified": false,
+      "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены"
+    }
+  ],
+  "reason": "Геометрия требует проверки; диагностические кандидаты не являются маршрутом",
+  "points": 45403,
+  "floor_coefficients": [
+    1.2801000329447072e-17,
+    -5.204170427930421e-18,
+    0.025000000000000088
+  ],
+  "assumed_pose": [
+    2.620254,
+    2.385021,
+    -1.1288116595478945,
+    0.30665
+  ],
+  "point_frame": "odom",
+  "slalom_pole_candidates": [
+    {
+      "kind": "vertical_pole_candidate",
+      "center_xy": [
+        5.000000000000001,
+        3.5500000000000003
+      ],
+      "width_xy_m": [
+        0.3,
+        0.15000000000000052
+      ],
+      "observed_height_range_m": [
+        0.4499999999999999,
+        1.25
+      ],
+      "height_levels": 14,
+      "metric_target": false,
+      "verified": false,
+      "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+      "connected_extent_m": 0.3500000000000007,
+      "row_eligible": true
+    },
+    {
+      "kind": "vertical_pole_candidate",
+      "center_xy": [
+        3.5500000000000003,
+        -0.4499999999999999
+      ],
+      "width_xy_m": [
+        0.20000000000000034,
+        0.14999999999999997
+      ],
+      "observed_height_range_m": [
+        0.3499999999999999,
+        0.8
+      ],
+      "height_levels": 9,
+      "metric_target": false,
+      "verified": false,
+      "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+      "connected_extent_m": 0.20000000000000034,
+      "row_eligible": true
+    },
+    {
+      "kind": "vertical_pole_candidate",
+      "center_xy": [
+        3.4499999999999997,
+        0.6000000000000002
+      ],
+      "width_xy_m": [
+        0.20000000000000034,
+        0.24999999999999994
+      ],
+      "observed_height_range_m": [
+        0.3499999999999999,
+        0.7
+      ],
+      "height_levels": 7,
+      "metric_target": false,
+      "verified": false,
+      "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+      "connected_extent_m": 0.24999999999999994,
+      "row_eligible": true
+    },
+    {
+      "kind": "vertical_pole_candidate",
+      "center_xy": [
+        3.5500000000000003,
+        1.7
+      ],
+      "width_xy_m": [
+        0.4000000000000005,
+        0.24999999999999972
+      ],
+      "observed_height_range_m": [
+        0.3499999999999999,
+        0.75
+      ],
+      "height_levels": 8,
+      "metric_target": false,
+      "verified": false,
+      "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+      "connected_extent_m": 0.4000000000000005,
+      "row_eligible": true
+    },
+    {
+      "kind": "vertical_pole_candidate",
+      "center_xy": [
+        3.1,
+        2.6
+      ],
+      "width_xy_m": [
+        0.09999999999999983,
+        0.09999999999999983
+      ],
+      "observed_height_range_m": [
+        0.75,
+        1.2
+      ],
+      "height_levels": 6,
+      "metric_target": false,
+      "verified": false,
+      "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+      "connected_extent_m": 1.250000000000001,
+      "row_eligible": false,
+      "row_exclusion_reason": "Узкий фрагмент соединён с протяжённым объектом; не подтверждена отдельная стойка"
+    },
+    {
+      "kind": "vertical_pole_candidate",
+      "center_xy": [
+        5.4,
+        3.4499999999999997
+      ],
+      "width_xy_m": [
+        0.09999999999999983,
+        0.05
+      ],
+      "observed_height_range_m": [
+        0.6000000000000001,
+        0.95
+      ],
+      "height_levels": 6,
+      "metric_target": false,
+      "verified": false,
+      "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+      "connected_extent_m": 0.20000000000000034,
+      "row_eligible": true
+    },
+    {
+      "kind": "vertical_pole_candidate",
+      "center_xy": [
+        0.32500000000000007,
+        2.5000000000000004
+      ],
+      "width_xy_m": [
+        0.1999999999999999,
+        0.20000000000000034
+      ],
+      "observed_height_range_m": [
+        0.35,
+        0.6000000000000001
+      ],
+      "height_levels": 6,
+      "metric_target": false,
+      "verified": false,
+      "reason": "Вертикальный узкий объект; цвет, основание и принадлежность змейке ещё не подтверждены",
+      "connected_extent_m": 2.75,
+      "row_eligible": false,
+      "row_exclusion_reason": "Узкий фрагмент соединён с протяжённым объектом; не подтверждена отдельная стойка"
+    }
+  ],
+  "slalom_row_candidates": [
+    {
+      "pole_indices": [
+        1,
+        2,
+        3
+      ],
+      "centers_xy": [
+        [
+          3.5500000000000003,
+          -0.4499999999999999
+        ],
+        [
+          3.4499999999999997,
+          0.6000000000000002
+        ],
+        [
+          3.5500000000000003,
+          1.7
+        ]
+      ],
+      "spacing_m": [
+        1.0499274189945227,
+        1.1000720189703244
+      ],
+      "max_line_residual_m": 0.06665459815202182,
+      "route_verified": false,
+      "reason": "Гипотеза группы стоек; полнота ряда, цвет и свободный коридор ещё не подтверждены"
+    }
+  ],
+  "current_footprint": {
+    "clear": false,
+    "occupied_cells": 116,
+    "unknown_cells": 0,
+    "outside_cells": 0,
+    "reason": "Корпус пересекает занятость, неизвестность или край карты"
+  },
+  "slalom_route_previews": [
+    {
+      "pole_indices": [
+        1,
+        2,
+        3
+      ],
+      "path": [],
+      "reason": "Все варианты входа заблокированы или опора неизвестна",
+      "variants": [
+        {
+          "first_side": "left",
+          "entry_mode": "center",
+          "path": [],
+          "length_m": null,
+          "reason": "Нет наблюдённого прохода для всего корпуса между соседними точками",
+          "blocked_leg": {
+            "leg_index": 0,
+            "from_xy": [
+              3.518104378592171,
+              2.6050232991985696
+            ],
+            "to_xy": [
+              4.454999763422413,
+              1.6993456259650996
+            ],
+            "start_footprint": {
+              "clear": false,
+              "occupied_cells": 155,
+              "unknown_cells": 5,
+              "outside_cells": 0,
+              "reason": "Корпус пересекает занятость, неизвестность или край карты"
+            },
+            "end_footprint": {
+              "clear": false,
+              "occupied_cells": 3,
+              "unknown_cells": 0,
+              "outside_cells": 0,
+              "reason": "Корпус пересекает занятость, неизвестность или край карты"
+            }
+          },
+          "alternating_waypoints_xy": [
+            [
+              4.454999763422413,
+              1.6993456259650996
+            ],
+            [
+              2.545000236577587,
+              0.6006543740349005
+            ],
+            [
+              4.454999763422413,
+              -0.4506543740349002
+            ]
+          ]
+        },
+        {
+          "first_side": "left",
+          "entry_mode": "flank",
+          "path": [],
+          "length_m": null,
+          "reason": "Нет наблюдённого прохода для всего корпуса между соседними точками",
+          "blocked_leg": {
+            "leg_index": 0,
+            "from_xy": [
+              4.423104142014584,
+              2.6043689251636692
+            ],
+            "to_xy": [
+              4.454999763422413,
+              1.6993456259650996
+            ],
+            "start_footprint": {
+              "clear": false,
+              "occupied_cells": 70,
+              "unknown_cells": 0,
+              "outside_cells": 0,
+              "reason": "Корпус пересекает занятость, неизвестность или край карты"
+            },
+            "end_footprint": {
+              "clear": false,
+              "occupied_cells": 2,
+              "unknown_cells": 0,
+              "outside_cells": 0,
+              "reason": "Корпус пересекает занятость, неизвестность или край карты"
+            }
+          },
+          "alternating_waypoints_xy": [
+            [
+              4.454999763422413,
+              1.6993456259650996
+            ],
+            [
+              2.545000236577587,
+              0.6006543740349005
+            ],
+            [
+              4.454999763422413,
+              -0.4506543740349002
+            ]
+          ]
+        },
+        {
+          "first_side": "right",
+          "entry_mode": "center",
+          "path": [],
+          "length_m": null,
+          "reason": "Нет наблюдённого прохода для всего корпуса между соседними точками",
+          "blocked_leg": {
+            "leg_index": 0,
+            "from_xy": [
+              3.518104378592171,
+              2.6050232991985696
+            ],
+            "to_xy": [
+              2.6450002365775873,
+              1.7006543740349003
+            ],
+            "start_footprint": {
+              "clear": false,
+              "occupied_cells": 158,
+              "unknown_cells": 5,
+              "outside_cells": 0,
+              "reason": "Корпус пересекает занятость, неизвестность или край карты"
+            },
+            "end_footprint": {
+              "clear": false,
+              "occupied_cells": 20,
+              "unknown_cells": 1,
+              "outside_cells": 0,
+              "reason": "Корпус пересекает занятость, неизвестность или край карты"
+            }
+          },
+          "alternating_waypoints_xy": [
+            [
+              2.6450002365775873,
+              1.7006543740349003
+            ],
+            [
+              4.354999763422413,
+              0.5993456259650999
+            ],
+            [
+              2.6450002365775873,
+              -0.4493456259650996
+            ]
+          ]
+        },
+        {
+          "first_side": "right",
+          "entry_mode": "flank",
+          "path": [],
+          "length_m": null,
+          "reason": "Нет наблюдённого прохода для всего корпуса между соседними точками",
+          "blocked_leg": {
+            "leg_index": 0,
+            "from_xy": [
+              2.6131046151697586,
+              2.60567767323347
+            ],
+            "to_xy": [
+              2.6450002365775873,
+              1.7006543740349003
+            ],
+            "start_footprint": {
+              "clear": false,
+              "occupied_cells": 121,
+              "unknown_cells": 1,
+              "outside_cells": 0,
+              "reason": "Корпус пересекает занятость, неизвестность или край карты"
+            },
+            "end_footprint": {
+              "clear": false,
+              "occupied_cells": 28,
+              "unknown_cells": 0,
+              "outside_cells": 0,
+              "reason": "Корпус пересекает занятость, неизвестность или край карты"
+            }
+          },
+          "alternating_waypoints_xy": [
+            [
+              2.6450002365775873,
+              1.7006543740349003
+            ],
+            [
+              4.354999763422413,
+              0.5993456259650999
+            ],
+            [
+              2.6450002365775873,
+              -0.4493456259650996
+            ]
+          ]
+        }
+      ],
+      "assumptions_verified": false,
+      "route_verified": false
+    }
+  ]
+}

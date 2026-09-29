@@ -1,0 +1,169 @@
+[
+  {
+    "session": "20260925T102222.359055Z",
+    "summary": true,
+    "run_status": true,
+    "runs": [
+      {
+        "run": "run_001",
+        "jpg": 293,
+        "bad_jpg": [],
+        "missing_indexed_files": [],
+        "camera_index": true,
+        "telemetry": true,
+        "recording_metadata": {
+          "complete": true,
+          "recording": "run_001",
+          "profile": "cabinet"
+        }
+      },
+      {
+        "run": "run_002",
+        "jpg": 174,
+        "bad_jpg": [],
+        "missing_indexed_files": [],
+        "camera_index": true,
+        "telemetry": true,
+        "recording_metadata": {
+          "complete": true,
+          "recording": "run_002",
+          "profile": "cabinet"
+        }
+      }
+    ]
+  },
+  {
+    "session": "20260925T103601.030093Z",
+    "summary": true,
+    "run_status": true,
+    "runs": [
+      {
+        "run": "run_001",
+        "jpg": 391,
+        "bad_jpg": [],
+        "missing_indexed_files": [],
+        "camera_index": true,
+        "telemetry": true,
+        "recording_metadata": {
+          "complete": true,
+          "recording": "run_001",
+          "profile": "maximum"
+        }
+      }
+    ]
+  },
+  {
+    "session": "20260925T104153.532107Z",
+    "summary": true,
+    "run_status": true,
+    "runs": [
+      {
+        "run": "run_001",
+        "jpg": 426,
+        "bad_jpg": [],
+        "missing_indexed_files": [],
+        "camera_index": true,
+        "telemetry": true,
+        "recording_metadata": {
+          "complete": true,
+          "recording": "run_001",
+          "profile": "maximum"
+        }
+      },
+      {
+        "run": "run_002",
+        "jpg": 275,
+        "bad_jpg": [],
+        "missing_indexed_files": [],
+        "camera_index": true,
+        "telemetry": true,
+        "recording_metadata": {
+          "complete": true,
+          "recording": "run_002",
+          "profile": "cabinet"
+        }
+      },
+      {
+        "run": "run_003",
+        "jpg": 451,
+        "bad_jpg": [],
+        "missing_indexed_files": [],
+        "camera_index": true,
+        "telemetry": true,
+        "recording_metadata": {
+          "complete": true,
+          "recording": "run_003",
+          "profile": "sport"
+        }
+      },
+      {
+        "run": "run_004",
+        "jpg": 138,
+        "bad_jpg": [],
+        "missing_indexed_files": [],
+        "camera_index": true,
+        "telemetry": true,
+        "recording_metadata": {
+          "complete": true,
+          "recording": "run_004",
+          "profile": "sport"
+        }
+      },
+      {
+        "run": "run_005",
+        "jpg": 581,
+        "bad_jpg": [],
+        "missing_indexed_files": [],
+        "camera_index": true,
+        "telemetry": true,
+        "recording_metadata": {
+          "complete": true,
+          "recording": "run_005",
+          "profile": "sport"
+        }
+      }
+    ]
+  },
+  {
+    "session": "20260925T105722.336215Z",
+    "summary": false,
+    "run_status": false,
+    "runs": [
+      {
+        "run": "run_001",
+        "jpg": 146,
+        "bad_jpg": [],
+        "missing_indexed_files": [],
+        "camera_index": true,
+        "telemetry": true,
+        "recording_metadata": {
+          "complete": true,
+          "recording": "run_001",
+          "profile": "maximum"
+        }
+      },
+      {
+        "run": "run_002",
+        "jpg": 491,
+        "bad_jpg": [],
+        "missing_indexed_files": [],
+        "camera_index": true,
+        "telemetry": true,
+        "recording_metadata": {
+          "complete": true,
+          "recording": "run_002",
+          "profile": "maximum"
+        }
+      },
+      {
+        "run": "run_003",
+        "jpg": 79,
+        "bad_jpg": [],
+        "missing_indexed_files": [],
+        "camera_index": false,
+        "telemetry": false,
+        "recording_metadata": null
+      }
+    ]
+  }
+]

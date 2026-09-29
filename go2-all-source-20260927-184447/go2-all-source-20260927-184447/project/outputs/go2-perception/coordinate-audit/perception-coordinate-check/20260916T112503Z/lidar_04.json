@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "frame_id": "odom",
+  "resolution_m": 0.05,
+  "source_kind": "occupied_voxel_map_not_raw_lidar_rays",
+  "decode": {
+    "encoding": "native_metric_occupied_voxels",
+    "formula": "points уже в метрах; повторного преобразования нет",
+    "point_count": 103727,
+    "sources": [
+      "https://github.com/legion1581/unitree_ui/blob/main/src/ui/scene/voxel-map.ts",
+      "https://github.com/legion1581/unitree_webrtc_connect/blob/master/unitree_webrtc_connect/lidar/lidar_decoder_libvoxel.py",
+      "https://github.com/legion1581/unitree_webrtc_connect/blob/master/unitree_webrtc_connect/lidar/lidar_decoder_native.py"
+    ],
+    "quantization_m": 0.05,
+    "grid_bounds_validated": true
+  },
+  "robot_pose": {
+    "position_odom_m": [
+      -0.175109,
+      -0.072756,
+      0.3127
+    ],
+    "yaw_rad": -2.634179201594821
+  },
+  "map": {
+    "point_count": 103727,
+    "observed_xy_cells": 16327,
+    "bounds_min_m": [
+      -3.425,
+      -3.275,
+      -0.575
+    ],
+    "bounds_max_m": [
+      2.9250000000000007,
+      3.0750000000000006,
+      1.2750000000000001
+    ],
+    "height_quantiles_m": [
+      -0.22499999999999992,
+      -0.12499999999999994,
+      0.32500000000000007
+    ],
+    "unknown_xy_fraction": 0.00347900390625,
+    "vertical_step_cells": 3648
+  },
+  "floor": {
+    "equation_z_abc": [
+      -0.014457545445091589,
+      -0.02378745006756866,
+      -0.09349427294612926
+    ],
+    "normal_odom": [
+      0.014451947386762535,
+      0.02377823940774515,
+      0.9996127933091883
+    ],
+    "height_at_robot_xy_m": -0.08923194690366869,
+    "support_cells": 1509,
+    "rms_m": 0.016621678238042097,
+    "support_radius_from_robot_m": [
+      0.45,
+      1.8
+    ],
+    "support_bounds_min_m": [
+      -1.7749999999999997,
+      -1.8249999999999997,
+      -0.12499999999999994
+    ],
+    "support_bounds_max_m": [
+      1.5750000000000002,
+      1.725,
+      -0.02499999999999991
+    ],
+    "status": "local_floor_estimate"
+  },
+  "inclined_planes": [],
+  "raised_horizontal_surfaces": [
+    {
+      "classification": "raised_horizontal_surface",
+      "centroid_odom_m": [
+        -0.3044871794871791,
+        0.9493589743589745,
+        -0.02499999999999991
+      ],
+      "observed_area_m2": 0.09750000000000002,
+      "semantic_identity": "unknown: мат, площадка, коробка и т.п. по одному лидару не различимы"
+    }
+  ],
+  "motion_authorized": false,
+  "limitations": [
+    "Это занятые воксели накопленной карты; отсутствие точки не подтверждает свободное место",
+    "Верхняя огибающая теряет нависающие поверхности и нижние слои",
+    "Оценка пола локальная; её нельзя продолжать на всё помещение как доказанный пол",
+    "Точность ограничена размером ячейки и качеством исходной одометрии",
+    "Метки времени карты и позы должны согласовываться внешним сборщиком",
+    "Кандидаты не подтверждают способность робота подняться или наличие свободного подхода"
+  ],
+  "capture_sync": {
+    "metadata_binding": "explicit_npz_file_and_verified_array_shapes",
+    "sensor_clock_synchronization_verified": false,
+    "receive_time_difference_s": -0.04283683900030155,
+    "selection": "nearest_saved_pose_by_receive_time_only"
+  }
+}

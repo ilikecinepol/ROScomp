@@ -1,0 +1,73 @@
+{
+  "training_session": "20260926T142430.175205Z",
+  "candidate_focal_scale_x": 0.8893215143436491,
+  "candidate_offset_px_at_1280": 35.38698681677363,
+  "evaluation": {
+    "training": {
+      "frames": 18,
+      "with_three_camera_candidates": 18,
+      "baseline_three_matches": 8,
+      "corrected_three_matches": 13
+    },
+    "held_out": {
+      "frames": 75,
+      "with_three_camera_candidates": 20,
+      "baseline_three_matches": 2,
+      "corrected_three_matches": 18
+    }
+  },
+  "per_session": {
+    "20260926T142430.175205Z": {
+      "frames": 18,
+      "visible": 18,
+      "baseline": 8,
+      "corrected": 13
+    },
+    "20260926T142840.158195Z": {
+      "frames": 18,
+      "visible": 18,
+      "baseline": 0,
+      "corrected": 17
+    },
+    "20260926T145910.575792Z": {
+      "frames": 19,
+      "visible": 0,
+      "baseline": 0,
+      "corrected": 0
+    },
+    "20260926T151311.430261Z": {
+      "frames": 19,
+      "visible": 0,
+      "baseline": 0,
+      "corrected": 0
+    },
+    "20260927T093307.263822Z": {
+      "frames": 17,
+      "visible": 0,
+      "baseline": 0,
+      "corrected": 0
+    },
+    "20260927T093642.002810Z": {
+      "frames": 1,
+      "visible": 1,
+      "baseline": 1,
+      "corrected": 0
+    },
+    "20260927T095407.476020Z": {
+      "frames": 1,
+      "visible": 1,
+      "baseline": 1,
+      "corrected": 1
+    }
+  },
+  "held_out_regressions": [
+    "20260927T093642.002810Z"
+  ],
+  "candidate_accepted": false,
+  "decision": "rejected_session_regression",
+  "on_parameter_boundary": false,
+  "calibration_verified": false,
+  "profile_modified": false,
+  "motion_authorized": false,
+  "limitation": "Уточнена только горизонтальная проекция. Физическая калибровка, вертикальная геометрия и время не подтверждены."
+}

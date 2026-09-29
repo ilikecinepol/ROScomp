@@ -1,0 +1,12 @@
+{
+  "odom_net_xyz_m": [
+    -0.015792999999999946,
+    -0.004502000000000006,
+    -0.00566899999999998
+  ],
+  "odom_net_xy_m": 0.01642214520091691,
+  "camera_matched_inliers": 228,
+  "camera_shift_p95_px_at_1280": 49.33131408691406,
+  "physical_distance_verified": false,
+  "fleet_restored": true
+}

@@ -1,0 +1,26 @@
+{
+  "before": {
+    "file": "camera_083.jpg",
+    "elapsed_s": 13.048334640999883,
+    "phase": "before",
+    "pts": 10440,
+    "time_base": "1/90000"
+  },
+  "after": {
+    "file": "camera_126.jpg",
+    "elapsed_s": 19.064709615999845,
+    "phase": "after",
+    "pts": 15600,
+    "time_base": "1/90000"
+  },
+  "tracked": 305,
+  "homography_inliers": 190,
+  "median_flow_xy_px": [
+    30.328857421875,
+    7.423408508300781
+  ],
+  "flow_p95_px": 37.02688217163086,
+  "odom_yaw_change_deg": 2.2063531283046154,
+  "odom_xy_change_m": 0.00030297854709526587,
+  "calibration_verified": false
+}

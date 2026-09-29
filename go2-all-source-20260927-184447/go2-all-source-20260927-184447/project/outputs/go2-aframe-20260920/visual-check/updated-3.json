@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "image_size": {
+    "width": 1146,
+    "height": 643
+  },
+  "candidates": [
+    {
+      "id": 0,
+      "kind": "ramp_with_transverse_bars_candidate",
+      "quadrilateral_px": [
+        [
+          598.96,
+          226.57
+        ],
+        [
+          722.83,
+          232.05
+        ],
+        [
+          802.06,
+          429.36
+        ],
+        [
+          521.43,
+          420.99
+        ]
+      ],
+      "quadrilateral_order": [
+        "far_left",
+        "far_right",
+        "near_right",
+        "near_left"
+      ],
+      "entrance": {
+        "endpoints_px": [
+          [
+            521.43,
+            420.99
+          ],
+          [
+            802.06,
+            429.36
+          ]
+        ],
+        "center_px": [
+          661.75,
+          425.17
+        ],
+        "status": "observed_patch_boundary_not_verified_entrance",
+        "verified": false
+      },
+      "motion_authorized": false,
+      "full_ramp_verified": false,
+      "direction": {
+        "coordinate_frame": "image_nonmetric",
+        "axis_unit_xy": [
+          -0.00434,
+          -0.99999
+        ],
+        "axis_angle_from_image_up_deg": -0.249,
+        "entrance_horizontal_offset_normalized": 0.15488,
+        "robot_bearing_deg": null,
+        "distance_m": null
+      },
+      "confidence_heuristic": 0.929,
+      "confidence_is_probability": false,
+      "evidence": {
+        "internal_transverse_levels": 3,
+        "mean_endpoint_error_fraction": 0.0501,
+        "left_right_edge_support_fraction": [
+          0.9,
+          0.575
+        ],
+        "neutral_surface_fraction": 0.9582,
+        "median_saturation_0_255": 46.0,
+        "median_value_0_255": 120.0,
+        "surface_to_scene_value_ratio": 0.7186,
+        "relative_value_spread_q10_q90": 0.4833,
+        "projected_depth_to_width_ratio": 0.9684
+      },
+      "transverse_lines_px": [
+        [
+          [
+            590.2,
+            275.34
+          ],
+          [
+            730.48,
+            279.57
+          ]
+        ],
+        [
+          [
+            554.32,
+            315.06
+          ],
+          [
+            772.28,
+            322.2
+          ]
+        ],
+        [
+          [
+            539.36,
+            363.64
+          ],
+          [
+            785.74,
+            372.55
+          ]
+        ]
+      ]
+    }
+  ],
+  "diagnostics": {
+    "horizontal_line_count": 63,
+    "quadrilateral_hypotheses_tested": 131,
+    "rejected": {
+      "geometry": 19,
+      "transverse_support": 102,
+      "surface": 2,
+      "side_boundaries": 3
+    },
+    "accepted_before_overlap_filter": 5,
+    "scene_median_value_0_255": 167.0,
+    "method": "parallel_transverse_lines_and_dark_neutral_surface",
+    "calibrated": false,
+    "limitations": [
+      "Проверено только на небольшой локальной выборке, качество на других ракурсах неизвестно.",
+      "Нижняя грань гипотезы может быть поперечной планкой; физический вход не подтверждён.",
+      "Нужны минимум две видимые внутренние поперечины; гладкая рампа может быть пропущена.",
+      "Направление на изображении не является курсом робота; расстояние и уклон не определяются."
+    ]
+  }
+}

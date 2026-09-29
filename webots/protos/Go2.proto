@@ -1,0 +1,912 @@
+#VRML_SIM R2025a utf8
+# license: Apache License 2.0
+# license url: http://www.apache.org/licenses/LICENSE-2.0
+# This is a proto file for Webots for the Go2
+# Extracted from: C:\Users\drmma\Documents\ChatGPT\ROS2 Competition\webots\robots\go2_robot_sdk\urdf\go2.urdf
+
+PROTO Go2 [
+  field  SFVec3f     translation     0 0 0
+  field  SFRotation  rotation        0 0 1 0
+  field  SFString    name            "Go2"  # Is `Robot.name`.
+  field  SFString    controller      "go2_stand" # Is `Robot.controller`.
+  field  MFString    controllerArgs  []     # Is `Robot.controllerArgs`.
+  field  SFString    customData      ""     # Is `Robot.customData`.
+  field  SFBool      supervisor      FALSE  # Is `Robot.supervisor`.
+  field  SFBool      synchronization TRUE   # Is `Robot.synchronization`.
+  field  SFBool      selfCollision   FALSE  # Is `Robot.selfCollision`.
+  field  SFFloat     flHipPosition    0.08
+  field  SFFloat     flThighPosition  0.8
+  field  SFFloat     flCalfPosition  -1.5
+  field  SFFloat     frHipPosition   -0.08
+  field  SFFloat     frThighPosition  0.8
+  field  SFFloat     frCalfPosition  -1.5
+  field  SFFloat     rlHipPosition    0.08
+  field  SFFloat     rlThighPosition  0.8
+  field  SFFloat     rlCalfPosition  -1.5
+  field  SFFloat     rrHipPosition   -0.08
+  field  SFFloat     rrThighPosition  0.8
+  field  SFFloat     rrCalfPosition  -1.5
+]
+{
+  Robot {
+    translation IS translation
+    rotation IS rotation
+    controller IS controller
+    controllerArgs IS controllerArgs
+    customData IS customData
+    supervisor IS supervisor
+    synchronization IS synchronization
+    selfCollision IS selfCollision
+    children [
+      DEF base_visual CadShape {
+        url "../robots/go2_robot_sdk/dae/base.dae"
+      }
+      DEF Head_upper Solid {
+        translation 0.285000 0.000000 0.010000
+        children [
+          DEF front_camera Solid {
+            translation 0.045000 0.000000 0.030000
+            rotation -0.577350 0.577352 -0.577350 2.094399
+            children [
+              Shape {
+                appearance DEF camera_color PBRAppearance {
+                  baseColor 0.100000 0.100000 0.100000
+                  roughness 1.000000
+                  metalness 0
+                }
+                geometry Cylinder {
+                  radius 0.01
+                  height 0.01
+                }
+              }
+            ]
+            name "front_camera"
+            boundingObject Cylinder {
+              radius 0.05
+              height 0.09
+            }
+            physics Physics {
+            }
+          }
+          DEF Head_lower Solid {
+            translation 0.008000 0.000000 -0.070000
+            name "Head_lower"
+            boundingObject Sphere {
+              radius 0.047
+            }
+            physics Physics {
+              density -1
+              mass 0.001000
+              centerOfMass [ 0.000000 0.000000 0.000000 ]
+              inertiaMatrix [
+                9.600000e-06 9.600000e-06 9.600000e-06
+                0.000000e+00 0.000000e+00 0.000000e+00
+              ]
+            }
+          }
+        ]
+        name "Head_upper"
+        boundingObject Cylinder {
+          radius 0.05
+          height 0.09
+        }
+        physics Physics {
+          density -1
+          mass 0.001000
+          centerOfMass [ 0.000000 0.000000 0.000000 ]
+          inertiaMatrix [
+            9.600000e-06 9.600000e-06 9.600000e-06
+            0.000000e+00 0.000000e+00 0.000000e+00
+          ]
+        }
+      }
+      Camera {
+        translation 0.45 0 0.05
+        name "front_camera_sensor"
+        width 320
+        height 240
+        fieldOfView 1.396263
+        near 0.03
+        far 20
+        noise 0.002
+      }
+      Lidar {
+        translation 0.08 0 0.13
+        name "lidar"
+        horizontalResolution 720
+        fieldOfView 6.283185
+        verticalFieldOfView 0.698132
+        numberOfLayers 8
+        minRange 0.10
+        maxRange 12
+        resolution 0.01
+        noise 0.005
+      }
+      DEF FL_hip_joint HingeJoint {
+        jointParameters HingeJointParameters {
+          position IS flHipPosition
+          anchor 0.193400 0.046500 0.000000
+        }
+        device [
+          RotationalMotor {
+            name "FL_hip_joint"
+            maxVelocity 30.1
+            minPosition -1.0472
+            maxPosition 1.0472
+            maxTorque 23.7
+          }
+          PositionSensor {
+            name "FL_hip_joint_sensor"
+          }
+        ]
+        endPoint DEF FL_hip Solid {
+          translation 0.193400 0.046500 0.000000
+          children [
+            DEF hip_visual CadShape {
+              url "../robots/go2_robot_sdk/dae/hip.dae"
+            }
+            DEF FL_thigh_joint HingeJoint {
+              jointParameters HingeJointParameters {
+                position IS flThighPosition
+                axis 0.000000 1.000000 0.000000
+                anchor 0.000000 0.095500 0.000000
+              }
+              device [
+                RotationalMotor {
+                  name "FL_thigh_joint"
+                  maxVelocity 30.1
+                  minPosition -1.5708
+                  maxPosition 3.4907
+                  maxTorque 23.7
+                }
+                PositionSensor {
+                  name "FL_thigh_joint_sensor"
+                }
+              ]
+              endPoint DEF FL_thigh Solid {
+                translation 0.000000 0.095500 0.000000
+                rotation 0.000000 1.000000 0.000000 0.800000
+                children [
+                  DEF thigh_visual CadShape {
+                    url "../robots/go2_robot_sdk/dae/thigh.dae"
+                  }
+                  DEF FL_calf_joint HingeJoint {
+                    jointParameters HingeJointParameters {
+                      position IS flCalfPosition
+                      axis 0.000000 1.000000 0.000000
+                      anchor 0.000000 0.000000 -0.213000
+                    }
+                    device [
+                      RotationalMotor {
+                        name "FL_calf_joint"
+                        maxVelocity 15.7
+                        minPosition -2.7227
+                        maxPosition -0.83776
+                        maxTorque 45.43
+                      }
+                      PositionSensor {
+                        name "FL_calf_joint_sensor"
+                      }
+                    ]
+                    endPoint DEF FL_calf Solid {
+                      translation 0.000000 0.000000 -0.213000
+                      rotation 0.000000 -1.000000 0.000000 1.500000
+                      children [
+                        DEF calf_visual CadShape {
+                          url "../robots/go2_robot_sdk/dae/calf.dae"
+                        }
+                        DEF FL_calflower Solid {
+                          translation 0.020000 0.000000 -0.148000
+                          rotation 0.000000 1.000000 0.000000 0.050000
+                          children [
+                            DEF FL_calflower1 Solid {
+                              translation -0.010000 0.000000 -0.040000
+                              rotation 0.000000 1.000000 0.000000 0.480000
+                              name "FL_calflower1"
+                              boundingObject Cylinder {
+                                radius 0.0155
+                                height 0.03
+                              }
+                              physics Physics {
+                              }
+                            }
+                          ]
+                          name "FL_calflower"
+                          boundingObject Cylinder {
+                            radius 0.011
+                            height 0.065
+                          }
+                          physics Physics {
+                          }
+                        }
+                        DEF FL_foot Solid {
+                          translation 0.000000 0.000000 -0.213000
+                          contactMaterial "go2_foot"
+                          children [
+                            DEF foot_visual CadShape {
+                              url "../robots/go2_robot_sdk/dae/foot.dae"
+                            }
+                          ]
+                          name "FL_foot"
+                          boundingObject Pose {
+                            translation -0.002000 0.000000 0.000000
+                            children [
+                              Sphere {
+                                radius 0.022
+                              }
+                            ]
+                          }
+                          physics Physics {
+                            density -1
+                            mass 0.040000
+                            centerOfMass [ 0.000000 0.000000 0.000000 ]
+                            inertiaMatrix [
+                              9.600000e-06 9.600000e-06 9.600000e-06
+                              0.000000e+00 0.000000e+00 0.000000e+00
+                            ]
+                          }
+                        }
+                      ]
+                      name "FL_calf"
+                      boundingObject Pose {
+                        translation 0.008000 0.000000 -0.060000
+                        rotation 0.000000 -1.000000 0.000000 0.210000
+                        children [
+                          Cylinder {
+                            radius 0.012
+                            height 0.12
+                          }
+                        ]
+                      }
+                      physics Physics {
+                        density -1
+                        mass 0.154000
+                        centerOfMass [ 0.005480 -0.000975 -0.115000 ]
+                        inertiaMatrix [
+                          1.080000e-03 1.100000e-03 3.290000e-05
+                          3.400000e-07 1.720000e-05 8.280000e-06
+                        ]
+                      }
+                    }
+                  }
+                ]
+                name "FL_thigh"
+                boundingObject Pose {
+                  translation 0.000000 0.000000 -0.106500
+                  rotation 0.000000 1.000000 0.000000 1.570796
+                  children [
+                    Box {
+                       size 0.213000 0.024500 0.034000
+                    }
+                  ]
+                }
+                physics Physics {
+                  density -1
+                  mass 1.152000
+                  centerOfMass [ -0.003740 -0.022300 -0.032700 ]
+                  inertiaMatrix [
+                    5.840000e-03 5.800000e-03 1.030000e-03
+                    8.720000e-05 -2.890000e-04 8.080000e-04
+                  ]
+                }
+              }
+            }
+          ]
+          name "FL_hip"
+          boundingObject Pose {
+            translation 0.000000 0.080000 0.000000
+            rotation 1.000000 0.000000 0.000000 1.570796
+            children [
+              Cylinder {
+                radius 0.046
+                height 0.04
+              }
+            ]
+          }
+          physics Physics {
+            density -1
+            mass 0.678000
+            centerOfMass [ -0.005400 0.001940 -0.000105 ]
+            inertiaMatrix [
+              4.800000e-04 8.840000e-04 5.960000e-04
+              -3.010000e-06 1.110000e-06 -1.420000e-06
+            ]
+          }
+        }
+      }
+      DEF FR_hip_joint HingeJoint {
+        jointParameters HingeJointParameters {
+          position IS frHipPosition
+          anchor 0.193400 -0.046500 0.000000
+        }
+        device [
+          RotationalMotor {
+            name "FR_hip_joint"
+            maxVelocity 30.1
+            minPosition -1.0472
+            maxPosition 1.0472
+            maxTorque 23.7
+          }
+          PositionSensor {
+            name "FR_hip_joint_sensor"
+          }
+        ]
+        endPoint DEF FR_hip Solid {
+          translation 0.193400 -0.046500 0.000000
+          children [
+            Pose {
+              rotation 1.000000 0.000000 0.000000 3.141500
+              children [
+                USE hip_visual
+              ]
+            }
+            DEF FR_thigh_joint HingeJoint {
+              jointParameters HingeJointParameters {
+                position IS frThighPosition
+                axis 0.000000 1.000000 0.000000
+                anchor 0.000000 -0.095500 0.000000
+              }
+              device [
+                RotationalMotor {
+                  name "FR_thigh_joint"
+                  maxVelocity 30.1
+                  minPosition -1.5708
+                  maxPosition 3.4907
+                  maxTorque 23.7
+                }
+                PositionSensor {
+                  name "FR_thigh_joint_sensor"
+                }
+              ]
+              endPoint DEF FR_thigh Solid {
+                translation 0.000000 -0.095500 0.000000
+                rotation 0.000000 1.000000 0.000000 0.800000
+                children [
+                  DEF thigh_mirror_visual CadShape {
+                    url "../robots/go2_robot_sdk/dae/thigh_mirror.dae"
+                  }
+                  DEF FR_calf_joint HingeJoint {
+                    jointParameters HingeJointParameters {
+                      position IS frCalfPosition
+                      axis 0.000000 1.000000 0.000000
+                      anchor 0.000000 0.000000 -0.213000
+                    }
+                    device [
+                      RotationalMotor {
+                        name "FR_calf_joint"
+                        maxVelocity 15.7
+                        minPosition -2.7227
+                        maxPosition -0.83776
+                        maxTorque 45.43
+                      }
+                      PositionSensor {
+                        name "FR_calf_joint_sensor"
+                      }
+                    ]
+                    endPoint DEF FR_calf Solid {
+                      translation 0.000000 0.000000 -0.213000
+                      rotation 0.000000 -1.000000 0.000000 1.500000
+                      children [
+                        DEF calf_mirror_visual CadShape {
+                          url "../robots/go2_robot_sdk/dae/calf_mirror.dae"
+                        }
+                        DEF FR_calflower Solid {
+                          translation 0.020000 0.000000 -0.148000
+                          rotation 0.000000 1.000000 0.000000 0.050000
+                          children [
+                            DEF FR_calflower1 Solid {
+                              translation -0.010000 0.000000 -0.040000
+                              rotation 0.000000 1.000000 0.000000 0.480000
+                              name "FR_calflower1"
+                              boundingObject Cylinder {
+                                radius 0.0155
+                                height 0.03
+                              }
+                              physics Physics {
+                              }
+                            }
+                          ]
+                          name "FR_calflower"
+                          boundingObject Cylinder {
+                            radius 0.011
+                            height 0.065
+                          }
+                          physics Physics {
+                          }
+                        }
+                        DEF FR_foot Solid {
+                          contactMaterial "go2_foot"
+                          translation 0.000000 0.000000 -0.213000
+                          children [
+                            USE foot_visual
+                          ]
+                          name "FR_foot"
+                          boundingObject Pose {
+                            translation -0.002000 0.000000 0.000000
+                            children [
+                              Sphere {
+                                radius 0.022
+                              }
+                            ]
+                          }
+                          physics Physics {
+                            density -1
+                            mass 0.040000
+                            centerOfMass [ 0.000000 0.000000 0.000000 ]
+                            inertiaMatrix [
+                              9.600000e-06 9.600000e-06 9.600000e-06
+                              0.000000e+00 0.000000e+00 0.000000e+00
+                            ]
+                          }
+                        }
+                      ]
+                      name "FR_calf"
+                      boundingObject Pose {
+                        translation 0.010000 0.000000 -0.060000
+                        rotation 0.000000 -1.000000 0.000000 0.200000
+                        children [
+                          Cylinder {
+                            radius 0.013
+                            height 0.12
+                          }
+                        ]
+                      }
+                      physics Physics {
+                        density -1
+                        mass 0.154000
+                        centerOfMass [ 0.005480 0.000975 -0.115000 ]
+                        inertiaMatrix [
+                          1.080000e-03 1.100000e-03 3.290000e-05
+                          -3.400000e-07 1.720000e-05 -8.280000e-06
+                        ]
+                      }
+                    }
+                  }
+                ]
+                name "FR_thigh"
+                boundingObject Pose {
+                  translation 0.000000 0.000000 -0.106500
+                  rotation 0.000000 1.000000 0.000000 1.570796
+                  children [
+                    Box {
+                       size 0.213000 0.024500 0.034000
+                    }
+                  ]
+                }
+                physics Physics {
+                  density -1
+                  mass 1.152000
+                  centerOfMass [ -0.003740 0.022300 -0.032700 ]
+                  inertiaMatrix [
+                    5.840000e-03 5.800000e-03 1.030000e-03
+                    -8.720000e-05 -2.890000e-04 -8.080000e-04
+                  ]
+                }
+              }
+            }
+          ]
+          name "FR_hip"
+          boundingObject Pose {
+            translation 0.000000 -0.080000 0.000000
+            rotation 1.000000 0.000000 0.000000 1.570796
+            children [
+              Cylinder {
+                radius 0.046
+                height 0.04
+              }
+            ]
+          }
+          physics Physics {
+            density -1
+            mass 0.678000
+            centerOfMass [ -0.005400 -0.001940 -0.000105 ]
+            inertiaMatrix [
+              4.800000e-04 8.840000e-04 5.960000e-04
+              3.010000e-06 1.110000e-06 1.420000e-06
+            ]
+          }
+        }
+      }
+      DEF RL_hip_joint HingeJoint {
+        jointParameters HingeJointParameters {
+          position IS rlHipPosition
+          anchor -0.193400 0.046500 0.000000
+        }
+        device [
+          RotationalMotor {
+            name "RL_hip_joint"
+            maxVelocity 30.1
+            minPosition -1.0472
+            maxPosition 1.0472
+            maxTorque 23.7
+          }
+          PositionSensor {
+            name "RL_hip_joint_sensor"
+          }
+        ]
+        endPoint DEF RL_hip Solid {
+          translation -0.193400 0.046500 0.000000
+          children [
+            Pose {
+              rotation 0.000000 1.000000 0.000000 3.141500
+              children [
+                USE hip_visual
+              ]
+            }
+            DEF RL_thigh_joint HingeJoint {
+              jointParameters HingeJointParameters {
+                position IS rlThighPosition
+                axis 0.000000 1.000000 0.000000
+                anchor 0.000000 0.095500 0.000000
+              }
+              device [
+                RotationalMotor {
+                  name "RL_thigh_joint"
+                  maxVelocity 30.1
+                  minPosition -0.5236
+                  maxPosition 4.5379
+                  maxTorque 23.7
+                }
+                PositionSensor {
+                  name "RL_thigh_joint_sensor"
+                }
+              ]
+              endPoint DEF RL_thigh Solid {
+                translation 0.000000 0.095500 0.000000
+                rotation 0.000000 1.000000 0.000000 0.800000
+                children [
+                  USE thigh_visual
+                  DEF RL_calf_joint HingeJoint {
+                    jointParameters HingeJointParameters {
+                      position IS rlCalfPosition
+                      axis 0.000000 1.000000 0.000000
+                      anchor 0.000000 0.000000 -0.213000
+                    }
+                    device [
+                      RotationalMotor {
+                        name "RL_calf_joint"
+                        maxVelocity 15.7
+                        minPosition -2.7227
+                        maxPosition -0.83776
+                        maxTorque 45.43
+                      }
+                      PositionSensor {
+                        name "RL_calf_joint_sensor"
+                      }
+                    ]
+                    endPoint DEF RL_calf Solid {
+                      translation 0.000000 0.000000 -0.213000
+                      rotation 0.000000 -1.000000 0.000000 1.500000
+                      children [
+                        USE calf_visual
+                        DEF RL_calflower Solid {
+                          translation 0.020000 0.000000 -0.148000
+                          rotation 0.000000 1.000000 0.000000 0.050000
+                          children [
+                            DEF RL_calflower1 Solid {
+                              translation -0.010000 0.000000 -0.040000
+                              rotation 0.000000 1.000000 0.000000 0.480000
+                              name "RL_calflower1"
+                              boundingObject Cylinder {
+                                radius 0.0155
+                                height 0.03
+                              }
+                              physics Physics {
+                              }
+                            }
+                          ]
+                          name "RL_calflower"
+                          boundingObject Cylinder {
+                            radius 0.011
+                            height 0.065
+                          }
+                          physics Physics {
+                          }
+                        }
+                        DEF RL_foot Solid {
+                          contactMaterial "go2_foot"
+                          translation 0.000000 0.000000 -0.213000
+                          children [
+                            USE foot_visual
+                          ]
+                          name "RL_foot"
+                          boundingObject Pose {
+                            translation -0.002000 0.000000 0.000000
+                            children [
+                              Sphere {
+                                radius 0.022
+                              }
+                            ]
+                          }
+                          physics Physics {
+                            density -1
+                            mass 0.040000
+                            centerOfMass [ 0.000000 0.000000 0.000000 ]
+                            inertiaMatrix [
+                              9.600000e-06 9.600000e-06 9.600000e-06
+                              0.000000e+00 0.000000e+00 0.000000e+00
+                            ]
+                          }
+                        }
+                      ]
+                      name "RL_calf"
+                      boundingObject Pose {
+                        translation 0.010000 0.000000 -0.060000
+                        rotation 0.000000 -1.000000 0.000000 0.200000
+                        children [
+                          Cylinder {
+                            radius 0.013
+                            height 0.12
+                          }
+                        ]
+                      }
+                      physics Physics {
+                        density -1
+                        mass 0.154000
+                        centerOfMass [ 0.005480 -0.000975 -0.115000 ]
+                        inertiaMatrix [
+                          1.080000e-03 1.100000e-03 3.290000e-05
+                          3.400000e-07 1.720000e-05 8.280000e-06
+                        ]
+                      }
+                    }
+                  }
+                ]
+                name "RL_thigh"
+                boundingObject Pose {
+                  translation 0.000000 0.000000 -0.106500
+                  rotation 0.000000 1.000000 0.000000 1.570796
+                  children [
+                    Box {
+                       size 0.213000 0.024500 0.034000
+                    }
+                  ]
+                }
+                physics Physics {
+                  density -1
+                  mass 1.152000
+                  centerOfMass [ -0.003740 -0.022300 -0.032700 ]
+                  inertiaMatrix [
+                    5.840000e-03 5.800000e-03 1.030000e-03
+                    8.720000e-05 -2.890000e-04 8.080000e-04
+                  ]
+                }
+              }
+            }
+          ]
+          name "RL_hip"
+          boundingObject Pose {
+            translation 0.000000 0.080000 0.000000
+            rotation 1.000000 0.000000 0.000000 1.570796
+            children [
+              Cylinder {
+                radius 0.046
+                height 0.04
+              }
+            ]
+          }
+          physics Physics {
+            density -1
+            mass 0.678000
+            centerOfMass [ 0.005400 0.001940 -0.000105 ]
+            inertiaMatrix [
+              4.800000e-04 8.840000e-04 5.960000e-04
+              3.010000e-06 -1.110000e-06 -1.420000e-06
+            ]
+          }
+        }
+      }
+      DEF RR_hip_joint HingeJoint {
+        jointParameters HingeJointParameters {
+          position IS rrHipPosition
+          anchor -0.193400 -0.046500 0.000000
+        }
+        device [
+          RotationalMotor {
+            name "RR_hip_joint"
+            maxVelocity 30.1
+            minPosition -1.0472
+            maxPosition 1.0472
+            maxTorque 23.7
+          }
+          PositionSensor {
+            name "RR_hip_joint_sensor"
+          }
+        ]
+        endPoint DEF RR_hip Solid {
+          translation -0.193400 -0.046500 0.000000
+          children [
+            Pose {
+              rotation 0.000046 0.000046 -1.000000 3.141593
+              children [
+                USE hip_visual
+              ]
+            }
+            DEF RR_thigh_joint HingeJoint {
+              jointParameters HingeJointParameters {
+                position IS rrThighPosition
+                axis 0.000000 1.000000 0.000000
+                anchor 0.000000 -0.095500 0.000000
+              }
+              device [
+                RotationalMotor {
+                  name "RR_thigh_joint"
+                  maxVelocity 30.1
+                  minPosition -0.5236
+                  maxPosition 4.5379
+                  maxTorque 23.7
+                }
+                PositionSensor {
+                  name "RR_thigh_joint_sensor"
+                }
+              ]
+              endPoint DEF RR_thigh Solid {
+                translation 0.000000 -0.095500 0.000000
+                rotation 0.000000 1.000000 0.000000 0.800000
+                children [
+                  USE thigh_mirror_visual
+                  DEF RR_calf_joint HingeJoint {
+                    jointParameters HingeJointParameters {
+                      position IS rrCalfPosition
+                      axis 0.000000 1.000000 0.000000
+                      anchor 0.000000 0.000000 -0.213000
+                    }
+                    device [
+                      RotationalMotor {
+                        name "RR_calf_joint"
+                        maxVelocity 15.7
+                        minPosition -2.7227
+                        maxPosition -0.83776
+                        maxTorque 45.43
+                      }
+                      PositionSensor {
+                        name "RR_calf_joint_sensor"
+                      }
+                    ]
+                    endPoint DEF RR_calf Solid {
+                      translation 0.000000 0.000000 -0.213000
+                      rotation 0.000000 -1.000000 0.000000 1.500000
+                      children [
+                        USE calf_mirror_visual
+                        DEF RR_calflower Solid {
+                          translation 0.020000 0.000000 -0.148000
+                          rotation 0.000000 1.000000 0.000000 0.050000
+                          children [
+                            DEF RR_calflower1 Solid {
+                              translation -0.010000 0.000000 -0.040000
+                              rotation 0.000000 1.000000 0.000000 0.480000
+                              name "RR_calflower1"
+                              boundingObject Cylinder {
+                                radius 0.0155
+                                height 0.03
+                              }
+                              physics Physics {
+                              }
+                            }
+                          ]
+                          name "RR_calflower"
+                          boundingObject Cylinder {
+                            radius 0.011
+                            height 0.065
+                          }
+                          physics Physics {
+                          }
+                        }
+                        DEF RR_foot Solid {
+                          contactMaterial "go2_foot"
+                          translation 0.000000 0.000000 -0.213000
+                          children [
+                            USE foot_visual
+                          ]
+                          name "RR_foot"
+                          boundingObject Pose {
+                            translation -0.002000 0.000000 0.000000
+                            children [
+                              Sphere {
+                                radius 0.022
+                              }
+                            ]
+                          }
+                          physics Physics {
+                            density -1
+                            mass 0.040000
+                            centerOfMass [ 0.000000 0.000000 0.000000 ]
+                            inertiaMatrix [
+                              9.600000e-06 9.600000e-06 9.600000e-06
+                              0.000000e+00 0.000000e+00 0.000000e+00
+                            ]
+                          }
+                        }
+                      ]
+                      name "RR_calf"
+                      boundingObject Pose {
+                        translation 0.010000 0.000000 -0.060000
+                        rotation 0.000000 -1.000000 0.000000 0.200000
+                        children [
+                          Cylinder {
+                            radius 0.013
+                            height 0.12
+                          }
+                        ]
+                      }
+                      physics Physics {
+                        density -1
+                        mass 0.154000
+                        centerOfMass [ 0.005480 0.000975 -0.115000 ]
+                        inertiaMatrix [
+                          1.080000e-03 1.100000e-03 3.290000e-05
+                          -3.400000e-07 1.720000e-05 -8.280000e-06
+                        ]
+                      }
+                    }
+                  }
+                ]
+                name "RR_thigh"
+                boundingObject Pose {
+                  translation 0.000000 0.000000 -0.106500
+                  rotation 0.000000 1.000000 0.000000 1.570796
+                  children [
+                    Box {
+                       size 0.213000 0.024500 0.034000
+                    }
+                  ]
+                }
+                physics Physics {
+                  density -1
+                  mass 1.152000
+                  centerOfMass [ -0.003740 0.022300 -0.032700 ]
+                  inertiaMatrix [
+                    5.840000e-03 5.800000e-03 1.030000e-03
+                    -8.720000e-05 -2.890000e-04 -8.080000e-04
+                  ]
+                }
+              }
+            }
+          ]
+          name "RR_hip"
+          boundingObject Pose {
+            translation 0.000000 -0.080000 0.000000
+            rotation 1.000000 0.000000 0.000000 1.570796
+            children [
+              Cylinder {
+                radius 0.046
+                height 0.04
+              }
+            ]
+          }
+          physics Physics {
+            density -1
+            mass 0.678000
+            centerOfMass [ 0.005400 -0.001940 -0.000105 ]
+            inertiaMatrix [
+              4.800000e-04 8.840000e-04 5.960000e-04
+              -3.010000e-06 -1.110000e-06 1.420000e-06
+            ]
+          }
+        }
+      }
+      DEF imu Solid {
+        translation -0.025570 0.000000 0.042320
+        name "imu"
+      }
+      DEF radar Solid {
+        translation 0.289450 0.000000 -0.046825
+        rotation 0.000000 1.000000 0.000000 2.878200
+        name "radar"
+      }
+    ]
+    name IS name
+    boundingObject Box {
+       size 0.376200 0.093500 0.114000
+    }
+    physics Physics {
+      density -1
+      mass 6.921000
+      centerOfMass [ 0.021112 0.000000 -0.005366 ]
+      inertiaMatrix [
+        2.448000e-02 9.807700e-02 1.070000e-01
+        1.216600e-04 1.484900e-03 -3.120000e-05
+      ]
+    }
+  }
+}

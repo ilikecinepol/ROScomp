@@ -1,0 +1,11 @@
+{
+  "files": {
+    "keyboard_client.py": "321c8e985a0dc6a400a2ad98ccda1ab0b9aae2fc80f8d4674f397f910ef23a15",
+    "remote_teleop.py": "78a0650b4f400e03cf012c522de95f59a2645b1c8b96d9a54e76f5e9f68076a2",
+    "run_teleop.py": "892ef0d6d0d72651e4ac3573488cc8e9cd20906783dad4feb8b87347750640ce"
+  },
+  "tests": 61,
+  "gui_smoke": "passed, demo transport, no network",
+  "deployed_to_pi": false,
+  "client_fix_20260924": "Ошибки запуска обёртки отображаются и записываются; 28 проверок пройдены"
+}

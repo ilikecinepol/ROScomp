@@ -1,0 +1,42 @@
+{
+  "training_session": "20260926T142430.175205Z",
+  "candidate_offset_px_at_1280": 13.101851032775613,
+  "training_frame_offsets": [
+    16.433869094521526,
+    9.865666610619655,
+    15.736474329071655,
+    9.534358247749651,
+    9.54656766017763,
+    15.597878382610759,
+    15.416029835985057,
+    8.65894697537476,
+    16.189648317849162,
+    15.054483776914537,
+    8.332734321091039,
+    7.840441279741299,
+    13.848597318392251,
+    14.309669285514872,
+    7.234890951189982,
+    13.242224625712879,
+    7.238330276540864,
+    12.961477439838347
+  ],
+  "evaluation": {
+    "training": {
+      "frames": 18,
+      "with_three_camera_candidates": 18,
+      "baseline_three_matches": 8,
+      "corrected_three_matches": 0
+    },
+    "held_out": {
+      "frames": 75,
+      "with_three_camera_candidates": 20,
+      "baseline_three_matches": 2,
+      "corrected_three_matches": 1
+    }
+  },
+  "calibration_verified": false,
+  "profile_modified": false,
+  "motion_authorized": false,
+  "limitation": "Сеансы разделены, но независимость положений робота и физическая калибровка не подтверждены."
+}

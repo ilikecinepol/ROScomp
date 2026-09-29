@@ -1,0 +1,4582 @@
+{
+  "scope": "unverified_frame_diagnostic",
+  "summary": {
+    "slot-1724": {
+      "body_clear": 20
+    },
+    "slot-1728": {
+      "body_clear": 19
+    },
+    "slot-1759": {
+      "occupied_inside_nominal_body": 20
+    }
+  },
+  "frames": [
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000000.json",
+      "pose": {
+        "x": 9.261154,
+        "y": 1.485098,
+        "yaw": 3.087340494783428,
+        "z": 0.307976
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000001.json",
+      "pose": {
+        "x": 9.261003,
+        "y": 1.484953,
+        "yaw": 3.087878526104603,
+        "z": 0.307973
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000002.json",
+      "pose": {
+        "x": 9.261063,
+        "y": 1.485037,
+        "yaw": 3.088377240100089,
+        "z": 0.307972
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000003.json",
+      "pose": {
+        "x": 9.261063,
+        "y": 1.485063,
+        "yaw": 3.0888368392576093,
+        "z": 0.307973
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000004.json",
+      "pose": {
+        "x": 9.261133,
+        "y": 1.485181,
+        "yaw": 3.089198830938073,
+        "z": 0.307974
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000005.json",
+      "pose": {
+        "x": 9.261239,
+        "y": 1.485188,
+        "yaw": 3.089287102713767,
+        "z": 0.307975
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000006.json",
+      "pose": {
+        "x": 9.261191,
+        "y": 1.485322,
+        "yaw": 3.089353327908524,
+        "z": 0.307974
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000007.json",
+      "pose": {
+        "x": 9.261215,
+        "y": 1.485338,
+        "yaw": 3.0897002480480613,
+        "z": 0.307974
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000008.json",
+      "pose": {
+        "x": 9.261077,
+        "y": 1.485223,
+        "yaw": 3.090057069741966,
+        "z": 0.307973
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000009.json",
+      "pose": {
+        "x": 9.261202,
+        "y": 1.485153,
+        "yaw": 3.0901337914029794,
+        "z": 0.307974
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000010.json",
+      "pose": {
+        "x": 9.261257,
+        "y": 1.485178,
+        "yaw": 3.0904284425889004,
+        "z": 0.307976
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000011.json",
+      "pose": {
+        "x": 9.261325,
+        "y": 1.485266,
+        "yaw": 3.0902273516188887,
+        "z": 0.307977
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000012.json",
+      "pose": {
+        "x": 9.261349,
+        "y": 1.485285,
+        "yaw": 3.0905732838479563,
+        "z": 0.307976
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000013.json",
+      "pose": {
+        "x": 9.261385,
+        "y": 1.485118,
+        "yaw": 3.0909659994196765,
+        "z": 0.307978
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000014.json",
+      "pose": {
+        "x": 9.261493,
+        "y": 1.485077,
+        "yaw": 3.091368202830091,
+        "z": 0.30798
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000015.json",
+      "pose": {
+        "x": 9.261501,
+        "y": 1.485001,
+        "yaw": 3.0911099277553595,
+        "z": 0.307979
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000016.json",
+      "pose": {
+        "x": 9.261336,
+        "y": 1.484933,
+        "yaw": 3.091444520721483,
+        "z": 0.307978
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000017.json",
+      "pose": {
+        "x": 9.26127,
+        "y": 1.484995,
+        "yaw": 3.091656626983392,
+        "z": 0.307976
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000018.json",
+      "pose": {
+        "x": 9.261296,
+        "y": 1.484891,
+        "yaw": 3.091909613984324,
+        "z": 0.307976
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1724",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1724\\20260926T142430.175205Z\\cloud_000019.json",
+      "pose": {
+        "x": 9.261306,
+        "y": 1.485025,
+        "yaw": 3.0919678233456627,
+        "z": 0.307975
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000001.json",
+      "pose": {
+        "x": 9.26212,
+        "y": 1.485221,
+        "yaw": 3.0920633531069943,
+        "z": 0.307983
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000002.json",
+      "pose": {
+        "x": 9.26203,
+        "y": 1.485128,
+        "yaw": 3.091908528407318,
+        "z": 0.30798
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000003.json",
+      "pose": {
+        "x": 9.261933,
+        "y": 1.484984,
+        "yaw": 3.0916557821014097,
+        "z": 0.307981
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000004.json",
+      "pose": {
+        "x": 9.261786,
+        "y": 1.484951,
+        "yaw": 3.09144522559664,
+        "z": 0.307978
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000005.json",
+      "pose": {
+        "x": 9.26194,
+        "y": 1.484943,
+        "yaw": 3.0907920761514927,
+        "z": 0.307979
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000006.json",
+      "pose": {
+        "x": 9.261972,
+        "y": 1.48491,
+        "yaw": 3.0906128495757614,
+        "z": 0.307981
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000007.json",
+      "pose": {
+        "x": 9.261884,
+        "y": 1.484921,
+        "yaw": 3.090132821681589,
+        "z": 0.307978
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000008.json",
+      "pose": {
+        "x": 9.262011,
+        "y": 1.484998,
+        "yaw": 3.08984718122623,
+        "z": 0.307981
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000009.json",
+      "pose": {
+        "x": 9.262099,
+        "y": 1.485083,
+        "yaw": 3.0895714969326415,
+        "z": 0.307983
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000010.json",
+      "pose": {
+        "x": 9.26217,
+        "y": 1.485131,
+        "yaw": 3.089322887620639,
+        "z": 0.307982
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000011.json",
+      "pose": {
+        "x": 9.262196,
+        "y": 1.48514,
+        "yaw": 3.0890002234318024,
+        "z": 0.307983
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000012.json",
+      "pose": {
+        "x": 9.26217,
+        "y": 1.485094,
+        "yaw": 3.088785094707257,
+        "z": 0.307983
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000013.json",
+      "pose": {
+        "x": 9.262177,
+        "y": 1.485119,
+        "yaw": 3.088067335127257,
+        "z": 0.307981
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000014.json",
+      "pose": {
+        "x": 9.262151,
+        "y": 1.484985,
+        "yaw": 3.0880849713324974,
+        "z": 0.307981
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000015.json",
+      "pose": {
+        "x": 9.2621,
+        "y": 1.485061,
+        "yaw": 3.0875453172263323,
+        "z": 0.30798
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000016.json",
+      "pose": {
+        "x": 9.262187,
+        "y": 1.485165,
+        "yaw": 3.0868324701018706,
+        "z": 0.307982
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000017.json",
+      "pose": {
+        "x": 9.262205,
+        "y": 1.485238,
+        "yaw": 3.0862340108059305,
+        "z": 0.307982
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000018.json",
+      "pose": {
+        "x": 9.262196,
+        "y": 1.485348,
+        "yaw": 3.0857596781250476,
+        "z": 0.307982
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1728",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000019.json",
+      "pose": {
+        "x": 9.262041,
+        "y": 1.485178,
+        "yaw": 3.085727101629668,
+        "z": 0.307981
+      },
+      "status": "body_clear",
+      "reason": "Текущий корпус и запас помещаются; это не проверка всего маршрута",
+      "nominal": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "expanded": {
+        "clear": true,
+        "occupied_cells": 0,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус помещается в наблюдаемую область"
+      },
+      "occupied_samples": [],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000000.json",
+      "pose": {
+        "x": 9.797376,
+        "y": 2.262541,
+        "yaw": -3.0957058476392825,
+        "z": 0.311114
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 15,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.34479695260113663,
+          "left_m": 0.17854501822781252,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.39474432186303504,
+          "left_m": 0.18083855345001013,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.3470904878233343,
+          "left_m": 0.1285976489659128,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.3970378570852327,
+          "left_m": 0.13089118418811038,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.34938402304553196,
+          "left_m": 0.07865027970401352,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.39933139230743037,
+          "left_m": 0.08094381492621111,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.35167755826772956,
+          "left_m": 0.02870291044211423,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.3539710934899272,
+          "left_m": -0.0212444588197855,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.25636989018832634,
+          "left_m": -0.07577889852608005,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.3063172594502265,
+          "left_m": -0.07348536330388238,
+          "height_above_floor_m": 0.44999999999999996
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.3562646287121249,
+          "left_m": -0.07119182808168478,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.35855816393432255,
+          "left_m": -0.1211391973435845,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.36085169915652016,
+          "left_m": -0.1710865666054838,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3131978651168194,
+          "left_m": -0.22332747108958065,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.3631452343787178,
+          "left_m": -0.22103393586738307,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000001.json",
+      "pose": {
+        "x": 9.797456,
+        "y": 2.262358,
+        "yaw": -3.0954678771666915,
+        "z": 0.311113
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.2924307341122033,
+          "left_m": 0.22608197152050472,
+          "height_above_floor_m": 0.5500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.3446829773223998,
+          "left_m": 0.17844057062273136,
+          "height_above_floor_m": 0.8000000000000002
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.3946297993763842,
+          "left_m": 0.18074599177894332,
+          "height_above_floor_m": 1.1000000000000003
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.3469883984786118,
+          "left_m": 0.12849374856874562,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.3969352205325962,
+          "left_m": 0.1307991697249576,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.34929381963482375,
+          "left_m": 0.07854692651476033,
+          "height_above_floor_m": 0.7000000000000001
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.3992406416888082,
+          "left_m": 0.08085234767097228,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.35159924079103577,
+          "left_m": 0.028600104460775023,
+          "height_above_floor_m": 1.0500000000000003
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.3539046619472478,
+          "left_m": -0.021346717593210725,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2563164389954891,
+          "left_m": -0.07590438195962002,
+          "height_above_floor_m": 0.5500000000000002
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.3062632610494753,
+          "left_m": -0.07359896080340798,
+          "height_above_floor_m": 0.45
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.35621008310345975,
+          "left_m": -0.07129353964719602,
+          "height_above_floor_m": 1.1000000000000003
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.35851550425967177,
+          "left_m": -0.12124036170118177,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.3608209254158838,
+          "left_m": -0.17118718375516706,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3131795245181114,
+          "left_m": -0.22343942696536434,
+          "height_above_floor_m": 0.7000000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.3631263465720958,
+          "left_m": -0.22113400580915238,
+          "height_above_floor_m": 0.8000000000000002
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000002.json",
+      "pose": {
+        "x": 9.797515,
+        "y": 2.262453,
+        "yaw": -3.0953566383507773,
+        "z": 0.311116
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 15,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.3445997978684238,
+          "left_m": 0.17857108316589557,
+          "height_above_floor_m": 0.8000000000000002
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.39454636316106634,
+          "left_m": 0.18088206033317628,
+          "height_above_floor_m": 1.1000000000000003
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.3469107750357046,
+          "left_m": 0.12862451787325171,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.39685734032834713,
+          "left_m": 0.13093549504053245,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.3492217522029854,
+          "left_m": 0.07867795258060832,
+          "height_above_floor_m": 0.7000000000000001
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.3991683174956279,
+          "left_m": 0.08098892974788904,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.35153272937026614,
+          "left_m": 0.028731387287964934,
+          "height_above_floor_m": 1.0500000000000003
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.35384370653754693,
+          "left_m": -0.021215178004678904,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2562615531195409,
+          "left_m": -0.07578369763188383,
+          "height_above_floor_m": 0.5500000000000002
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.3062081184121852,
+          "left_m": -0.07347272046460303,
+          "height_above_floor_m": 0.45
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.3561546837048277,
+          "left_m": -0.0711617432973223,
+          "height_above_floor_m": 1.1000000000000003
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.3584656608721085,
+          "left_m": -0.12110830858996613,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.36077663803938925,
+          "left_m": -0.1710548738826095,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3131410499140275,
+          "left_m": -0.22331241634253365,
+          "height_above_floor_m": 0.7000000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.36308761520667004,
+          "left_m": -0.22100143917525292,
+          "height_above_floor_m": 0.8000000000000002
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000003.json",
+      "pose": {
+        "x": 9.797547,
+        "y": 2.262505,
+        "yaw": -3.0948969678252882,
+        "z": 0.311114
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 15,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.3444832851893621,
+          "left_m": 0.17877991626339076,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.3944287829171737,
+          "left_m": 0.18111385214962614,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.34681722107559754,
+          "left_m": 0.12883441853557778,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.39676271880340913,
+          "left_m": 0.13116835442181318,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.34915115696183296,
+          "left_m": 0.07888892080776527,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.39909665468964456,
+          "left_m": 0.08122285669400067,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.3514850928480684,
+          "left_m": 0.02894342307995277,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.3538190287343039,
+          "left_m": -0.021002074647860188,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2562619691649143,
+          "left_m": -0.07561544414814356,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.30620746689272765,
+          "left_m": -0.07328150826190809,
+          "height_above_floor_m": 0.44999999999999996
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.3561529646205393,
+          "left_m": -0.0709475723756727,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.35848690050677473,
+          "left_m": -0.12089307010348564,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.3608208363930102,
+          "left_m": -0.17083856783129814,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.313209274551434,
+          "left_m": -0.22311800144534605,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.36315477227924564,
+          "left_m": -0.22078406555911065,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000004.json",
+      "pose": {
+        "x": 9.797378,
+        "y": 2.262437,
+        "yaw": -3.0944872094460933,
+        "z": 0.311113
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 15,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.34458201422440815,
+          "left_m": 0.17886108946903415,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.394526551409488,
+          "left_m": 0.18121549074495769,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.3469364155003318,
+          "left_m": 0.12891655228395296,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.3968809526854116,
+          "left_m": 0.1312709535598765,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.3492908167762554,
+          "left_m": 0.07897201509887222,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.39923535396133525,
+          "left_m": 0.08132641637479579,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.35164521805217896,
+          "left_m": 0.029027477913791504,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.3539996193281026,
+          "left_m": -0.020917059271289673,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2564649462338647,
+          "left_m": -0.07557039900821759,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.3064094834189463,
+          "left_m": -0.07321599773229395,
+          "height_above_floor_m": 0.44999999999999996
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.35635402060402616,
+          "left_m": -0.07086159645637041,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.3587084218799498,
+          "left_m": -0.12080613364145157,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.3610628231558734,
+          "left_m": -0.17075067082653228,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3134726872467171,
+          "left_m": -0.2230496092875366,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.36341722443179697,
+          "left_m": -0.22069520801161302,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000005.json",
+      "pose": {
+        "x": 9.797153,
+        "y": 2.262329,
+        "yaw": -3.0942858859315203,
+        "z": 0.311113
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 15,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.34477585380361414,
+          "left_m": 0.17883321918477346,
+          "height_above_floor_m": 0.8000000000000002
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.3947199159802026,
+          "left_m": 0.18119767542267562,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.34714031004151635,
+          "left_m": 0.12888915700818365,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.39708437221810483,
+          "left_m": 0.13125361324608578,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.3495047662794185,
+          "left_m": 0.07894509483159423,
+          "height_above_floor_m": 0.7000000000000001
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.399448828456007,
+          "left_m": 0.08130955106949639,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.3518692225173207,
+          "left_m": 0.029001032655004845,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.35423367875522294,
+          "left_m": -0.020943029521585,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2567100106399463,
+          "left_m": -0.07561600417397878,
+          "height_above_floor_m": 0.5500000000000002
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.3066540728165366,
+          "left_m": -0.07325154793607654,
+          "height_above_floor_m": 0.44999999999999996
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.35659813499312515,
+          "left_m": -0.07088709169817439,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.35896259123102736,
+          "left_m": -0.12083115387476424,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.3613270474689295,
+          "left_m": -0.17077521605135365,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3137474415302432,
+          "left_m": -0.22308373446584517,
+          "height_above_floor_m": 0.7000000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.36369150370683173,
+          "left_m": -0.22071927822794302,
+          "height_above_floor_m": 0.8000000000000002
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000006.json",
+      "pose": {
+        "x": 9.797105,
+        "y": 2.262063,
+        "yaw": -3.094744452541053,
+        "z": 0.31111
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.2926315343957052,
+          "left_m": 0.2260152253084199,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.3449182288925776,
+          "left_m": 0.17841163743323332,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.39486337007860667,
+          "left_m": 0.18075319074407667,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.347259782203421,
+          "left_m": 0.128466496247203,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.39720492338945007,
+          "left_m": 0.13080804955804634,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.34960133551426437,
+          "left_m": 0.07852135506117308,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.3995464767002934,
+          "left_m": 0.08086290837201643,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.35194288882510777,
+          "left_m": 0.02857621387514318,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.35428444213595117,
+          "left_m": -0.021368927310887166,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2567357130747348,
+          "left_m": -0.07599717511860385,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.3066808542607656,
+          "left_m": -0.07365562180776042,
+          "height_above_floor_m": 0.4499999999999999
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.3566259954467946,
+          "left_m": -0.07131406849691707,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.358967548757638,
+          "left_m": -0.12125920968294743,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.3613091020684814,
+          "left_m": -0.1712043508689773,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3137055141932958,
+          "left_m": -0.22349104536585057,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.3636506553793248,
+          "left_m": -0.22114949205500722,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000007.json",
+      "pose": {
+        "x": 9.797153,
+        "y": 2.262162,
+        "yaw": -3.095242079626664,
+        "z": 0.311111
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.29269143394419966,
+          "left_m": 0.22596624559586123,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.34495443313340285,
+          "left_m": 0.1783366443404526,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.39490073335570824,
+          "left_m": 0.1806533433073503,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.3472711321003006,
+          "left_m": 0.12839034411814584,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.397217432322606,
+          "left_m": 0.13070704308504352,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.3495878310671983,
+          "left_m": 0.0784440438958395,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.3995341312895037,
+          "left_m": 0.0807607428627372,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.35190453003409605,
+          "left_m": 0.02849774367353318,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.35422122900099384,
+          "left_m": -0.02144855654877359,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.25664532752327884,
+          "left_m": -0.07602825470487537,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.30659162774558607,
+          "left_m": -0.07371155573797761,
+          "height_above_floor_m": 0.44999999999999996
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.3565379279678915,
+          "left_m": -0.07139485677107991,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.3588546269347893,
+          "left_m": -0.1213411569933867,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.36117132590168705,
+          "left_m": -0.171287457215693,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3135417246462793,
+          "left_m": -0.22355045640489704,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.3634880248685847,
+          "left_m": -0.22123375743799933,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000008.json",
+      "pose": {
+        "x": 9.797026,
+        "y": 2.262,
+        "yaw": -3.0954860635010637,
+        "z": 0.311111
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.29288088900803216,
+          "left_m": 0.22573885250409403,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.34513226578714085,
+          "left_m": 0.17809650133743254,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.3950791297600255,
+          "left_m": 0.18040101414365659,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.34743677859336497,
+          "left_m": 0.12814963736454657,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.39738364256624964,
+          "left_m": 0.1304541501707706,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.34974129139958904,
+          "left_m": 0.07820277339166103,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.3996881553724737,
+          "left_m": 0.08050728619788508,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.35204580420581316,
+          "left_m": 0.028255909418775482,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.3543503170120373,
+          "left_m": -0.0216909545541105,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2567611018724903,
+          "left_m": -0.07624684413944423,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.30670796584537674,
+          "left_m": -0.07394233133322009,
+          "height_above_floor_m": 0.44999999999999996
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.35665482981826135,
+          "left_m": -0.07163781852699605,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.3589593426244855,
+          "left_m": -0.12158468249988202,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.36126385543070955,
+          "left_m": -0.17153154647276755,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.31362150426404906,
+          "left_m": -0.22378292325187718,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.36356836823693367,
+          "left_m": -0.2214784104456531,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000009.json",
+      "pose": {
+        "x": 9.797006,
+        "y": 2.261896,
+        "yaw": -3.09567936137046,
+        "z": 0.311109
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.29294927060371173,
+          "left_m": 0.22557926257693608,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.3451914372417423,
+          "left_m": 0.17792681222058906,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.39513874573893065,
+          "left_m": 0.18022167036143127,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.3474862953825846,
+          "left_m": 0.1279795037233994,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.39743360387977295,
+          "left_m": 0.1302743618642416,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.3497811535234268,
+          "left_m": 0.07803219522621016,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.3997284620206152,
+          "left_m": 0.08032705336705238,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.3520760116642691,
+          "left_m": 0.02808488672902093,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.35437086980511134,
+          "left_m": -0.02186242176816875,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2567711109515752,
+          "left_m": -0.07639944654704249,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.3067184194487653,
+          "left_m": -0.0741045884062002,
+          "height_above_floor_m": 0.4499999999999999
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.35666572794595364,
+          "left_m": -0.07180973026535797,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.3589605860867959,
+          "left_m": -0.12175703876254768,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.3612554442276381,
+          "left_m": -0.1717043472597369,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3136029938712921,
+          "left_m": -0.22394651389776835,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.3635503023684804,
+          "left_m": -0.22165165575692614,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000010.json",
+      "pose": {
+        "x": 9.796949,
+        "y": 2.261849,
+        "yaw": -3.0960157482262014,
+        "z": 0.311109
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.29308421810814805,
+          "left_m": 0.2254363513232428,
+          "height_above_floor_m": 0.5500000000000003
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.3453103521327769,
+          "left_m": 0.17776633008513779,
+          "height_above_floor_m": 0.8000000000000003
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.3952584297641433,
+          "left_m": 0.18004438647840013,
+          "height_above_floor_m": 1.1000000000000003
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.3475884085260393,
+          "left_m": 0.12781825245377001,
+          "height_above_floor_m": 0.9500000000000002
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.3975364861574057,
+          "left_m": 0.13009630884703235,
+          "height_above_floor_m": 0.8500000000000003
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.3498664649193016,
+          "left_m": 0.07787017482240266,
+          "height_above_floor_m": 0.7000000000000002
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.39981454255066806,
+          "left_m": 0.080148231215665,
+          "height_above_floor_m": 0.8500000000000003
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.352144521312564,
+          "left_m": 0.02792209719103532,
+          "height_above_floor_m": 1.0500000000000003
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.3544225777058264,
+          "left_m": -0.02202598044033247,
+          "height_above_floor_m": 0.9500000000000002
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2568044788363541,
+          "left_m": -0.07653017085822458,
+          "height_above_floor_m": 0.5500000000000003
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.30675255646772237,
+          "left_m": -0.07425211446496216,
+          "height_above_floor_m": 0.45000000000000007
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.3567006340990888,
+          "left_m": -0.07197405807169982,
+          "height_above_floor_m": 1.1000000000000003
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.3589786904923512,
+          "left_m": -0.12192213570306759,
+          "height_above_floor_m": 0.9500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.3612567468856136,
+          "left_m": -0.17187021333443495,
+          "height_above_floor_m": 0.8500000000000003
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.31358672564750956,
+          "left_m": -0.22409634735906464,
+          "height_above_floor_m": 0.7000000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.363534803278876,
+          "left_m": -0.2218182909658023,
+          "height_above_floor_m": 0.8000000000000003
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000011.json",
+      "pose": {
+        "x": 9.796901,
+        "y": 2.261742,
+        "yaw": -3.095959770931791,
+        "z": 0.311108
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.29312442938801886,
+          "left_m": 0.22534805803678234,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.3453532317696355,
+          "left_m": 0.17768096035104203,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.39530118180331353,
+          "left_m": 0.1799618126989806,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.3476340841175742,
+          "left_m": 0.12773301031736264,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.3975820341512522,
+          "left_m": 0.13001386266530124,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.3499149364655128,
+          "left_m": 0.07778506028368375,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.39986288649919083,
+          "left_m": 0.08006591263162233,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.3521957888134514,
+          "left_m": 0.027837110250004835,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.3544766411613901,
+          "left_m": -0.02211083978367452,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2568615934419709,
+          "left_m": -0.0766204945132307,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.3068095434756507,
+          "left_m": -0.07433964216529203,
+          "height_above_floor_m": 0.44999999999999996
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.3567574935093287,
+          "left_m": -0.07205878981735345,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.35903834585726735,
+          "left_m": -0.12200673985103277,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.361319198205206,
+          "left_m": -0.1719546898847117,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3136521005194666,
+          "left_m": -0.2241834922663292,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.36360005055314465,
+          "left_m": -0.2219026399183906,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000012.json",
+      "pose": {
+        "x": 9.79671,
+        "y": 2.261677,
+        "yaw": -3.0962654931408484,
+        "z": 0.311107
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.293387058675045,
+          "left_m": 0.22520215414379816,
+          "height_above_floor_m": 0.5500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.34560128572567445,
+          "left_m": 0.17751909118109416,
+          "height_above_floor_m": 0.8000000000000002
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.3955499307323407,
+          "left_m": 0.17978467322505728,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.34786686776963766,
+          "left_m": 0.12757044617442656,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.3978155127763039,
+          "left_m": 0.1298360282183897,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.3501324498136008,
+          "left_m": 0.07762180116775944,
+          "height_above_floor_m": 0.7000000000000001
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.40008109482026705,
+          "left_m": 0.07988738321172256,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.35239803185756396,
+          "left_m": 0.027673156161092297,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.3546636139015272,
+          "left_m": -0.02227548884557528,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.257031905932156,
+          "left_m": -0.07675529794016875,
+          "height_above_floor_m": 0.5500000000000002
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.30698055093882404,
+          "left_m": -0.07448971589620554,
+          "height_above_floor_m": 0.45
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.35692919594549033,
+          "left_m": -0.07222413385224241,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.35919477798945354,
+          "left_m": -0.12217277885890998,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.3614603600334167,
+          "left_m": -0.17212142386557713,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.31377729707071356,
+          "left_m": -0.22433565091620739,
+          "height_above_floor_m": 0.7000000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.36372594207737985,
+          "left_m": -0.22207006887224426,
+          "height_above_floor_m": 0.8000000000000002
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000013.json",
+      "pose": {
+        "x": 9.796689,
+        "y": 2.261744,
+        "yaw": -3.0960361789065436,
+        "z": 0.311106
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.2933533358860893,
+          "left_m": 0.22533731289225875,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.3455784959688525,
+          "left_m": 0.17766622464865311,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.39552662013203643,
+          "left_m": 0.1799432605682323,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.3478555318884317,
+          "left_m": 0.12771810048546783,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.39780365605161566,
+          "left_m": 0.129995136405047,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.35013256780801094,
+          "left_m": 0.077769976322283,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.4000806919711949,
+          "left_m": 0.08004701224186217,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.3524096037275901,
+          "left_m": 0.02782185215909817,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.35468663964716934,
+          "left_m": -0.022126272004087105,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2570674272403789,
+          "left_m": -0.07662846800643038,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.3070155514035646,
+          "left_m": -0.07435143208685112,
+          "height_above_floor_m": 0.44999999999999996
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.3569636755667486,
+          "left_m": -0.07207439616727195,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.3592407114863278,
+          "left_m": -0.12202252033045721,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.36151774740590703,
+          "left_m": -0.17197064449364205,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3138466591623023,
+          "left_m": -0.22419580457640606,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.36379478332548626,
+          "left_m": -0.2219187686568269,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000014.json",
+      "pose": {
+        "x": 9.796931,
+        "y": 2.261889,
+        "yaw": -3.0960388275577526,
+        "z": 0.311108
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.2931055807543563,
+          "left_m": 0.22547036526482112,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.34533061457285075,
+          "left_m": 0.17779913869514927,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.3952787447669334,
+          "left_m": 0.18007604231956098,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.34760751819726254,
+          "left_m": 0.12785100850106526,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.3975556483913452,
+          "left_m": 0.13012791212547697,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.34988442182167434,
+          "left_m": 0.0779028783069817,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.399832552015757,
+          "left_m": 0.08017978193139343,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.3521613254460861,
+          "left_m": 0.027954748112898123,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.3544382290704979,
+          "left_m": -0.02199338208118589,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2568188723067425,
+          "left_m": -0.076495319524093,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.30676700250082695,
+          "left_m": -0.07421841589968119,
+          "height_above_floor_m": 0.4499999999999999
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.3567151326949097,
+          "left_m": -0.07194151227526946,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.3589920363193215,
+          "left_m": -0.12188964246935347,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.3612689399437332,
+          "left_m": -0.17183777266343703,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3135977133740623,
+          "left_m": -0.22406280648193233,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.363545843568145,
+          "left_m": -0.2217859028575206,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000015.json",
+      "pose": {
+        "x": 9.797087,
+        "y": 2.262036,
+        "yaw": -3.096352540075046,
+        "z": 0.311112
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.29301381079042815,
+          "left_m": 0.22551819782685462,
+          "height_above_floor_m": 0.5500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.34522388697880074,
+          "left_m": 0.1778305899564214,
+          "height_above_floor_m": 0.8000000000000002
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.3951727290082032,
+          "left_m": 0.1800918241153915,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.3474851211377709,
+          "left_m": 0.12788174792701762,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.3974339631671734,
+          "left_m": 0.13014298208598774,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.3497463552967411,
+          "left_m": 0.07793290589761429,
+          "height_above_floor_m": 0.7000000000000001
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.39969519732614356,
+          "left_m": 0.0801941400565844,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.35200758945571126,
+          "left_m": 0.02798406386821095,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.3542688236146814,
+          "left_m": -0.021964778161192827,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.2566323737148449,
+          "left_m": -0.07643608850853648,
+          "height_above_floor_m": 0.5500000000000002
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.3065812157442491,
+          "left_m": -0.07417485434956628,
+          "height_above_floor_m": 0.45
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.35653005777365154,
+          "left_m": -0.07191362019059616,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.3587912919326217,
+          "left_m": -0.12186246221999994,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.3610525260915919,
+          "left_m": -0.17181130424940327,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.31336491822115964,
+          "left_m": -0.22402138043777672,
+          "height_above_floor_m": 0.7000000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.36331376025056206,
+          "left_m": -0.2217601462788066,
+          "height_above_floor_m": 0.8000000000000002
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000016.json",
+      "pose": {
+        "x": 9.797203,
+        "y": 2.262183,
+        "yaw": -3.0963445934924483,
+        "z": 0.311111
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.2928894882149941,
+          "left_m": 0.22566212883680706,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.34509994335523303,
+          "left_m": 0.17797493585956242,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.3950487674139744,
+          "left_m": 0.18023656694105997,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.34736157443673066,
+          "left_m": 0.12802611180081974,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.397310398495472,
+          "left_m": 0.1302877428823173,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.34962320551822823,
+          "left_m": 0.0780772877420775,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.3995720295769696,
+          "left_m": 0.08033891882357506,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.35188483659972586,
+          "left_m": 0.028128463683335284,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.35414646768122343,
+          "left_m": -0.021820360375407386,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.25651045064523664,
+          "left_m": -0.07629244659714482,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.30645927470397977,
+          "left_m": -0.07403081551564718,
+          "height_above_floor_m": 0.4499999999999999
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.35640809876272106,
+          "left_m": -0.07176918443414962,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.3586697298442187,
+          "left_m": -0.12171800849289229,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.36093136092571626,
+          "left_m": -0.1716668325516345,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3132441679484726,
+          "left_m": -0.2238772876918743,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.3631929920072139,
+          "left_m": -0.22161565661037672,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000017.json",
+      "pose": {
+        "x": 9.797242,
+        "y": 2.262238,
+        "yaw": -3.0959644434285596,
+        "z": 0.311112
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.2927622134908374,
+          "left_m": 0.22582661836007215,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.344990793147524,
+          "left_m": 0.17815927663594183,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.39493875383793203,
+          "left_m": 0.1804398956022204,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.34727141211380264,
+          "left_m": 0.12821131594553248,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.39721937280421066,
+          "left_m": 0.13049193491181105,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.34955203108008126,
+          "left_m": 0.07826335525512358,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.3994999917704893,
+          "left_m": 0.08054397422140214,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.35183265004635983,
+          "left_m": 0.028315394564714685,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.35411326901263845,
+          "left_m": -0.02163256612569466,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.25649796659809926,
+          "left_m": -0.07614176474866076,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.30644592728850906,
+          "left_m": -0.07386114578238212,
+          "height_above_floor_m": 0.44999999999999996
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.3563938879789171,
+          "left_m": -0.07158052681610355,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.3586745069451957,
+          "left_m": -0.1215284875065129,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.3609551259114743,
+          "left_m": -0.1714764481969218,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3132877841873449,
+          "left_m": -0.22370502785360927,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.3632357448777529,
+          "left_m": -0.2214244088873307,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000018.json",
+      "pose": {
+        "x": 9.797187,
+        "y": 2.262146,
+        "yaw": -3.095715874200177,
+        "z": 0.311111
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.29276523221356027,
+          "left_m": 0.225810002196407,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.3450056588909615,
+          "left_m": 0.1781556443624907,
+          "height_above_floor_m": 0.8
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.3949530511466198,
+          "left_m": 0.18044867878423362,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.34729869331270447,
+          "left_m": 0.12820825210683107,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.3972460855683628,
+          "left_m": 0.13050128652857398,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.3495917277344474,
+          "left_m": 0.0782608598511719,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.3995391199901057,
+          "left_m": 0.08055389427291479,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.35188476215619036,
+          "left_m": 0.028313467595512697,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.3541777965779333,
+          "left_m": -0.021633924660146943,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.25657604648835786,
+          "left_m": -0.07616738575929202,
+          "height_above_floor_m": 0.55
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.30652343874401794,
+          "left_m": -0.07387435133754905,
+          "height_above_floor_m": 0.4499999999999999
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.35647083099967625,
+          "left_m": -0.07158131691580615,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.3587638654214192,
+          "left_m": -0.12152870917146578,
+          "height_above_floor_m": 0.95
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.36105689984316214,
+          "left_m": -0.171476101427125,
+          "height_above_floor_m": 0.8500000000000001
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.3134025420092468,
+          "left_m": -0.22371652810452708,
+          "height_above_floor_m": 0.7
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.3633499342649051,
+          "left_m": -0.2214234936827842,
+          "height_above_floor_m": 0.8
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    },
+    {
+      "slot": "slot-1759",
+      "file": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1759\\20260926T145910.575792Z\\cloud_000019.json",
+      "pose": {
+        "x": 9.797244,
+        "y": 2.262215,
+        "yaw": -3.0955344435502563,
+        "z": 0.311113
+      },
+      "status": "occupied_inside_nominal_body",
+      "reason": "Занятость пересекает сам корпус: проверить привязку карты и источник отражений; уменьшение запаса проблему не решает",
+      "nominal": {
+        "clear": false,
+        "occupied_cells": 16,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "expanded": {
+        "clear": false,
+        "occupied_cells": 59,
+        "unknown_cells": 0,
+        "outside_cells": 0,
+        "reason": "Корпус пересекает занятость, неизвестность или край карты"
+      },
+      "occupied_samples": [
+        {
+          "cell_xy": [
+            70,
+            58
+          ],
+          "forward_m": -0.29266414209488273,
+          "left_m": 0.22592941750216478,
+          "height_above_floor_m": 0.5500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            59
+          ],
+          "forward_m": -0.34491321387354873,
+          "left_m": 0.17828453846708187,
+          "height_above_floor_m": 0.8000000000000002
+        },
+        {
+          "cell_xy": [
+            72,
+            59
+          ],
+          "forward_m": -0.3948601892804227,
+          "left_m": 0.18058663483887383,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            60
+          ],
+          "forward_m": -0.3472153102453408,
+          "left_m": 0.12833756306020655,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            72,
+            60
+          ],
+          "forward_m": -0.3971622856522148,
+          "left_m": 0.1306396594319985,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            61
+          ],
+          "forward_m": -0.34951740661713276,
+          "left_m": 0.07839058765333165,
+          "height_above_floor_m": 0.7000000000000001
+        },
+        {
+          "cell_xy": [
+            72,
+            61
+          ],
+          "forward_m": -0.39946438202400675,
+          "left_m": 0.08069268402512361,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            71,
+            62
+          ],
+          "forward_m": -0.3518195029889248,
+          "left_m": 0.02844361224645677,
+          "height_above_floor_m": 1.05
+        },
+        {
+          "cell_xy": [
+            71,
+            63
+          ],
+          "forward_m": -0.3541215993607168,
+          "left_m": -0.021503363160418554,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            69,
+            64
+          ],
+          "forward_m": -0.256529744918759,
+          "left_m": -0.07605453131087744,
+          "height_above_floor_m": 0.5500000000000002
+        },
+        {
+          "cell_xy": [
+            70,
+            64
+          ],
+          "forward_m": -0.3064767203256348,
+          "left_m": -0.0737524349390854,
+          "height_above_floor_m": 0.44999999999999996
+        },
+        {
+          "cell_xy": [
+            71,
+            64
+          ],
+          "forward_m": -0.3564236957325088,
+          "left_m": -0.07145033856729344,
+          "height_above_floor_m": 1.1
+        },
+        {
+          "cell_xy": [
+            71,
+            65
+          ],
+          "forward_m": -0.35872579210430083,
+          "left_m": -0.12139731397416878,
+          "height_above_floor_m": 0.9500000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            66
+          ],
+          "forward_m": -0.36102788847609285,
+          "left_m": -0.17134428938104365,
+          "height_above_floor_m": 0.8500000000000002
+        },
+        {
+          "cell_xy": [
+            70,
+            67
+          ],
+          "forward_m": -0.31338300944101083,
+          "left_m": -0.22359336115971049,
+          "height_above_floor_m": 0.7000000000000001
+        },
+        {
+          "cell_xy": [
+            71,
+            67
+          ],
+          "forward_m": -0.36332998484788487,
+          "left_m": -0.22129126478791852,
+          "height_above_floor_m": 0.8000000000000002
+        }
+      ],
+      "map_modified": false,
+      "motion_authorized": false
+    }
+  ]
+}

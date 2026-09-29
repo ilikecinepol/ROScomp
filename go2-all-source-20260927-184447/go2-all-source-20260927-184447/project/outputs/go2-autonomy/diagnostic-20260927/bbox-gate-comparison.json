@@ -1,0 +1,102 @@
+[
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000002.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000003.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000004.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000006.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000007.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260926\\slot-1728\\20260926T142840.158195Z\\cloud_000017.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000003.json",
+    "before": 1,
+    "after": 0
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000004.json",
+    "before": 1,
+    "after": 0
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000005.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000006.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000007.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000009.json",
+    "before": 1,
+    "after": 0
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000010.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000011.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000012.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000013.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000014.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000015.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000016.json",
+    "before": 2,
+    "after": 1
+  },
+  {
+    "frame": "outputs\\go2-autonomy\\diagnostic-20260927\\20260927T102612.913780Z\\cloud_000017.json",
+    "before": 2,
+    "after": 1
+  }
+]

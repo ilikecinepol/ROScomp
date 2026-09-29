@@ -1,0 +1,36 @@
+#VRML_SIM R2025a utf8
+
+PROTO ArenaBox [
+  field SFVec3f    translation       0 0 0
+  field SFRotation rotation          0 0 1 0
+  field SFVec3f    size              1 1 1
+  field SFColor    color             0.25 0.27 0.29
+  field SFString   name              "arena box"
+  field SFString   contactMaterial   "arena_rubber"
+  field SFBool     castShadows       TRUE
+]
+{
+  Solid {
+    translation IS translation
+    rotation IS rotation
+    children [
+      Shape {
+        appearance PBRAppearance {
+          baseColor IS color
+          roughness 0.86
+          metalness 0
+        }
+        geometry Box {
+          size IS size
+        }
+        castShadows IS castShadows
+      }
+    ]
+    name IS name
+    contactMaterial IS contactMaterial
+    boundingObject Box {
+      size IS size
+    }
+    locked TRUE
+  }
+}

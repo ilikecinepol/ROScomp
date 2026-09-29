@@ -1,0 +1,35 @@
+# Local archives and editor backups
+go2-all-source-*.zip
+*.blend1
+*.tmp
+*.bak
+
+# Downloaded browser assets; the saved task page itself is retained
+True Tech Arena*files/
+
+# ROS 2 / colcon output
+**/build/
+**/install/
+**/log/
+
+# Python
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Runtime recordings and generated diagnostics
+*.bag
+*.db3
+*.mcap
+*.log
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

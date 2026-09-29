@@ -1,0 +1,72 @@
+[
+  {
+    "seq": 128,
+    "elapsed_s": 48.90499264600004,
+    "receive_monotonic_s": 552.604280634,
+    "pts": 23880,
+    "time_base": "1/90000",
+    "width": 1280,
+    "height": 720,
+    "file": "camera/frame_000128.jpg"
+  },
+  {
+    "seq": 147,
+    "elapsed_s": 52.89787910500007,
+    "receive_monotonic_s": 556.597167093,
+    "pts": 27300,
+    "time_base": "1/90000",
+    "width": 1280,
+    "height": 720,
+    "file": "camera/frame_000147.jpg"
+  },
+  {
+    "seq": 338,
+    "elapsed_s": 93.08457013399999,
+    "receive_monotonic_s": 596.783858122,
+    "pts": 61740,
+    "time_base": "1/90000",
+    "width": 1280,
+    "height": 720,
+    "file": "camera/frame_000338.jpg"
+  },
+  {
+    "seq": 357,
+    "elapsed_s": 97.076651562,
+    "receive_monotonic_s": 600.77593955,
+    "pts": 65160,
+    "time_base": "1/90000",
+    "width": 1280,
+    "height": 720,
+    "file": "camera/frame_000357.jpg"
+  },
+  {
+    "seq": 385,
+    "elapsed_s": 102.95857869399998,
+    "receive_monotonic_s": 606.657866682,
+    "pts": 70200,
+    "time_base": "1/90000",
+    "width": 1280,
+    "height": 720,
+    "file": "camera/frame_000385.jpg"
+  },
+  {
+    "seq": 404,
+    "elapsed_s": 106.95003426800002,
+    "receive_monotonic_s": 610.649322256,
+    "pts": 73620,
+    "time_base": "1/90000",
+    "width": 1280,
+    "height": 720,
+    "file": "camera/frame_000404.jpg"
+  },
+  {
+    "seq": 428,
+    "elapsed_s": 111.99007146100001,
+    "receive_monotonic_s": 615.689359449,
+    "pts": 77940,
+    "time_base": "1/90000",
+    "width": 1280,
+    "height": 720,
+    "file": "camera/frame_000428.jpg"
+  }
+]

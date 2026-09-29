@@ -1,0 +1,37 @@
+{
+  "units": "m",
+  "room_estimate": [
+    10.5,
+    7.5,
+    3.3
+  ],
+  "layout_source": "arena-plan.html",
+  "retained": "CCTV-derived dimensions, forms, materials and safety mats",
+  "centres": {
+    "teeter": [
+      -2.65,
+      2.55
+    ],
+    "a_frame": [
+      -2.65,
+      0.7
+    ],
+    "platform_system": [
+      2.7,
+      1.55
+    ],
+    "slalom_first": [
+      0.45,
+      1.05
+    ],
+    "slalom_last": [
+      0.45,
+      -3.45
+    ],
+    "bridge_provisional": [
+      -2.65,
+      -2.3
+    ]
+  },
+  "note": "Bridge position was absent from the original scheme and remains provisional."
+}

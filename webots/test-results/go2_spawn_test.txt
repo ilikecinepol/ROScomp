@@ -1,0 +1,1 @@
+[go2-test] PASS: base z=0.333 m, upright=1.000

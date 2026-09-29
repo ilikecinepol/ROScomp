@@ -1,0 +1,55 @@
+{
+  "units": "m",
+  "room_estimate": [
+    10.5,
+    7.5,
+    3.3
+  ],
+  "source": "four CCTV frames supplied 2026-09-27",
+  "layout_confidence": "medium; no lens calibration or measured control points",
+  "slalom": {
+    "count": 6,
+    "spacing": 0.9,
+    "positions": [
+      [
+        1.350000023841858,
+        2.3499999046325684
+      ],
+      [
+        1.7300000190734863,
+        1.5339999198913574
+      ],
+      [
+        2.1100001335144043,
+        0.7179999351501465
+      ],
+      [
+        2.490000009536743,
+        -0.09800004959106445
+      ],
+      [
+        2.869999885559082,
+        -0.9140000343322754
+      ],
+      [
+        3.25,
+        -1.7300000190734863
+      ]
+    ]
+  },
+  "collections": {
+    "static": [
+      "Architecture",
+      "Safety_Mats",
+      "Static_Obstacles"
+    ],
+    "dynamic": [
+      "Dynamic_Parts"
+    ]
+  },
+  "dynamic_objects": [
+    "DYN_BridgeDeck_1p75x0p55m",
+    "DYN_TeeterBoard_1p80x0p55m",
+    "DYN_TeeterAxis"
+  ]
+}

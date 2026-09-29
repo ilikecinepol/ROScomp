@@ -1,0 +1,2 @@
+# Build-time tool used to regenerate protos/Go2.proto from the bundled URDF.
+urdf2webots==2025.0.0

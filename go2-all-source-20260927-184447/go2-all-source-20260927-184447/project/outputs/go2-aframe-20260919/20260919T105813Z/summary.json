@@ -1,0 +1,530 @@
+{
+  "time_utc": "2026-09-19T10:58:57.711817+00:00",
+  "read_only_motion": true,
+  "lidar_decoder": "native",
+  "lidar_semantics": "occupied_voxel_points_in_odom_not_raw_rays",
+  "counts": {
+    "LOW_STATE": 560,
+    "ROBOTODOM": 523,
+    "LF_SPORT_MOD_STATE": 560,
+    "ULIDAR_STATE": 140,
+    "ULIDAR_ARRAY": 216,
+    "CAMERA": 391
+  },
+  "observed_hz": {
+    "LOW_STATE": 20.0,
+    "ROBOTODOM": 18.67,
+    "LF_SPORT_MOD_STATE": 20.0,
+    "ULIDAR_STATE": 5.0,
+    "ULIDAR_ARRAY": 7.71,
+    "CAMERA": 14.28
+  },
+  "first_samples": {
+    "LOW_STATE": {
+      "type": "msg",
+      "topic": "rt/lf/lowstate",
+      "data": {
+        "imu_state": {
+          "rpy": [
+            -0.008195,
+            0.032221,
+            -1.952453
+          ]
+        },
+        "motor_state": [
+          {
+            "q": -0.02432,
+            "temperature": 40,
+            "lost": 0,
+            "reserve": [
+              0,
+              610
+            ]
+          },
+          {
+            "q": 0.791075,
+            "temperature": 41,
+            "lost": 0,
+            "reserve": [
+              0,
+              610
+            ]
+          },
+          {
+            "q": -1.558775,
+            "temperature": 47,
+            "lost": 0,
+            "reserve": [
+              0,
+              610
+            ]
+          },
+          {
+            "q": -0.005594,
+            "temperature": 44,
+            "lost": 0,
+            "reserve": [
+              0,
+              610
+            ]
+          },
+          {
+            "q": 0.695519,
+            "temperature": 40,
+            "lost": 0,
+            "reserve": [
+              0,
+              610
+            ]
+          },
+          {
+            "q": -1.625485,
+            "temperature": 46,
+            "lost": 0,
+            "reserve": [
+              0,
+              610
+            ]
+          },
+          {
+            "q": 0.077013,
+            "temperature": 42,
+            "lost": 0,
+            "reserve": [
+              0,
+              610
+            ]
+          },
+          {
+            "q": 0.651218,
+            "temperature": 41,
+            "lost": 0,
+            "reserve": [
+              0,
+              610
+            ]
+          },
+          {
+            "q": -1.498746,
+            "temperature": 43,
+            "lost": 0,
+            "reserve": [
+              0,
+              610
+            ]
+          },
+          {
+            "q": -0.048522,
+            "temperature": 41,
+            "lost": 0,
+            "reserve": [
+              0,
+              610
+            ]
+          },
+          {
+            "q": 0.796641,
+            "temperature": 35,
+            "lost": 0,
+            "reserve": [
+              0,
+              610
+            ]
+          },
+          {
+            "q": -1.51072,
+            "temperature": 42,
+            "lost": 0,
+            "reserve": [
+              0,
+              610
+            ]
+          },
+          {
+            "q": 0,
+            "temperature": 0,
+            "lost": 0,
+            "reserve": [
+              0,
+              0
+            ]
+          },
+          {
+            "q": 0,
+            "temperature": 0,
+            "lost": 0,
+            "reserve": [
+              0,
+              0
+            ]
+          },
+          {
+            "q": 0,
+            "temperature": 0,
+            "lost": 0,
+            "reserve": [
+              0,
+              0
+            ]
+          },
+          {
+            "q": 0,
+            "temperature": 0,
+            "lost": 0,
+            "reserve": [
+              0,
+              0
+            ]
+          },
+          {
+            "q": 0,
+            "temperature": 0,
+            "lost": 0,
+            "reserve": [
+              0,
+              0
+            ]
+          },
+          {
+            "q": 0,
+            "temperature": 0,
+            "lost": 0,
+            "reserve": [
+              0,
+              0
+            ]
+          },
+          {
+            "q": 0,
+            "temperature": 0,
+            "lost": 0,
+            "reserve": [
+              0,
+              0
+            ]
+          },
+          {
+            "q": 0,
+            "temperature": 0,
+            "lost": 0,
+            "reserve": [
+              0,
+              0
+            ]
+          }
+        ],
+        "bms_state": {
+          "version_high": 1,
+          "version_low": 23,
+          "soc": 92,
+          "current": -1993,
+          "cycle": 10,
+          "bq_ntc": [
+            30,
+            29
+          ],
+          "mcu_ntc": [
+            34,
+            32
+          ]
+        },
+        "foot_force": [
+          80,
+          80,
+          85,
+          84
+        ],
+        "temperature_ntc1": 52,
+        "power_v": 31.739624
+      }
+    },
+    "ROBOTODOM": {
+      "type": "msg",
+      "topic": "rt/utlidar/robot_pose",
+      "data": {
+        "header": {
+          "stamp": {
+            "sec": 1789815509,
+            "nanosec": 784216165
+          },
+          "frame_id": "odom"
+        },
+        "pose": {
+          "position": {
+            "x": 1.073109,
+            "y": -2.572771,
+            "z": 0.302948
+          },
+          "orientation": {
+            "x": 0.011063,
+            "y": 0.012388,
+            "z": -0.830162,
+            "w": 0.557275
+          }
+        }
+      }
+    },
+    "LF_SPORT_MOD_STATE": {
+      "type": "msg",
+      "topic": "rt/lf/sportmodestate",
+      "data": {
+        "stamp": {
+          "sec": 1789815509,
+          "nanosec": 783792776
+        },
+        "error_code": 100,
+        "imu_state": {
+          "quaternion": [
+            0.557275,
+            0.011063,
+            0.012388,
+            -0.830162
+          ],
+          "gyroscope": [
+            -0.001065,
+            0.006392,
+            0.007457
+          ],
+          "accelerometer": [
+            -0.339977,
+            -0.246603,
+            9.545682
+          ],
+          "rpy": [
+            -0.008241,
+            0.032181,
+            -1.95934
+          ],
+          "temperature": 79
+        },
+        "mode": 0,
+        "progress": 0,
+        "gait_type": 0,
+        "foot_raise_height": 0,
+        "position": [
+          1.073109,
+          -2.572771,
+          0.302948
+        ],
+        "body_height": 0.316229,
+        "velocity": [
+          4.007502e-09,
+          5.53589e-10,
+          -1.169773e-07
+        ],
+        "yaw_speed": 0.007457,
+        "range_obstacle": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foot_force": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "foot_position_body": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "foot_speed_body": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    "ULIDAR_STATE": {
+      "type": "msg",
+      "topic": "rt/utlidar/lidar_state",
+      "data": {
+        "stamp": 1789816000.0,
+        "firmware_version": "",
+        "software_version": "1.0.0.38",
+        "sdk_version": "",
+        "sys_rotation_speed": 12933.822266,
+        "com_rotation_speed": 260.860504,
+        "error_state": 0,
+        "dirty_percentage": 13,
+        "cloud_frequency": 15.401893,
+        "cloud_packet_loss_rate": 0,
+        "cloud_size": 53935,
+        "cloud_scan_num": 210,
+        "imu_frequency": 248.423615,
+        "imu_packet_loss_rate": 0,
+        "imu_rpy": [
+          -176.833679,
+          15.230474,
+          0.075978
+        ],
+        "serial_recv_stamp": 1789816000.0,
+        "serial_buffer_size": 0,
+        "serial_buffer_read": 210
+      }
+    },
+    "ULIDAR_ARRAY": {
+      "type": "msg",
+      "topic": "rt/utlidar/voxel_map_compressed",
+      "data": {
+        "stamp": 1789816000.0,
+        "frame_id": "odom",
+        "resolution": 0.05,
+        "src_size": 77824,
+        "origin": [
+          -2.125,
+          -5.775,
+          -0.625
+        ],
+        "width": [
+          128,
+          128,
+          38
+        ],
+        "data": {
+          "points": {
+            "array_shape": [
+              35805,
+              3
+            ],
+            "dtype": "float64"
+          }
+        }
+      }
+    },
+    "CAMERA": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "camera_files": [
+    "camera_00.jpg",
+    "camera_01.jpg",
+    "camera_02.jpg",
+    "camera_03.jpg",
+    "camera_04.jpg",
+    "camera_05.jpg",
+    "camera_06.jpg",
+    "camera_07.jpg",
+    "camera_08.jpg",
+    "camera_09.jpg",
+    "camera_10.jpg",
+    "camera_11.jpg",
+    "camera_12.jpg",
+    "camera_13.jpg"
+  ],
+  "camera_records": [
+    {
+      "file": "camera_00.jpg",
+      "elapsed_s": 1.355451285000072,
+      "pts": 480,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_01.jpg",
+      "elapsed_s": 3.390750603000015,
+      "pts": 2220,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_02.jpg",
+      "elapsed_s": 5.414338820000012,
+      "pts": 3960,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_03.jpg",
+      "elapsed_s": 7.452833694999981,
+      "pts": 5700,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_04.jpg",
+      "elapsed_s": 9.473266335000062,
+      "pts": 7440,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_05.jpg",
+      "elapsed_s": 11.504804419000038,
+      "pts": 9180,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_06.jpg",
+      "elapsed_s": 13.537160156000027,
+      "pts": 10920,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_07.jpg",
+      "elapsed_s": 15.564568587000167,
+      "pts": 12660,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_08.jpg",
+      "elapsed_s": 17.596742217000156,
+      "pts": 14400,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_09.jpg",
+      "elapsed_s": 19.62916024900005,
+      "pts": 16140,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_10.jpg",
+      "elapsed_s": 21.656863953000084,
+      "pts": 17880,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_11.jpg",
+      "elapsed_s": 23.68884443700017,
+      "pts": 19620,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_12.jpg",
+      "elapsed_s": 25.717301591000023,
+      "pts": 21360,
+      "time_base": "1/90000"
+    },
+    {
+      "file": "camera_13.jpg",
+      "elapsed_s": 27.747817877999978,
+      "pts": 23100,
+      "time_base": "1/90000"
+    }
+  ],
+  "lidar_files": [
+    "lidar_00.npz",
+    "lidar_01.npz",
+    "lidar_02.npz",
+    "lidar_03.npz",
+    "lidar_04.npz"
+  ],
+  "errors": []
+}

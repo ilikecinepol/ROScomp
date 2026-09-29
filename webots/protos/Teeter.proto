@@ -1,0 +1,124 @@
+#VRML_SIM R2025a utf8
+
+PROTO Teeter [
+  field SFVec3f    translation       -2.65 0.70 0
+  field SFRotation rotation          0 0 1 1.570796
+  field SFColor    obstacleColor     0.25 0.27 0.29
+  field SFColor    matColor          0.18 0.19 0.20
+]
+{
+  Solid {
+    translation IS translation
+    rotation IS rotation
+    children [
+      Pose {
+        translation -1.30 0 0.045
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor IS matColor
+              roughness 0.92
+            }
+            geometry Box { size 1.55 1.28 0.09 }
+          }
+        ]
+      }
+      Pose {
+        translation 1.30 0 0.045
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor IS matColor
+              roughness 0.92
+            }
+            geometry Box { size 1.55 1.28 0.09 }
+          }
+        ]
+      }
+      Pose {
+        translation 0 0 0.09
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 0.025 0.028 0.030
+              roughness 0.72
+              metalness 0.25
+            }
+            geometry Box { size 0.42 0.66 0.18 }
+          }
+        ]
+      }
+      Pose {
+        translation 0 0 0.24
+        rotation 1 0 0 1.570796
+        children [
+          Shape {
+            appearance PBRAppearance {
+              baseColor 0.025 0.028 0.030
+              roughness 0.55
+              metalness 0.55
+            }
+            geometry Cylinder {
+              radius 0.09
+              height 0.66
+              subdivision 24
+            }
+          }
+        ]
+      }
+      HingeJoint {
+        jointParameters HingeJointParameters {
+          axis 0 1 0
+          anchor 0 0 0.24
+          minStop -0.209440
+          maxStop 0.209440
+          dampingConstant 0.25
+          staticFriction 0.02
+        }
+        endPoint DEF TEETER_BOARD Solid {
+          translation 0 0 0.24
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor IS obstacleColor
+                roughness 0.88
+              }
+              geometry Box { size 1.80 0.55 0.07 }
+            }
+          ]
+          name "teeter board"
+          contactMaterial "arena_rubber"
+          boundingObject Box { size 1.80 0.55 0.07 }
+          physics Physics {
+            density -1
+            mass 6
+            centerOfMass [ 0 0 0 ]
+            damping Damping {
+              linear 0.04
+              angular 0.12
+            }
+          }
+        }
+      }
+    ]
+    name "teeter static base"
+    contactMaterial "arena_rubber"
+    boundingObject Group {
+      children [
+        Pose {
+          translation -1.30 0 0.045
+          children [ Box { size 1.55 1.28 0.09 } ]
+        }
+        Pose {
+          translation 1.30 0 0.045
+          children [ Box { size 1.55 1.28 0.09 } ]
+        }
+        Pose {
+          translation 0 0 0.09
+          children [ Box { size 0.42 0.66 0.18 } ]
+        }
+      ]
+    }
+    locked TRUE
+  }
+}

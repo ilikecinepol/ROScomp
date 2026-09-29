@@ -1,0 +1,95 @@
+{
+  "capture": "20260916T110043Z",
+  "camera": [
+    {
+      "file": "camera_00.jpg",
+      "processing_ms_excludes_io_overlay": 202.42432899976848,
+      "candidate_count": 1,
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_01.jpg",
+      "processing_ms_excludes_io_overlay": 194.48978800028272,
+      "candidate_count": 1,
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_02.jpg",
+      "processing_ms_excludes_io_overlay": 191.0269590007374,
+      "candidate_count": 1,
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_03.jpg",
+      "processing_ms_excludes_io_overlay": 237.91820900078164,
+      "candidate_count": 1,
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "file": "camera_04.jpg",
+      "processing_ms_excludes_io_overlay": 181.43948500073748,
+      "candidate_count": 1,
+      "image_size": {
+        "width": 640,
+        "height": 360
+      }
+    }
+  ],
+  "voxel": [
+    {
+      "file": "lidar_00.npz",
+      "processing_ms_includes_npz_load": 97.78971500054467,
+      "candidate_count": 2
+    },
+    {
+      "file": "lidar_01.npz",
+      "processing_ms_includes_npz_load": 96.50261199931265,
+      "candidate_count": 2
+    },
+    {
+      "file": "lidar_02.npz",
+      "processing_ms_includes_npz_load": 96.81842399913876,
+      "candidate_count": 2
+    }
+  ],
+  "errors": [],
+  "actuation": false,
+  "camera_lidar_fusion": false,
+  "sensor_clock_synchronization_verified": false,
+  "capture_observed_hz": {
+    "LOW_STATE": 20.0,
+    "ULIDAR_STATE": 5.0,
+    "LF_SPORT_MOD_STATE": 20.0,
+    "ROBOTODOM": 18.7,
+    "ULIDAR_ARRAY": 7.71,
+    "CAMERA": 14.3
+  },
+  "camera_input_width": 640,
+  "notes": [
+    "Работа только с записью. Время обработки не является задержкой живого управления.",
+    "Поза подобрана по времени приёма среди сохранённых сообщений; это не синхронизация датчиков.",
+    "Кандидаты камеры и карты не сопоставлены друг с другом; подход не разрешён."
+  ],
+  "camera_timing_ms": {
+    "mean": 201.45975400046154,
+    "max": 237.91820900078164,
+    "n": 5
+  },
+  "voxel_timing_ms": {
+    "mean": 97.03691699966537,
+    "max": 97.78971500054467,
+    "n": 3
+  }
+}

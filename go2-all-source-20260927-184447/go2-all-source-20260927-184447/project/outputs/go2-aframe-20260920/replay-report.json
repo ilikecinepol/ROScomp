@@ -1,0 +1,2645 @@
+{
+  "schema_version": 1,
+  "capture_path": "C:\\Users\\VladO\\Documents\\Codex\\2026-09-09\\new-chat\\outputs\\go2-aframe-20260920\\20260920T113825Z",
+  "read_only": true,
+  "motion_authorized": false,
+  "metric_walk_blocked": true,
+  "geometry_contract_verified": false,
+  "status": "diagnostic_only",
+  "files": {
+    "npz_count": 5,
+    "npz_processed": 5,
+    "jpg_count": 13,
+    "images_processed": 13,
+    "missing": []
+  },
+  "saved_record_counts": {
+    "LOW_STATE": 561,
+    "LF_SPORT_MOD_STATE": 560,
+    "ROBOTODOM": 523,
+    "ULIDAR_STATE": 140,
+    "ULIDAR_ARRAY": 30,
+    "CAMERA": 13
+  },
+  "capture_reported_counts": {
+    "LOW_STATE": 561,
+    "LF_SPORT_MOD_STATE": 560,
+    "ROBOTODOM": 523,
+    "ULIDAR_STATE": 140,
+    "ULIDAR_ARRAY": 215,
+    "CAMERA": 370
+  },
+  "timing": {
+    "LOW_STATE": {
+      "saved_samples": 561,
+      "valid_source_stamps": 0,
+      "receive_span_s": 27.99670211199998,
+      "median_receive_period_s": 0.04998094550001042,
+      "receive_backwards": 0,
+      "source_unique": 0,
+      "source_duplicates": 0,
+      "source_backwards": 0,
+      "source_span_s": null,
+      "source_seconds_per_receive_second": null,
+      "source_scale_anomaly": false,
+      "timing_calibrated": false
+    },
+    "LF_SPORT_MOD_STATE": {
+      "saved_samples": 560,
+      "valid_source_stamps": 560,
+      "receive_span_s": 27.946837037000023,
+      "median_receive_period_s": 0.04999414999997498,
+      "receive_backwards": 0,
+      "source_unique": 560,
+      "source_duplicates": 0,
+      "source_backwards": 0,
+      "source_span_s": 27.949845552444458,
+      "source_seconds_per_receive_second": 1.0001076513753757,
+      "source_scale_anomaly": false,
+      "timing_calibrated": false
+    },
+    "ROBOTODOM": {
+      "saved_samples": 523,
+      "valid_source_stamps": 523,
+      "receive_span_s": 27.93032077099997,
+      "median_receive_period_s": 0.05333654900005058,
+      "receive_backwards": 0,
+      "source_unique": 523,
+      "source_duplicates": 0,
+      "source_backwards": 0,
+      "source_span_s": 27.93358874320984,
+      "source_seconds_per_receive_second": 1.0001170044639538,
+      "source_scale_anomaly": false,
+      "timing_calibrated": false
+    },
+    "ULIDAR_STATE": {
+      "saved_samples": 140,
+      "valid_source_stamps": 140,
+      "receive_span_s": 27.798241070000017,
+      "median_receive_period_s": 0.19999002499992002,
+      "receive_backwards": 0,
+      "source_unique": 1,
+      "source_duplicates": 139,
+      "source_backwards": 0,
+      "source_span_s": 0.0,
+      "source_seconds_per_receive_second": 0.0,
+      "source_scale_anomaly": true,
+      "timing_calibrated": false
+    },
+    "ULIDAR_ARRAY": {
+      "saved_samples": 30,
+      "valid_source_stamps": 30,
+      "receive_span_s": 3.7548347460000286,
+      "median_receive_period_s": 0.12986873700003798,
+      "receive_backwards": 0,
+      "source_unique": 1,
+      "source_duplicates": 29,
+      "source_backwards": 0,
+      "source_span_s": 0.0,
+      "source_seconds_per_receive_second": 0.0,
+      "source_scale_anomaly": true,
+      "timing_calibrated": false
+    },
+    "CAMERA": {
+      "saved_samples": 13,
+      "valid_source_stamps": 13,
+      "receive_span_s": 24.361971913999923,
+      "median_receive_period_s": 2.0298770454999726,
+      "receive_backwards": 0,
+      "source_unique": 13,
+      "source_duplicates": 0,
+      "source_backwards": 0,
+      "source_span_s": 0.232,
+      "source_seconds_per_receive_second": 0.009523038644777281,
+      "source_scale_anomaly": true,
+      "timing_calibrated": false
+    }
+  },
+  "yaw": {
+    "LOW_STATE": {
+      "samples": 561,
+      "receive_span_s": 27.99670211199998,
+      "yaw_delta_deg": -1.8044159842055012,
+      "quaternion_order": "rpy_yaw"
+    },
+    "LF_SPORT_MOD_STATE": {
+      "samples": 560,
+      "receive_span_s": 27.946837037000023,
+      "yaw_delta_deg": -1.7906077013428456,
+      "quaternion_order": "rpy_yaw"
+    },
+    "ROBOTODOM": {
+      "samples": 523,
+      "receive_span_s": 27.93032077099997,
+      "yaw_delta_deg": -1.787682573090056,
+      "quaternion_order": "named_xyzw"
+    }
+  },
+  "sensor_monitor": {
+    "streams": {
+      "LOW_STATE": {
+        "received": 561,
+        "age_s": 0.0,
+        "median_hz": 20.014387542624466,
+        "source_scale_by_receive": null,
+        "duplicate_stamps": 0,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "LF_SPORT_MOD_STATE": {
+        "received": 560,
+        "age_s": 0.03688629199996285,
+        "median_hz": 20.035796755940638,
+        "source_scale_by_receive": 1.0002482456102462,
+        "duplicate_stamps": 0,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "ROBOTODOM": {
+        "received": 523,
+        "age_s": 0.021461323000039556,
+        "median_hz": 18.757547685490184,
+        "source_scale_by_receive": 1.0001372109542117,
+        "duplicate_stamps": 0,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "ULIDAR_STATE": {
+        "received": 140,
+        "age_s": 0.13665979500001413,
+        "median_hz": 5.000249387440198,
+        "source_scale_by_receive": 0.0,
+        "duplicate_stamps": 139,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "ULIDAR_ARRAY": {
+        "received": 30,
+        "age_s": 24.086119896000014,
+        "median_hz": 7.7000825841534715,
+        "source_scale_by_receive": 0.0,
+        "duplicate_stamps": 29,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      },
+      "CAMERA": {
+        "received": 13,
+        "age_s": 1.4692576070000314,
+        "median_hz": 0.4926406760532105,
+        "source_scale_by_receive": 0.009523038644777281,
+        "duplicate_stamps": 0,
+        "backward_stamps": 0,
+        "invalid": 0,
+        "timing_calibrated_by_this_report": false
+      }
+    },
+    "identity": {
+      "software_version": "1.0.0.38"
+    },
+    "faults": [],
+    "frame_epoch": 0
+  },
+  "health_on_saved_subset": [
+    "Устаревший или отсутствующий поток CAMERA"
+  ],
+  "pointclouds": [
+    {
+      "file": "lidar_00.npz",
+      "metadata_pairing": "explicit_npz_file",
+      "receive_t": 0.70817487599993,
+      "metric_walk_blocked": true,
+      "geometry_contract_verified": false,
+      "array_key": "data_data_data_points",
+      "point_count": 45057,
+      "dtype": "float64",
+      "finite_points": 45057,
+      "bounds_reported_units": [
+        [
+          -0.425,
+          5.925000000000001
+        ],
+        [
+          -8.424999999999999,
+          -2.7249999999999988
+        ],
+        [
+          -0.575,
+          1.2750000000000001
+        ]
+      ],
+      "metric_units_verified": false,
+      "semantics": "native occupied/surface points; не сырые лучи",
+      "nearest_pose_receive_delta_s": 0.03794994100007898,
+      "localized": false,
+      "geometry_candidates": 0,
+      "diagnostics": [
+        "Не подтверждено профилем/монитором: geometry_frames_validated",
+        "Не подтверждено профилем/монитором: source_time_validated",
+        "Не подтверждено профилем/монитором: identity_verified",
+        "Нужны явные метрические единицы и ось +z вверх",
+        "Системы точек и позы не подтверждены как одна система",
+        "Не указан проверенный pose_child_frame",
+        "Не указан поддерживаемый источник наблюдённых поверхностей",
+        "Недопустимо или неизвестно: acquisition_age_s",
+        "Недопустимо или неизвестно: localization_error_m",
+        "Пиксельный bbox не превращается в метрическую цель"
+      ]
+    },
+    {
+      "file": "lidar_01.npz",
+      "metadata_pairing": "explicit_npz_file",
+      "receive_t": 0.8533645269999397,
+      "metric_walk_blocked": true,
+      "geometry_contract_verified": false,
+      "array_key": "data_data_data_points",
+      "point_count": 45046,
+      "dtype": "float64",
+      "finite_points": 45046,
+      "bounds_reported_units": [
+        [
+          -0.425,
+          5.925000000000001
+        ],
+        [
+          -8.424999999999999,
+          -2.7249999999999988
+        ],
+        [
+          -0.575,
+          1.2750000000000001
+        ]
+      ],
+      "metric_units_verified": false,
+      "semantics": "native occupied/surface points; не сырые лучи",
+      "nearest_pose_receive_delta_s": 0.037856551999993826,
+      "localized": false,
+      "geometry_candidates": 0,
+      "diagnostics": [
+        "Не подтверждено профилем/монитором: geometry_frames_validated",
+        "Не подтверждено профилем/монитором: source_time_validated",
+        "Не подтверждено профилем/монитором: identity_verified",
+        "Нужны явные метрические единицы и ось +z вверх",
+        "Системы точек и позы не подтверждены как одна система",
+        "Не указан проверенный pose_child_frame",
+        "Не указан поддерживаемый источник наблюдённых поверхностей",
+        "Недопустимо или неизвестно: acquisition_age_s",
+        "Недопустимо или неизвестно: localization_error_m",
+        "Пиксельный bbox не превращается в метрическую цель"
+      ]
+    },
+    {
+      "file": "lidar_02.npz",
+      "metadata_pairing": "explicit_npz_file",
+      "receive_t": 0.9739690379999502,
+      "metric_walk_blocked": true,
+      "geometry_contract_verified": false,
+      "array_key": "data_data_data_points",
+      "point_count": 45063,
+      "dtype": "float64",
+      "finite_points": 45063,
+      "bounds_reported_units": [
+        [
+          -0.425,
+          5.925000000000001
+        ],
+        [
+          -8.424999999999999,
+          -2.7249999999999988
+        ],
+        [
+          -0.575,
+          1.2750000000000001
+        ]
+      ],
+      "metric_units_verified": false,
+      "semantics": "native occupied/surface points; не сырые лучи",
+      "nearest_pose_receive_delta_s": 0.03681957100002364,
+      "localized": false,
+      "geometry_candidates": 0,
+      "diagnostics": [
+        "Не подтверждено профилем/монитором: geometry_frames_validated",
+        "Не подтверждено профилем/монитором: source_time_validated",
+        "Не подтверждено профилем/монитором: identity_verified",
+        "Нужны явные метрические единицы и ось +z вверх",
+        "Системы точек и позы не подтверждены как одна система",
+        "Не указан проверенный pose_child_frame",
+        "Не указан поддерживаемый источник наблюдённых поверхностей",
+        "Недопустимо или неизвестно: acquisition_age_s",
+        "Недопустимо или неизвестно: localization_error_m",
+        "Пиксельный bbox не превращается в метрическую цель"
+      ]
+    },
+    {
+      "file": "lidar_03.npz",
+      "metadata_pairing": "explicit_npz_file",
+      "receive_t": 1.0889597509999476,
+      "metric_walk_blocked": true,
+      "geometry_contract_verified": false,
+      "array_key": "data_data_data_points",
+      "point_count": 44991,
+      "dtype": "float64",
+      "finite_points": 44991,
+      "bounds_reported_units": [
+        [
+          -0.425,
+          5.925000000000001
+        ],
+        [
+          -8.424999999999999,
+          -2.7249999999999988
+        ],
+        [
+          -0.575,
+          1.2750000000000001
+        ]
+      ],
+      "metric_units_verified": false,
+      "semantics": "native occupied/surface points; не сырые лучи",
+      "nearest_pose_receive_delta_s": 0.03723162599999341,
+      "localized": false,
+      "geometry_candidates": 0,
+      "diagnostics": [
+        "Не подтверждено профилем/монитором: geometry_frames_validated",
+        "Не подтверждено профилем/монитором: source_time_validated",
+        "Не подтверждено профилем/монитором: identity_verified",
+        "Нужны явные метрические единицы и ось +z вверх",
+        "Системы точек и позы не подтверждены как одна система",
+        "Не указан проверенный pose_child_frame",
+        "Не указан поддерживаемый источник наблюдённых поверхностей",
+        "Недопустимо или неизвестно: acquisition_age_s",
+        "Недопустимо или неизвестно: localization_error_m",
+        "Пиксельный bbox не превращается в метрическую цель"
+      ]
+    },
+    {
+      "file": "lidar_04.npz",
+      "metadata_pairing": "explicit_npz_file",
+      "receive_t": 1.225221620999946,
+      "metric_walk_blocked": true,
+      "geometry_contract_verified": false,
+      "array_key": "data_data_data_points",
+      "point_count": 45012,
+      "dtype": "float64",
+      "finite_points": 45012,
+      "bounds_reported_units": [
+        [
+          -0.425,
+          5.925000000000001
+        ],
+        [
+          -8.424999999999999,
+          -2.7249999999999988
+        ],
+        [
+          -0.575,
+          1.2750000000000001
+        ]
+      ],
+      "metric_units_verified": false,
+      "semantics": "native occupied/surface points; не сырые лучи",
+      "nearest_pose_receive_delta_s": 0.0385264220000181,
+      "localized": false,
+      "geometry_candidates": 0,
+      "diagnostics": [
+        "Не подтверждено профилем/монитором: geometry_frames_validated",
+        "Не подтверждено профилем/монитором: source_time_validated",
+        "Не подтверждено профилем/монитором: identity_verified",
+        "Нужны явные метрические единицы и ось +z вверх",
+        "Системы точек и позы не подтверждены как одна система",
+        "Не указан проверенный pose_child_frame",
+        "Не указан поддерживаемый источник наблюдённых поверхностей",
+        "Недопустимо или неизвестно: acquisition_age_s",
+        "Недопустимо или неизвестно: localization_error_m",
+        "Пиксельный bbox не превращается в метрическую цель"
+      ]
+    }
+  ],
+  "camera": [
+    {
+      "file": "camera_00.jpg",
+      "receive_t": 2.7178999970000177,
+      "source_s": 0.019333333333333334,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            263,
+            378,
+            17,
+            35
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            206,
+            378,
+            55,
+            42
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            184,
+            377,
+            19,
+            50
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              476.0,
+              384.0
+            ],
+            [
+              300.0,
+              389.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              284.0,
+              427.0
+            ],
+            [
+              278.0,
+              345.0
+            ],
+            [
+              618.0,
+              637.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              221.0,
+              368.0
+            ],
+            [
+              971.0,
+              382.0
+            ],
+            [
+              465.0,
+              418.0
+            ],
+            [
+              209.0,
+              428.0
+            ],
+            [
+              430.0,
+              171.0
+            ],
+            [
+              661.0,
+              373.0
+            ],
+            [
+              620.0,
+              267.0
+            ],
+            [
+              179.0,
+              378.0
+            ],
+            [
+              171.0,
+              430.0
+            ],
+            [
+              317.0,
+              427.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              598.0,
+              237.0
+            ],
+            [
+              711.0,
+              140.0
+            ],
+            [
+              440.0,
+              383.0
+            ],
+            [
+              189.0,
+              329.0
+            ],
+            [
+              190.0,
+              251.0
+            ],
+            [
+              415.0,
+              141.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": 0.03169336399992062,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "warming_up",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 661.0191999934614,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    },
+    {
+      "file": "camera_01.jpg",
+      "receive_t": 4.7516394419999415,
+      "source_s": 0.03866666666666667,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            183,
+            377,
+            25,
+            50
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              301.0,
+              389.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              476.0,
+              380.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              284.0,
+              427.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              207.0,
+              392.0
+            ],
+            [
+              618.0,
+              637.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              662.0,
+              373.0
+            ],
+            [
+              171.0,
+              430.0
+            ],
+            [
+              222.0,
+              337.0
+            ],
+            [
+              971.0,
+              382.0
+            ],
+            [
+              302.0,
+              355.0
+            ],
+            [
+              317.0,
+              427.0
+            ],
+            [
+              614.0,
+              292.0
+            ],
+            [
+              711.0,
+              140.0
+            ],
+            [
+              743.0,
+              135.0
+            ],
+            [
+              209.0,
+              429.0
+            ],
+            [
+              493.0,
+              313.0
+            ],
+            [
+              598.0,
+              237.0
+            ],
+            [
+              415.0,
+              141.0
+            ],
+            [
+              465.0,
+              418.0
+            ],
+            [
+              430.0,
+              171.0
+            ],
+            [
+              189.0,
+              347.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": 0.014974209000001792,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "time_discontinuity_reset",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 2.8919000178575516,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    },
+    {
+      "file": "camera_02.jpg",
+      "receive_t": 6.778698791000011,
+      "source_s": 0.058,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            184,
+            377,
+            22,
+            50
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              476.0,
+              385.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              300.0,
+              389.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              618.0,
+              638.0
+            ],
+            [
+              305.0,
+              424.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              661.0,
+              373.0
+            ],
+            [
+              183.0,
+              392.0
+            ],
+            [
+              302.0,
+              355.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              493.0,
+              313.0
+            ],
+            [
+              221.0,
+              378.0
+            ],
+            [
+              620.0,
+              267.0
+            ],
+            [
+              430.0,
+              171.0
+            ],
+            [
+              598.0,
+              237.0
+            ],
+            [
+              170.0,
+              430.0
+            ],
+            [
+              3.0,
+              413.0
+            ],
+            [
+              678.0,
+              95.0
+            ],
+            [
+              711.0,
+              140.0
+            ],
+            [
+              743.0,
+              135.0
+            ],
+            [
+              465.0,
+              418.0
+            ],
+            [
+              203.0,
+              420.0
+            ],
+            [
+              415.0,
+              141.0
+            ],
+            [
+              189.0,
+              359.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": 0.015152857999964908,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "time_discontinuity_reset",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 3.081900009419769,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    },
+    {
+      "file": "camera_03.jpg",
+      "receive_t": 8.807764233999933,
+      "source_s": 0.07733333333333334,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            262,
+            378,
+            18,
+            34
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            207,
+            378,
+            52,
+            42
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            183,
+            377,
+            18,
+            50
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              476.0,
+              385.0
+            ],
+            [
+              300.0,
+              389.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              661.0,
+              373.0
+            ],
+            [
+              284.0,
+              427.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              179.0,
+              379.0
+            ],
+            [
+              617.0,
+              637.0
+            ],
+            [
+              302.0,
+              348.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              614.0,
+              292.0
+            ],
+            [
+              743.0,
+              135.0
+            ],
+            [
+              316.0,
+              427.0
+            ],
+            [
+              430.0,
+              171.0
+            ],
+            [
+              221.0,
+              378.0
+            ],
+            [
+              465.0,
+              418.0
+            ],
+            [
+              415.0,
+              141.0
+            ],
+            [
+              710.0,
+              140.0
+            ],
+            [
+              971.0,
+              382.0
+            ],
+            [
+              204.0,
+              414.0
+            ],
+            [
+              26.0,
+              432.0
+            ],
+            [
+              189.0,
+              329.0
+            ],
+            [
+              492.0,
+              313.0
+            ],
+            [
+              246.0,
+              356.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": -0.025507398999934594,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "time_discontinuity_reset",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 3.035100002307445,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    },
+    {
+      "file": "camera_04.jpg",
+      "receive_t": 10.835959491999915,
+      "source_s": 0.09666666666666666,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            182,
+            377,
+            26,
+            50
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              476.0,
+              385.0
+            ],
+            [
+              300.0,
+              389.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              305.0,
+              424.0
+            ],
+            [
+              661.0,
+              373.0
+            ],
+            [
+              179.0,
+              379.0
+            ],
+            [
+              278.0,
+              358.0
+            ],
+            [
+              604.0,
+              640.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              204.0,
+              414.0
+            ],
+            [
+              620.0,
+              267.0
+            ],
+            [
+              493.0,
+              313.0
+            ],
+            [
+              221.0,
+              368.0
+            ],
+            [
+              430.0,
+              171.0
+            ],
+            [
+              465.0,
+              418.0
+            ],
+            [
+              26.0,
+              432.0
+            ],
+            [
+              711.0,
+              140.0
+            ],
+            [
+              190.0,
+              251.0
+            ],
+            [
+              415.0,
+              141.0
+            ],
+            [
+              189.0,
+              329.0
+            ],
+            [
+              743.0,
+              135.0
+            ],
+            [
+              170.0,
+              430.0
+            ],
+            [
+              598.0,
+              237.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": 0.04122390500003803,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "time_discontinuity_reset",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 2.9114000499248505,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    },
+    {
+      "file": "camera_05.jpg",
+      "receive_t": 12.867825509999989,
+      "source_s": 0.116,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            182,
+            377,
+            26,
+            50
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              476.0,
+              384.0
+            ],
+            [
+              300.0,
+              389.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              305.0,
+              424.0
+            ],
+            [
+              205.0,
+              395.0
+            ],
+            [
+              302.0,
+              348.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              620.0,
+              267.0
+            ],
+            [
+              618.0,
+              638.0
+            ],
+            [
+              661.0,
+              373.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              209.0,
+              428.0
+            ],
+            [
+              493.0,
+              313.0
+            ],
+            [
+              465.0,
+              418.0
+            ],
+            [
+              189.0,
+              366.0
+            ],
+            [
+              221.0,
+              362.0
+            ],
+            [
+              743.0,
+              135.0
+            ],
+            [
+              711.0,
+              140.0
+            ],
+            [
+              415.0,
+              141.0
+            ],
+            [
+              3.0,
+              413.0
+            ],
+            [
+              430.0,
+              171.0
+            ],
+            [
+              603.0,
+              295.0
+            ],
+            [
+              598.0,
+              237.0
+            ],
+            [
+              173.0,
+              397.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": -0.03980225700001938,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "time_discontinuity_reset",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 2.8957000467926264,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    },
+    {
+      "file": "camera_06.jpg",
+      "receive_t": 14.895755138000027,
+      "source_s": 0.13533333333333333,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            183,
+            377,
+            20,
+            50
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              476.0,
+              385.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              300.0,
+              389.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              284.0,
+              427.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              661.0,
+              373.0
+            ],
+            [
+              618.0,
+              638.0
+            ],
+            [
+              179.0,
+              379.0
+            ],
+            [
+              302.0,
+              348.0
+            ],
+            [
+              971.0,
+              382.0
+            ],
+            [
+              221.0,
+              378.0
+            ],
+            [
+              620.0,
+              267.0
+            ],
+            [
+              246.0,
+              355.0
+            ],
+            [
+              3.0,
+              413.0
+            ],
+            [
+              493.0,
+              313.0
+            ],
+            [
+              189.0,
+              329.0
+            ],
+            [
+              743.0,
+              135.0
+            ],
+            [
+              465.0,
+              418.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              178.0,
+              414.0
+            ],
+            [
+              711.0,
+              140.0
+            ],
+            [
+              678.0,
+              95.0
+            ],
+            [
+              415.0,
+              141.0
+            ],
+            [
+              598.0,
+              237.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": 0.017549246999919887,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "time_discontinuity_reset",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 2.947400033008307,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    },
+    {
+      "file": "camera_07.jpg",
+      "receive_t": 16.928878285999986,
+      "source_s": 0.15466666666666667,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            184,
+            377,
+            21,
+            50
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              476.0,
+              384.0
+            ],
+            [
+              300.0,
+              389.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              305.0,
+              424.0
+            ],
+            [
+              179.0,
+              379.0
+            ],
+            [
+              618.0,
+              637.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              302.0,
+              355.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              246.0,
+              355.0
+            ],
+            [
+              971.0,
+              382.0
+            ],
+            [
+              620.0,
+              267.0
+            ],
+            [
+              661.0,
+              373.0
+            ],
+            [
+              465.0,
+              418.0
+            ],
+            [
+              171.0,
+              430.0
+            ],
+            [
+              221.0,
+              378.0
+            ],
+            [
+              743.0,
+              135.0
+            ],
+            [
+              711.0,
+              140.0
+            ],
+            [
+              431.0,
+              171.0
+            ],
+            [
+              678.0,
+              95.0
+            ],
+            [
+              3.0,
+              413.0
+            ],
+            [
+              190.0,
+              251.0
+            ],
+            [
+              209.0,
+              428.0
+            ],
+            [
+              189.0,
+              329.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": -0.002466482000045289,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "time_discontinuity_reset",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 3.0166999786160886,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    },
+    {
+      "file": "camera_08.jpg",
+      "receive_t": 18.961067655999955,
+      "source_s": 0.17400000000000002,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            182,
+            377,
+            20,
+            50
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              476.0,
+              384.0
+            ],
+            [
+              301.0,
+              389.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              618.0,
+              637.0
+            ],
+            [
+              183.0,
+              392.0
+            ],
+            [
+              284.0,
+              427.0
+            ],
+            [
+              302.0,
+              348.0
+            ],
+            [
+              221.0,
+              368.0
+            ],
+            [
+              661.0,
+              373.0
+            ],
+            [
+              317.0,
+              427.0
+            ],
+            [
+              620.0,
+              267.0
+            ],
+            [
+              678.0,
+              95.0
+            ],
+            [
+              971.0,
+              382.0
+            ],
+            [
+              3.0,
+              413.0
+            ],
+            [
+              465.0,
+              418.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              743.0,
+              135.0
+            ],
+            [
+              711.0,
+              140.0
+            ],
+            [
+              431.0,
+              171.0
+            ],
+            [
+              493.0,
+              313.0
+            ],
+            [
+              598.0,
+              237.0
+            ],
+            [
+              203.0,
+              420.0
+            ],
+            [
+              189.0,
+              347.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": -0.024487249999992855,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "time_discontinuity_reset",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 2.9146000160835683,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    },
+    {
+      "file": "camera_09.jpg",
+      "receive_t": 20.987805005999917,
+      "source_s": 0.19333333333333333,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            182,
+            377,
+            23,
+            50
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              476.0,
+              384.0
+            ],
+            [
+              300.0,
+              389.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              305.0,
+              424.0
+            ],
+            [
+              179.0,
+              379.0
+            ],
+            [
+              661.0,
+              373.0
+            ],
+            [
+              618.0,
+              638.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              278.0,
+              358.0
+            ],
+            [
+              971.0,
+              382.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              221.0,
+              368.0
+            ],
+            [
+              620.0,
+              267.0
+            ],
+            [
+              465.0,
+              418.0
+            ],
+            [
+              204.0,
+              414.0
+            ],
+            [
+              430.0,
+              171.0
+            ],
+            [
+              189.0,
+              329.0
+            ],
+            [
+              743.0,
+              135.0
+            ],
+            [
+              415.0,
+              141.0
+            ],
+            [
+              171.0,
+              430.0
+            ],
+            [
+              711.0,
+              140.0
+            ],
+            [
+              187.0,
+              251.0
+            ],
+            [
+              603.0,
+              295.0
+            ],
+            [
+              493.0,
+              313.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": -0.007918447999941236,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "time_discontinuity_reset",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 2.888699993491173,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    },
+    {
+      "file": "camera_10.jpg",
+      "receive_t": 23.021887542999934,
+      "source_s": 0.21266666666666667,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            182,
+            378,
+            24,
+            49
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              476.0,
+              385.0
+            ],
+            [
+              300.0,
+              389.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              305.0,
+              424.0
+            ],
+            [
+              278.0,
+              354.0
+            ],
+            [
+              661.0,
+              373.0
+            ],
+            [
+              179.0,
+              379.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              618.0,
+              637.0
+            ],
+            [
+              971.0,
+              382.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              204.0,
+              414.0
+            ],
+            [
+              710.0,
+              140.0
+            ],
+            [
+              743.0,
+              135.0
+            ],
+            [
+              221.0,
+              378.0
+            ],
+            [
+              3.0,
+              413.0
+            ],
+            [
+              493.0,
+              313.0
+            ],
+            [
+              614.0,
+              267.0
+            ],
+            [
+              430.0,
+              171.0
+            ],
+            [
+              189.0,
+              329.0
+            ],
+            [
+              415.0,
+              141.0
+            ],
+            [
+              71.0,
+              418.0
+            ],
+            [
+              222.0,
+              337.0
+            ],
+            [
+              480.0,
+              180.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": -0.008808169999952042,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "time_discontinuity_reset",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 2.8999000205658376,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    },
+    {
+      "file": "camera_11.jpg",
+      "receive_t": 25.049183262999918,
+      "source_s": 0.232,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            184,
+            377,
+            24,
+            50
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              476.0,
+              385.0
+            ],
+            [
+              300.0,
+              389.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              661.0,
+              373.0
+            ],
+            [
+              179.0,
+              379.0
+            ],
+            [
+              305.0,
+              424.0
+            ],
+            [
+              617.0,
+              638.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              302.0,
+              348.0
+            ],
+            [
+              465.0,
+              418.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              620.0,
+              267.0
+            ],
+            [
+              26.0,
+              432.0
+            ],
+            [
+              430.0,
+              171.0
+            ],
+            [
+              209.0,
+              429.0
+            ],
+            [
+              221.0,
+              378.0
+            ],
+            [
+              743.0,
+              135.0
+            ],
+            [
+              415.0,
+              141.0
+            ],
+            [
+              971.0,
+              382.0
+            ],
+            [
+              711.0,
+              140.0
+            ],
+            [
+              189.0,
+              329.0
+            ],
+            [
+              493.0,
+              313.0
+            ],
+            [
+              678.0,
+              95.0
+            ],
+            [
+              274.0,
+              366.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": -0.003941408999935447,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "time_discontinuity_reset",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 2.863299974706024,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    },
+    {
+      "file": "camera_12.jpg",
+      "receive_t": 27.07987191099994,
+      "source_s": 0.25133333333333335,
+      "metric_target": false,
+      "shape": [
+        720,
+        1280,
+        3
+      ],
+      "pixel_candidates": [
+        {
+          "kind": "cone_image_candidate",
+          "bbox_px": [
+            183,
+            377,
+            24,
+            50
+          ],
+          "metric_target": false,
+          "reason": "Оранжевый силуэт; цвет не доказывает тип предмета"
+        },
+        {
+          "kind": "image_corners",
+          "points_px": [
+            [
+              476.0,
+              385.0
+            ],
+            [
+              300.0,
+              389.0
+            ],
+            [
+              704.0,
+              183.0
+            ],
+            [
+              642.0,
+              696.0
+            ],
+            [
+              661.0,
+              373.0
+            ],
+            [
+              305.0,
+              424.0
+            ],
+            [
+              302.0,
+              355.0
+            ],
+            [
+              617.0,
+              637.0
+            ],
+            [
+              758.0,
+              78.0
+            ],
+            [
+              179.0,
+              379.0
+            ],
+            [
+              248.0,
+              435.0
+            ],
+            [
+              743.0,
+              135.0
+            ],
+            [
+              633.0,
+              267.0
+            ],
+            [
+              221.0,
+              368.0
+            ],
+            [
+              3.0,
+              413.0
+            ],
+            [
+              711.0,
+              140.0
+            ],
+            [
+              430.0,
+              171.0
+            ],
+            [
+              209.0,
+              428.0
+            ],
+            [
+              465.0,
+              418.0
+            ],
+            [
+              189.0,
+              329.0
+            ],
+            [
+              493.0,
+              313.0
+            ],
+            [
+              245.0,
+              341.0
+            ],
+            [
+              971.0,
+              382.0
+            ],
+            [
+              178.0,
+              414.0
+            ],
+            [
+              187.0,
+              251.0
+            ]
+          ],
+          "metric_target": false
+        }
+      ],
+      "nearest_pose_receive_delta_s": 0.013474265000013474,
+      "consistency": {
+        "diagnostic_only": true,
+        "hardware_verdict": null,
+        "correction_applied": false,
+        "evidence_scope": "pixel_correspondence_and_received_pose_only",
+        "status": "time_discontinuity_reset",
+        "reasons": [],
+        "normalized_width_px": 640,
+        "tracked_features": 0,
+        "p95_displacement_px": null,
+        "static_duration_s": 0.0,
+        "static_samples": 0,
+        "pose_yaw_change_deg": 0.0,
+        "pose_xy_change_m": 0.0,
+        "exact_duplicate_duration_s": 0.0,
+        "pose_change_with_exact_same_frame": false,
+        "last_pose_delta_xy_m": null,
+        "last_pose_delta_yaw_deg": null,
+        "processing_ms": 2.9602000140585005,
+        "thresholds": {
+          "minimum_tracked_features": 40,
+          "static_duration_s": 5.0,
+          "p95_displacement_px_strictly_below": 1.0,
+          "yaw_change_deg_strictly_above": 2.0,
+          "xy_change_m_strictly_below": 0.04,
+          "duplicate_duration_s_strictly_above": 3.0,
+          "duplicate_motion_xy_m_strictly_above": 0.02,
+          "duplicate_motion_yaw_deg_strictly_above": 1.0,
+          "max_sample_gap_s": 1.5
+        },
+        "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+      }
+    }
+  ],
+  "consistency_final": {
+    "diagnostic_only": true,
+    "hardware_verdict": null,
+    "correction_applied": false,
+    "evidence_scope": "pixel_correspondence_and_received_pose_only",
+    "status": "time_discontinuity_reset",
+    "reasons": [],
+    "normalized_width_px": 640,
+    "tracked_features": 0,
+    "p95_displacement_px": null,
+    "static_duration_s": 0.0,
+    "static_samples": 0,
+    "pose_yaw_change_deg": 0.0,
+    "pose_xy_change_m": 0.0,
+    "exact_duplicate_duration_s": 0.0,
+    "pose_change_with_exact_same_frame": false,
+    "last_pose_delta_xy_m": null,
+    "last_pose_delta_yaw_deg": null,
+    "processing_ms": 2.9602000140585005,
+    "thresholds": {
+      "minimum_tracked_features": 40,
+      "static_duration_s": 5.0,
+      "p95_displacement_px_strictly_below": 1.0,
+      "yaw_change_deg_strictly_above": 2.0,
+      "xy_change_m_strictly_below": 0.04,
+      "duplicate_duration_s_strictly_above": 3.0,
+      "duplicate_motion_xy_m_strictly_above": 0.02,
+      "duplicate_motion_yaw_deg_strictly_above": 1.0,
+      "max_sample_gap_s": 1.5
+    },
+    "limitations": "Без калибровки, синхронизации и независимой проверки источников причина расхождения не устанавливается."
+  },
+  "first_last_camera_registration": {
+    "diagnostic_only": true,
+    "body_rotation_deg": null,
+    "hardware_cause": null,
+    "normalized_width_px": 640,
+    "inliers": 350,
+    "p95_displacement_px": 0.13447917997837067,
+    "method": "ORB correspondences, LK subpixel refinement, affine RANSAC",
+    "image_affine_rotation_deg": -0.017100827038215978
+  },
+  "warnings": [
+    "Масштаб source/receive отличается от 1: ULIDAR_STATE",
+    "Повторяются source timestamps: ULIDAR_STATE",
+    "Масштаб source/receive отличается от 1: ULIDAR_ARRAY",
+    "Повторяются source timestamps: ULIDAR_ARRAY",
+    "Масштаб source/receive отличается от 1: CAMERA"
+  ],
+  "errors": [],
+  "limitations": [
+    "Receive-nearest — диагностическое сопоставление, не временная калибровка.",
+    "Редко сохранённые кадры могут сбросить окно ConsistencyMonitor; пропущенные кадры не восстанавливаются.",
+    "Health отражает сохранённый поднабор, а не полное состояние живого потока.",
+    "Границы массива приведены в сообщённых единицах; метрическая система и разрешение движения не подтверждены.",
+    "Причина расхождения yaw/видео и неподвижных timestamps этим отчётом не устанавливается."
+  ],
+  "runtime_s": 0.9992016999749467
+}

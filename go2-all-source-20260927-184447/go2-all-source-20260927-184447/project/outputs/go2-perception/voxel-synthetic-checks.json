@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "case": "flat",
+      "candidates": 0,
+      "slopes": [],
+      "seconds": 0.016323600000760052
+    },
+    {
+      "case": "box",
+      "candidates": 0,
+      "slopes": [],
+      "seconds": 0.015538699999524397
+    },
+    {
+      "case": "ramp_0",
+      "candidates": 1,
+      "slopes": [
+        19.431605638825083
+      ],
+      "seconds": 0.017641699998421245
+    },
+    {
+      "case": "ramp_60",
+      "candidates": 1,
+      "slopes": [
+        19.401741917159825
+      ],
+      "seconds": 0.01766440000028524
+    },
+    {
+      "case": "ramp_135",
+      "candidates": 1,
+      "slopes": [
+        19.547153874942666
+      ],
+      "seconds": 0.01703550000092946
+    },
+    {
+      "case": "ramp_noisy",
+      "candidates": 1,
+      "slopes": [
+        19.35241909321374
+      ],
+      "seconds": 0.019483300000501913
+    },
+    {
+      "case": "sparse_unknown",
+      "candidates": 0,
+      "slopes": [],
+      "seconds": 0.011200499999176827
+    },
+    {
+      "case": "mesh_and_native_units",
+      "passed": true
+    },
+    {
+      "case": "invalid_mesh_rejected",
+      "passed": true
+    },
+    {
+      "case": "frame_mismatch_rejected",
+      "passed": true
+    }
+  ]
+}

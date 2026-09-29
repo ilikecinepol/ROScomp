@@ -1,0 +1,85 @@
+{
+  "units": "metres",
+  "scale": "1 Blender Unit = 1 metre",
+  "accuracy": {
+    "obstacle_dimensions": "midpoints/values inside competition specification ranges",
+    "room": "provisional estimate from photographs: 12 x 8 m",
+    "placement": "provisional; must be updated after a measured survey"
+  },
+  "room": {
+    "length_x": 12.0,
+    "width_y": 8.0,
+    "wall_height": 3.0
+  },
+  "obstacles": {
+    "a_frame": {
+      "slope_length": 1.2,
+      "width": 0.6,
+      "peak_height": 0.5,
+      "angle_deg": 24.6,
+      "center": [
+        3.9,
+        -2.65
+      ]
+    },
+    "suspended_bridge": {
+      "deck_length": 1.75,
+      "width": 0.55,
+      "deck_height": 0.22,
+      "target_sway_deg": [
+        -8,
+        8
+      ],
+      "center": [
+        -0.25,
+        -2.65
+      ]
+    },
+    "teeter": {
+      "board_length": 1.8,
+      "width": 0.55,
+      "axis_height": 0.18,
+      "rest_angle_deg": 11.0,
+      "center": [
+        0.35,
+        2.65
+      ]
+    },
+    "slalom": {
+      "pole_count": 6,
+      "pole_height": 1.0,
+      "spacing": 0.9,
+      "axis": "X",
+      "first_pole": [
+        -4.2,
+        0.0
+      ]
+    },
+    "two_platforms": {
+      "width": 0.55,
+      "platform_size": [
+        0.6,
+        0.6
+      ],
+      "heights": [
+        0.28,
+        0.4
+      ],
+      "step": 0.12,
+      "ramp_angle_deg": 22.5,
+      "center_y": 1.2
+    }
+  },
+  "webots": {
+    "static_collections": [
+      "Architecture",
+      "Static_Obstacles"
+    ],
+    "dynamic_objects": [
+      "DYN_BridgeDeck_1p75x0p55m",
+      "DYN_TeeterBoard_1p80x0p55m",
+      "DYN_TeeterAxis"
+    ],
+    "notes": "Use simple boxes/cylinders for boundingObject. Add joints, mass, damping and contact materials in Webots."
+  }
+}

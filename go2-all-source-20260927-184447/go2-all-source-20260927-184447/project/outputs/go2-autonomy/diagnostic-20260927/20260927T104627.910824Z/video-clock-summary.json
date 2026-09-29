@@ -1,0 +1,18 @@
+{
+  "paired_frames": 18,
+  "formats": [
+    [
+      1280,
+      720,
+      1280,
+      720,
+      "yuv420p",
+      "1/90000"
+    ]
+  ],
+  "receive_span_s": 17.81141944000001,
+  "declared_pts_span_s": 0.1706666666666667,
+  "estimated_receive_seconds_per_pts_second": 103.71449149781651,
+  "absolute_latency_verified": false,
+  "clock_correction_applied": false
+}

@@ -1,0 +1,13 @@
+{
+  "nonce": "46dcba6ce25b74814a4b5f5e",
+  "ready_at_utc": "2026-09-20T11:59:46.468177+00:00",
+  "expires_in_s": 120,
+  "camera_file": "camera_001.jpg",
+  "health_errors": [],
+  "plan": {
+    "vx_m_s": 0.1,
+    "vy_m_s": 0,
+    "vyaw_rad_s": 0,
+    "duration_s": 1.0
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "versions": {
+    "numpy": "2.3.5",
+    "opencv": "5.0.0",
+    "scipy": "1.18.1"
+  },
+  "opencv_threads": 1,
+  "cpu_temperature_start_c": null,
+  "code_sha256": {
+    "ramp_vision.py": "9f1581059fcd10a8db4541e003efffe1edcf9965a0cc2968b51cca3ba44a0ba5",
+    "replay_perception.py": "9c2797de0060f6579177c22eecaa19291b13fa5fa6315f825fd0df42e92a867c",
+    "voxel_geometry.py": "8744259e39369cba85bda56557e4903549527dbacf439401c86658c89b1f4bb8"
+  },
+  "captures": [
+    {
+      "capture": "20260916T110043Z",
+      "camera": [
+        {
+          "file": "camera_00.jpg",
+          "processing_ms_excludes_io_overlay": 92.22650000083377,
+          "candidate_count": 1,
+          "image_size": {
+            "width": 640,
+            "height": 360
+          }
+        },
+        {
+          "file": "camera_01.jpg",
+          "processing_ms_excludes_io_overlay": 87.15549999942596,
+          "candidate_count": 1,
+          "image_size": {
+            "width": 640,
+            "height": 360
+          }
+        },
+        {
+          "file": "camera_02.jpg",
+          "processing_ms_excludes_io_overlay": 83.81769999868993,
+          "candidate_count": 1,
+          "image_size": {
+            "width": 640,
+            "height": 360
+          }
+        },
+        {
+          "file": "camera_03.jpg",
+          "processing_ms_excludes_io_overlay": 105.89710000022023,
+          "candidate_count": 1,
+          "image_size": {
+            "width": 640,
+            "height": 360
+          }
+        },
+        {
+          "file": "camera_04.jpg",
+          "processing_ms_excludes_io_overlay": 80.45140000103856,
+          "candidate_count": 1,
+          "image_size": {
+            "width": 640,
+            "height": 360
+          }
+        }
+      ],
+      "voxel": [
+        {
+          "file": "lidar_00.npz",
+          "processing_ms_includes_npz_load": 39.7129999983008,
+          "candidate_count": 2
+        },
+        {
+          "file": "lidar_01.npz",
+          "processing_ms_includes_npz_load": 38.35689999868919,
+          "candidate_count": 2
+        },
+        {
+          "file": "lidar_02.npz",
+          "processing_ms_includes_npz_load": 37.880699999732315,
+          "candidate_count": 2
+        }
+      ],
+      "errors": [],
+      "actuation": false,
+      "camera_lidar_fusion": false,
+      "sensor_clock_synchronization_verified": false,
+      "capture_observed_hz": {
+        "LOW_STATE": 20.0,
+        "ULIDAR_STATE": 5.0,
+        "LF_SPORT_MOD_STATE": 20.0,
+        "ROBOTODOM": 18.7,
+        "ULIDAR_ARRAY": 7.71,
+        "CAMERA": 14.3
+      },
+      "camera_input_width": 640,
+      "notes": [
+        "Работа только с записью. Время обработки не является задержкой живого управления.",
+        "Поза подобрана по времени приёма среди сохранённых сообщений; это не синхронизация датчиков.",
+        "Кандидаты камеры и карты не сопоставлены друг с другом; подход не разрешён."
+      ],
+      "camera_timing_ms": {
+        "mean": 89.90964000004169,
+        "max": 105.89710000022023,
+        "n": 5
+      },
+      "voxel_timing_ms": {
+        "mean": 38.65019999890743,
+        "max": 39.7129999983008,
+        "n": 3
+      }
+    }
+  ],
+  "cpu_temperature_end_c": null
+}

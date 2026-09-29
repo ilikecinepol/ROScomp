@@ -1,0 +1,42 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "../protos/Go2.proto"
+
+WorldInfo {
+  title "Unitree Go2 teleop gait test"
+  basicTimeStep 8
+  coordinateSystem "ENU"
+}
+
+Viewpoint {
+  orientation 0.57735 0.57735 0.57735 2.094395
+  position 2.5 -3.5 1.8
+}
+
+Background { skyColor [ 0.14 0.15 0.17 ] }
+DirectionalLight { direction -0.3 -0.4 -1 intensity 2 ambientIntensity 0.6 }
+
+Solid {
+  translation 1.5 0 -0.05
+  children [
+    Shape {
+      appearance PBRAppearance { baseColor 0.48 0.47 0.43 roughness 0.9 }
+      geometry Box { size 8 4 0.1 }
+    }
+  ]
+  name "test floor"
+  boundingObject Box { size 8 4 0.1 }
+  locked TRUE
+}
+
+DEF GO2 Go2 {
+  translation 0 0 0.34
+  controller "go2_teleop"
+  controllerArgs [ "--demo" ]
+}
+
+Robot {
+  supervisor TRUE
+  controller "go2_teleop_test"
+  name "Go2 gait test supervisor"
+}

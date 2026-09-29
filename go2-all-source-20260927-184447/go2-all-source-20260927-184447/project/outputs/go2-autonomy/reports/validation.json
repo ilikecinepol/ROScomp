@@ -1,0 +1,108 @@
+{
+  "date": "2026-09-17",
+  "tests": {
+    "count": 184,
+    "passed": 184,
+    "elapsed_seconds": 27.175,
+    "command": "python -m unittest discover -s tests -v",
+    "environment": "Windows, Python 3.12, NumPy 2.3.5, OpenCV 5, SciPy 1.18.1"
+  },
+  "packaged_offline_launcher": "4/4 FINISHED",
+  "demos": [
+    {
+      "scope": "kinematic_not_physics_not_robot_validation",
+      "seed": 0,
+      "completed": true,
+      "elapsed": 198.29999999999998,
+      "final_phase": "FINISHED",
+      "latency_seconds": 0.0,
+      "completed_kinds": [
+        "aframe",
+        "platforms",
+        "bridge",
+        "teeter",
+        "slalom"
+      ]
+    },
+    {
+      "scope": "kinematic_not_physics_not_robot_validation",
+      "seed": 1,
+      "completed": true,
+      "elapsed": 205.65,
+      "final_phase": "FINISHED",
+      "latency_seconds": 0.15,
+      "completed_kinds": [
+        "aframe",
+        "bridge",
+        "teeter",
+        "platforms",
+        "slalom"
+      ]
+    },
+    {
+      "scope": "kinematic_not_physics_not_robot_validation",
+      "seed": 2,
+      "completed": true,
+      "elapsed": 207.15,
+      "final_phase": "FINISHED",
+      "latency_seconds": 0.3,
+      "completed_kinds": [
+        "aframe",
+        "slalom",
+        "platforms",
+        "teeter",
+        "bridge"
+      ]
+    },
+    {
+      "scope": "kinematic_not_physics_not_robot_validation",
+      "seed": 3,
+      "completed": true,
+      "elapsed": 197.7,
+      "final_phase": "FINISHED",
+      "latency_seconds": 0.0,
+      "completed_kinds": [
+        "slalom",
+        "teeter",
+        "bridge",
+        "platforms",
+        "aframe"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "wolf_go2/__init__.py": "78b4c0f42dfe64c7f2c53f2bdc76b0b6f59d1a4daf74db91f03d1f35ca9733c2",
+    "wolf_go2/__main__.py": "a9e8fda71a0db3c829ae66b53ffa05c25fc6928359bc7ce292d85913d0f63f77",
+    "wolf_go2/consistency.py": "98f42cf7354761fe210c7e1252e13537f54f3338ee084b71c1b98981c9fc4136",
+    "wolf_go2/control.py": "714831e21ef6be5ddf79a57c14a555ccf20b6b02d71589b3b48ebfbcf0382892",
+    "wolf_go2/journal.py": "aafd5ab464994b3631b6ed62a8da2828fd800658982f3f07a5af57511d3c77eb",
+    "wolf_go2/mission.py": "3c7bc7f2bda50f044b2559c71003927a95e65b5c1967fe9b2d8c9659db987db1",
+    "wolf_go2/models.py": "7e90c3b78ded7399a828180a3b955cc7e1b1eae66aee22be39496d26ee8e6c2d",
+    "wolf_go2/navigation.py": "c76c3a5c14de78f5cd49398db1cb2beb2915a3f9474a8eec6b90e88d35f419de",
+    "wolf_go2/perception.py": "a682d336784eb001e48ee442280c82fde4399bc2df15811204172cc2405f29ad",
+    "wolf_go2/profile.py": "aa7cbb8a038aa78621ae87424bfbe8ee009e07b25f92274e23828fd7402a283c",
+    "wolf_go2/replay.py": "8272fdcfcd94082738fc7e57ec08a9d909c4dbe95b637acebb0c9759009c4199",
+    "wolf_go2/runtime.py": "dad429b1ca3ad279499a528082c3c1d76c12084deb9eb0f9c22eb3324e805655",
+    "wolf_go2/sensors.py": "f0c0c8635aee87d06d4c2f1700863c6efb1a1d76738f65aec59053ae50b1abb5",
+    "wolf_go2/simulation.py": "03bd63ec62806771aaaa924c57629983f221326aceb455d40d781df53332a091",
+    "tests/test_consistency.py": "c6f99e32d33181e89e99af5537e056007708088fafdb9f8b94ea48248095168f",
+    "tests/test_control.py": "5d069f70fb9a83d16b57ff6a99d3750b84d651d6acdc3cc0e5eeb47769edf8ce",
+    "tests/test_journal.py": "86e1a77082016e8b5a5f80f68b86ca7ac6e3c119ce6053ba2b7ce6c34b5ef543",
+    "tests/test_mission.py": "67fceeba980b5f11e88d5b9ace8a31251c4b21d5ed3c67499f22e30e89f8f75e",
+    "tests/test_navigation.py": "a1046ffa42b1b2058b647a49217f357317d31ea2624f001f947e60313d5258e7",
+    "tests/test_perception.py": "37dae4f635026899b1e506f9259cab53687d3bc12c08b51260591dcf2c9c4f8d",
+    "tests/test_profile.py": "e78fcceb601cb35f224514c98fc9f692ec36ab10d84c0aad990a3ec502e4bf89",
+    "tests/test_replay.py": "2ff20b64c42b311ae5eb183dafa13d890c88d63c1a3f20cbec3c2c6496587a0b",
+    "tests/test_runtime.py": "d0e031e8ad28937125e446c6e778d3e3d4f3a58596a2a2c47505a3b035172f76",
+    "tests/test_sensors.py": "6ac29083c865877effab38796ac761e3d08fc6afaf95aad9a62be2f66ef74f98",
+    "tests/test_simulation.py": "9cc889c14e76a270c8aaba50d0baed0edd756dfd21b35e75047a4acda2393334"
+  },
+  "real_robot_connected_this_work": false,
+  "physical_obstacle_course_verified": false,
+  "open_items": [
+    "Координаты и временные шкалы на каждом назначенном роботе",
+    "Уникальная идентификация, физическая реакция на Move/StopMove и каждый навык",
+    "Распознавание моста/качелей и реальной стартовой линии",
+    "Официальный сигнал старта и испытание физического полного маршрута"
+  ]
+}

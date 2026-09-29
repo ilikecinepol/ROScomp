@@ -1,0 +1,35 @@
+{
+  "time_utc": "2026-09-18T09:21:51.236731+00:00",
+  "elapsed_s": 300.017855935,
+  "purpose": "operator_training_recording_not_autonomous_replay",
+  "session_dir": "/home/ubuntu/ai-robot/team_wolf_setup/teleop_logs/20260918T091635.628978Z",
+  "limits": {
+    "vx_m_s": 0.6,
+    "vy_m_s": 0.5,
+    "wz_rad_s": 1.0,
+    "translation_norm_m_s": 0.6,
+    "heartbeat_s": 0.35,
+    "max_seconds": 300
+  },
+  "lidar_semantics": "compressed_voxel_map_not_raw_lidar",
+  "camera_timestamp_semantics": "receive_monotonic_and_video_pts_not_hardware_synced",
+  "counts": {
+    "ULIDAR_ARRAY": 1983,
+    "ULIDAR_STATE": 1396,
+    "LOW_STATE": 5582,
+    "LF_SPORT_MOD_STATE": 5582,
+    "ROBOTODOM": 5221,
+    "CAMERA": 3973
+  },
+  "recorded_frames": 1322,
+  "recorded_maps": 992,
+  "commands": {
+    "stop_acknowledged": 42,
+    "move_requests": 297
+  },
+  "final_stop_acknowledged": true,
+  "writer_error": null,
+  "errors": [
+    "Камера: MediaStreamError"
+  ]
+}

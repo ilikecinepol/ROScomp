@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "frame_id": "odom",
+  "resolution_m": 0.05,
+  "source_kind": "occupied_voxel_map_not_raw_lidar_rays",
+  "decode": {
+    "encoding": "native_metric_occupied_voxels",
+    "formula": "points уже в метрах; повторного преобразования нет",
+    "point_count": 20182,
+    "sources": [
+      "https://github.com/legion1581/unitree_ui/blob/main/src/ui/scene/voxel-map.ts",
+      "https://github.com/legion1581/unitree_webrtc_connect/blob/master/unitree_webrtc_connect/lidar/lidar_decoder_libvoxel.py",
+      "https://github.com/legion1581/unitree_webrtc_connect/blob/master/unitree_webrtc_connect/lidar/lidar_decoder_native.py"
+    ],
+    "quantization_m": 0.05,
+    "grid_bounds_validated": true
+  },
+  "robot_pose": {
+    "position_odom_m": [
+      0.019074,
+      -0.508058,
+      0.300447
+    ],
+    "yaw_rad": -1.6183703303959103
+  },
+  "map": {
+    "point_count": 20182,
+    "observed_xy_cells": 11094,
+    "bounds_min_m": [
+      -3.175,
+      -3.675,
+      -0.625
+    ],
+    "bounds_max_m": [
+      3.1750000000000007,
+      2.6750000000000007,
+      1.175
+    ],
+    "height_quantiles_m": [
+      -0.125,
+      -0.02499999999999991,
+      0.025000000000000022
+    ],
+    "unknown_xy_fraction": 0.3228759765625,
+    "vertical_step_cells": 578
+  },
+  "floor": {
+    "equation_z_abc": [
+      -0.005726856224539694,
+      -0.033422501792918724,
+      -0.04974416883385023
+    ],
+    "normal_odom": [
+      0.0057235665183906935,
+      0.03340330274105638,
+      0.9994255650884155
+    ],
+    "height_at_robot_xy_m": -0.032872833473570395,
+    "support_cells": 1946,
+    "rms_m": 0.013063626631414449,
+    "support_radius_from_robot_m": [
+      0.45,
+      1.8
+    ],
+    "support_bounds_min_m": [
+      -1.1249999999999996,
+      -2.2749999999999995,
+      -0.07499999999999996
+    ],
+    "support_bounds_max_m": [
+      1.7750000000000004,
+      1.2750000000000004,
+      0.025000000000000022
+    ],
+    "status": "local_floor_estimate"
+  },
+  "inclined_planes": [],
+  "raised_horizontal_surfaces": [],
+  "motion_authorized": false,
+  "limitations": [
+    "Это занятые воксели накопленной карты; отсутствие точки не подтверждает свободное место",
+    "Верхняя огибающая теряет нависающие поверхности и нижние слои",
+    "Оценка пола локальная; её нельзя продолжать на всё помещение как доказанный пол",
+    "Точность ограничена размером ячейки и качеством исходной одометрии",
+    "Метки времени карты и позы должны согласовываться внешним сборщиком",
+    "Кандидаты не подтверждают способность робота подняться или наличие свободного подхода"
+  ],
+  "source_file": "C:\\Users\\VladO\\Documents\\Codex\\2026-09-09\\new-chat\\outputs\\go2-slot-20260917\\20260917T094314Z\\lidar_01.npz",
+  "capture_pairing": "explicit_npz_file_and_verified_array_shapes",
+  "capture_sync": {
+    "method": "nearest_recorded_receive_time",
+    "pose_minus_lidar_receive_s": 0.0183960939998542,
+    "sensor_clock_synchronization_verified": false,
+    "reported_lidar_minus_pose_stamp_s": 456.7308292388916,
+    "warning": "Часы/точность timestamp датчиков не проверены; близость времени приёма не доказывает синхронность измерений"
+  }
+}
