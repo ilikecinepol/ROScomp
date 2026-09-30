@@ -1,5 +1,10 @@
 # True Tech Arena — Webots scene
 
+Real-robot command limits and unresolved measurements are tracked in
+[`REAL_GO2_MEASURED_LIMITS.md`](REAL_GO2_MEASURED_LIMITS.md). The Webots launch
+files explicitly arm the safety mux; its standalone defaults remain
+observe-only and dry-run for hardware bring-up.
+
 The project contains a real-scale Webots reconstruction of the current Blender layout.
 
 ## Open the world

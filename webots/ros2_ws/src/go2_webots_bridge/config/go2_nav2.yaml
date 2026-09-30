@@ -101,7 +101,7 @@ controller_server:
       min_lookahead_dist: 0.50
       max_lookahead_dist: 1.00
       lookahead_time: 2.0
-      rotate_to_heading_angular_vel: 0.90
+      rotate_to_heading_angular_vel: 0.35
       transform_tolerance: 0.5
       use_velocity_scaled_lookahead_dist: true
       min_approach_linear_velocity: 0.05
@@ -299,24 +299,24 @@ velocity_smoother:
     stamp_smoothed_velocity_with_smoothing_time: False
     scale_velocities: False
     feedback: "OPEN_LOOP"
-    max_velocity: [0.35, 0.0, 1.2]
-    min_velocity: [-0.15, 0.0, -1.2]
-    max_accel: [0.8, 0.0, 2.8]
-    max_decel: [-0.8, 0.0, -2.8]
+    max_velocity: [0.35, 0.0, 0.35]
+    min_velocity: [-0.15, 0.0, -0.35]
+    max_accel: [0.25, 0.0, 0.6]
+    max_decel: [-0.25, 0.0, -0.6]
     odom_topic: "odom"
     odom_duration: 0.1
     deadband_velocity: [0.0, 0.0, 0.0]
-    velocity_timeout: 1.0
+    velocity_timeout: 0.20
 
 collision_monitor:
   ros__parameters:
     base_frame_id: "base_link"
     odom_frame_id: "odom"
     cmd_vel_in_topic: "cmd_vel_smoothed"
-    cmd_vel_out_topic: "cmd_vel"
+    cmd_vel_out_topic: "cmd_vel_nav"
     state_topic: "collision_monitor_state"
     transform_tolerance: 0.2
-    source_timeout: 1.0
+    source_timeout: 0.20
     base_shift_correction: True
     stop_pub_timeout: 2.0
     # Polygons represent zone around the robot for "stop", "slowdown" and "limit" action types,

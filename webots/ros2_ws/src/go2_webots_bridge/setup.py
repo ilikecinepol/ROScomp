@@ -42,6 +42,7 @@ setup(
             "goal_map_gui = go2_webots_bridge.goal_map_gui:main",
             "goal_web_ui = go2_webots_bridge.goal_web_ui:main",
             "ramp_climber = go2_webots_bridge.ramp_climber:main",
+            "safety_cmd_mux = go2_webots_bridge.safety_cmd_mux:main",
         ]
     },
 )

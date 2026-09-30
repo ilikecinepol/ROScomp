@@ -2,10 +2,15 @@ from pathlib import Path
 
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, TimerAction
+from launch.actions import (
+    DeclareLaunchArgument,
+    GroupAction,
+    IncludeLaunchDescription,
+    TimerAction,
+)
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
-from launch_ros.actions import Node
+from launch_ros.actions import Node, SetRemap
 
 
 def generate_launch_description():
@@ -50,8 +55,25 @@ def generate_launch_description():
                     }
                 ],
             ),
+            Node(
+                package="go2_webots_bridge",
+                executable="safety_cmd_mux",
+                name="go2_safety_cmd_mux",
+                output="screen",
+                parameters=[{"observe_only": False, "dry_run": False}],
+            ),
             slam,
-            TimerAction(period=4.0, actions=[navigation]),
+            TimerAction(
+                period=4.0,
+                actions=[
+                    GroupAction(
+                        [
+                            SetRemap(src="/cmd_vel", dst="/cmd_vel_nav"),
+                            navigation,
+                        ]
+                    )
+                ],
+            ),
             TimerAction(
                 period=7.0,
                 actions=[

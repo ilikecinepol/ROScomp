@@ -18,14 +18,21 @@ def generate_launch_description():
             ),
             Node(
                 package="go2_webots_bridge",
+                executable="safety_cmd_mux",
+                name="go2_safety_cmd_mux",
+                output="screen",
+                parameters=[{"observe_only": False, "dry_run": False}],
+            ),
+            Node(
+                package="go2_webots_bridge",
                 executable="ramp_climber",
                 output="screen",
                 parameters=[
                     {
-                        "telemetry_timeout": 3.0,
-                        "fault_on_stale": False,
-                        "approach_speed": 0.40,
-                        "climb_speed": 0.45,
+                        "telemetry_timeout": 0.20,
+                        "fault_on_stale": True,
+                        "approach_speed": 0.35,
+                        "climb_speed": 0.35,
                         "descent_speed": 0.35,
                         "exit_speed": 0.35,
                     }

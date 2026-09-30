@@ -1,4 +1,4 @@
-"""Conservative high-level A-frame traversal using only /cmd_vel, /imu and /odom."""
+"""Conservative A-frame command source for the central safety mux."""
 
 from math import asin, atan2, copysign, cos, sin
 
@@ -31,7 +31,10 @@ class RampClimber(Node):
         self.declare_parameter("exit_distance", 0.35)
         self.declare_parameter("telemetry_timeout", 0.5)
         self.declare_parameter("fault_on_stale", True)
-        self._cmd_pub = self.create_publisher(Twist, "/cmd_vel", 10)
+        self.declare_parameter("command_topic", "/cmd_vel_skill")
+        self._cmd_pub = self.create_publisher(
+            Twist, str(self.get_parameter("command_topic").value), 10
+        )
         self._state_pub = self.create_publisher(String, "/ramp_climber/state", 10)
         self.create_subscription(Imu, "/imu", self._on_imu, 20)
         self.create_subscription(Odometry, "/odom", self._on_odom, 20)
