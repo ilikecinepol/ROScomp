@@ -1,4 +1,4 @@
-"""Keyboard teleoperation with a statically stable crawl gait for Unitree Go2."""
+"""Keyboard teleoperation with a diagonal-pair trot gait for Unitree Go2."""
 
 from math import acos, atan2, cos, pi, sin
 import sys
@@ -15,17 +15,19 @@ keyboard = robot.getKeyboard()
 keyboard.enable(timestep)
 
 legs = ("FL", "FR", "RL", "RR")
-# Four-beat crawl: one 25% swing interval and three supporting legs.
-phase_offset = {"FL": 0.0, "RR": 0.25, "FR": 0.50, "RL": 0.75}
+# Diagonal pairs alternate in the same pattern as the stock Go2 trot.  The old
+# four-beat crawl rocked in place in ODE because each short swing was cancelled
+# by the three simultaneously sliding stance feet.
+phase_offset = {"FL": 0.0, "RR": 0.0, "FR": 0.50, "RL": 0.50}
 side_sign = {"FL": 1.0, "RL": 1.0, "FR": -1.0, "RR": -1.0}
 
 UPPER_LEG = 0.213
 LOWER_LEG = 0.213
 STANCE_HEIGHT = 0.311
-STEP_LENGTH = 0.085
+STEP_LENGTH = 0.105
 TURN_STEP_LENGTH = 0.120
 STEP_HEIGHT = 0.045
-SWING_FRACTION = 0.25
+SWING_FRACTION = 0.42
 
 motors = {}
 current = {}
@@ -144,7 +146,7 @@ while robot.step(timestep) != -1:
 
     moving = abs(forward) >= 0.05 or abs(turn) >= 0.05
     if moving:
-        phase = (phase + 0.82 * dt) % 1.0
+        phase = (phase + 1.35 * dt) % 1.0
 
     targets = gait_targets(forward, turn)
     # Smooth commands to avoid an impulse when starting or releasing a key.

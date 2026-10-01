@@ -66,10 +66,10 @@ WorldInfo {
 }
 
 Viewpoint {
-  # Plan view rotated 180 degrees to match the accepted room scheme on opening.
-  orientation 0 0 1 3.141593
-  position 0 0 10.5
-  fieldOfView 0.95
+  # Isometric overview of the whole arena for interactive SLAM checks.
+  orientation 0.57735 0.57735 0.57735 2.094395
+  position 8 -11 7.5
+  fieldOfView 0.85
   near 0.05
   far 100
 }

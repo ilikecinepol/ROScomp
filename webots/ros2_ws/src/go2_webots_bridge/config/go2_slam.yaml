@@ -13,7 +13,10 @@ slam_toolbox:
     odom_frame: odom
     map_frame: map
     base_frame: base_link
-    scan_topic: /scan
+    # SLAM must see the unmodified physical scan.  /scan is intentionally
+    # filtered for Nav2 so the Go2 may drive over traversable course elements;
+    # using it here leaves large unknown wedges in the occupancy grid.
+    scan_topic: /scan_raw
     use_map_saver: true
     mode: mapping #localization
 

@@ -56,6 +56,28 @@ ros2 topic pub --rate 10 /cmd_vel geometry_msgs/msg/Twist \
 Use `worlds/go2_spawn_test.wbt` for an isolated import and standing-pose smoke test.
 Use `worlds/go2_teleop_test.wbt` for the automatic forward-gait test.
 
+Run all deterministic Webots checks headlessly and save a machine-readable
+summary with:
+
+```powershell
+uv run --no-project python .\webots\run_regression.py
+```
+
+If Python is already on `PATH`, `python .\webots\run_regression.py` is
+equivalent.
+
+The regression covers model spawn, the legacy contact teleop, virtual Sport
+motion, the measured r6 high-level response, collision stopping, ramp response,
+the kinematic A-frame course profile, visual gait, and passive teeter physics.
+`truetech_arena.wbt` loads `config/go2_r6_measured_response.json`: a requested
+0.35 m/s becomes 0.29995 m/s, while requested yaw 0.35 rad/s becomes
+0.143675 rad/s left and 0.08015 rad/s right. Reverse and lateral motion are
+disabled because they were not confirmed by the supplied hardware evidence.
+
+This is equivalence only for the measured high-level response. It does not
+claim unmeasured traction, command latency, balance, braking, battery effects,
+robot-to-robot variation, or the competition ROS driver.
+
 ## ROS 2 integration
 
 Keep the arena world separate from the robot controller package. Launch Webots through `webots_ros2_driver`, inject the chosen Go2 URDF/PROTO and map ROS topics at the driver boundary. The arena itself does not depend on ROS packages.

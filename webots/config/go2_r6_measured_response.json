@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "profile_id": "go2-r6-measured-20260930",
+  "source": "Go2-obstacle-console-20260930-r6 saved asymmetric calibration feedback",
+  "command_limits": {
+    "min_vx_mps": 0.0,
+    "max_vx_mps": 0.35,
+    "max_vy_mps": 0.0,
+    "max_wz_rps": 0.35
+  },
+  "gains": {
+    "forward": 0.857,
+    "reverse": 0.0,
+    "lateral": 0.0,
+    "yaw_left": 0.4105,
+    "yaw_right": 0.229
+  },
+  "evidence": {
+    "forward_samples": [0.857],
+    "yaw_left_samples": [0.455, 0.366],
+    "yaw_right_samples": [0.237, 0.221],
+    "aggregation": "arithmetic mean for two yaw samples; single measured forward sample"
+  },
+  "unverified": [
+    "reverse response",
+    "lateral response",
+    "command transport delay distribution",
+    "traction and slip by surface",
+    "braking distance",
+    "battery and robot-to-robot variation"
+  ]
+}

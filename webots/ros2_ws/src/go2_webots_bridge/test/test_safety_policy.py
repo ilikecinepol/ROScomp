@@ -63,6 +63,43 @@ class SafetyPolicyTests(unittest.TestCase):
         self.assertIsNone(source)
         self.assertEqual(Velocity(), command)
 
+    def test_explicit_stop_clears_all_sources_and_latches_zero(self):
+        policy = SafetyPolicy(max_vy=0.1)
+        policy.command(1.0)
+        for source in ("nav", "skill", "teleop"):
+            policy.submit(source, Velocity(0.2, 0.1, 0.2), 1.0)
+        policy.command(1.1)
+        self.assertEqual(Velocity(), policy.stop(1.11))
+        command, source = policy.command(1.12)
+        self.assertIsNone(source)
+        self.assertEqual(Velocity(), command)
+
+    def test_future_dated_command_is_never_selected(self):
+        policy = SafetyPolicy()
+        policy.submit("nav", Velocity(0.2, 0.0, 0.0), 2.0)
+        command, source = policy.command(1.0)
+        self.assertIsNone(source)
+        self.assertEqual(Velocity(), command)
+
+    def test_stale_high_priority_source_does_not_hide_fresh_nav(self):
+        policy = SafetyPolicy(timeout_s=0.2)
+        policy.command(1.0)
+        policy.submit("teleop", Velocity(0.3, 0.0, 0.0), 1.0)
+        policy.submit("nav", Velocity(0.1, 0.0, 0.0), 1.21)
+        command, source = policy.command(1.21)
+        self.assertEqual("nav", source)
+        self.assertGreater(command.vx, 0.0)
+
+    def test_non_finite_command_forces_rejection(self):
+        policy = SafetyPolicy()
+        for velocity in (
+            Velocity(float("nan"), 0.0, 0.0),
+            Velocity(0.0, float("inf"), 0.0),
+            Velocity(0.0, 0.0, float("-inf")),
+        ):
+            with self.assertRaises(ValueError):
+                policy.submit("nav", velocity, 1.0)
+
 
 if __name__ == "__main__":
     unittest.main()

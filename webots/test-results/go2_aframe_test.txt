@@ -1,0 +1,1 @@
+[aframe-test] PASS: distance=2.800 m, rise=0.507 m, max_pitch=0.436 rad, settled_height_error=0.000 m

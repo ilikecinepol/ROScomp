@@ -1,0 +1,1 @@
+[teeter-test] PASS: board angle = 12.00 deg (required magnitude >= 3 deg)

@@ -17,8 +17,30 @@ Start-Sleep -Milliseconds 800
 
 $world = Join-Path $PSScriptRoot 'worlds\truetech_arena.wbt'
 $quotedWorld = '"{0}"' -f $world
-Start-Process -FilePath $webotsExe -ArgumentList $quotedWorld
+$env:QT_QPA_PLATFORM = 'windows'
+$env:QT_FONT_DPI = '96'
+$env:QT_SCALE_FACTOR = '1'
+$env:QT_AUTO_SCREEN_SCALE_FACTOR = '0'
+Remove-Item Env:QT_SCREEN_SCALE_FACTORS, Env:QT_DEVICE_PIXEL_RATIO, Env:QT_ENABLE_HIGHDPI_SCALING `
+    -ErrorAction SilentlyContinue
+$resultDirectory = Join-Path $PSScriptRoot 'test-results'
+New-Item -ItemType Directory -Force -Path $resultDirectory | Out-Null
+$webotsOut = Join-Path $resultDirectory 'slam-webots.out.log'
+$webotsErr = Join-Path $resultDirectory 'slam-webots.err.log'
+$webotsArguments = @(
+    '--mode=realtime'
+    '--stdout'
+    '--stderr'
+    $quotedWorld
+)
+Start-Process -FilePath $webotsExe -ArgumentList $webotsArguments `
+    -RedirectStandardOutput $webotsOut -RedirectStandardError $webotsErr -WindowStyle Normal
 Start-Sleep -Seconds 5
+
+if (-not (Get-NetUDPEndpoint -LocalPort 15000 -ErrorAction SilentlyContinue)) {
+    $details = Get-Content -LiteralPath $webotsErr -Raw -ErrorAction SilentlyContinue
+    throw "Webots controller did not open UDP port 15000. $details"
+}
 
 # Open the native Windows browser after the ROS web map has started in WSL.
 if (-not $NoBrowser) {

@@ -17,6 +17,7 @@ import zlib
 from pathlib import Path
 
 from controller import Keyboard, Supervisor
+from response_profile import load_response_profile
 
 
 UDP_HOST = "0.0.0.0"
@@ -105,7 +106,14 @@ aframe_test_mode = "--aframe-test" in sys.argv
 flat_gait_test_mode = "--flat-gait-test" in sys.argv
 flat_demo_mode = "--flat-demo" in sys.argv
 kinematic_navigation_mode = "--kinematic-nav" in sys.argv
-kinematic_gait_mode = aframe_test_mode or flat_gait_test_mode or kinematic_navigation_mode
+hardware_response_test_mode = "--hardware-response-test" in sys.argv
+measured_response_mode = kinematic_navigation_mode or hardware_response_test_mode
+kinematic_gait_mode = (
+    aframe_test_mode
+    or flat_gait_test_mode
+    or kinematic_navigation_mode
+    or hardware_response_test_mode
+)
 save_camera = "--save-camera" in sys.argv
 udp_port = next(
     (
@@ -114,6 +122,17 @@ udp_port = next(
         if argument.startswith("--udp-port=")
     ),
     DEFAULT_UDP_PORT,
+)
+response_profile_path = next(
+    (
+        argument.split("=", 1)[1]
+        for argument in sys.argv
+        if argument.startswith("--response-profile=")
+    ),
+    str(Path(__file__).resolve().parents[2] / "config" / "go2_r6_measured_response.json"),
+)
+response_profile = (
+    load_response_profile(response_profile_path) if measured_response_mode else None
 )
 
 joint_targets = {
@@ -182,6 +201,7 @@ yaw = current_yaw(go2)
 start_x, start_y, start_yaw = x, y, yaw
 start_z = body_z
 max_body_z = body_z
+max_abs_pitch = 0.0
 aframe_x, aframe_y, aframe_yaw = x, y, yaw
 follow_view_position = None
 follow_view_offset = None
@@ -208,6 +228,7 @@ udp.bind((UDP_HOST, udp_port))
 sensor_udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 
 target_vx = target_vy = target_wz = 0.0
+requested_vx = requested_vy = requested_wz = 0.0
 vx = vy = wz = 0.0
 last_external_command = -10.0
 last_keyboard_command = -10.0
@@ -223,6 +244,16 @@ next_collision_report = 0.0
 terrain_height = 0.0
 terrain_pitch = 0.0
 terrain_roll = 0.0
+response_peak_vx = 0.0
+response_peak_left_wz = 0.0
+response_peak_right_wz = 0.0
+
+
+def measured_command(command_vx: float, command_vy: float, command_wz: float):
+    """Map a requested Sport command through the recorded hardware response."""
+    if response_profile is None:
+        raise RuntimeError("Measured response profile is not active")
+    return response_profile.realize(command_vx, command_vy, command_wz)
 
 
 def course_coordinates(world_x: float, world_y: float, center_x: float, center_y: float, yaw: float):
@@ -427,6 +458,14 @@ def send_state(now: float) -> None:
     heading = current_yaw(go2)
     body_vx = cos(heading) * velocity[0] + sin(heading) * velocity[1]
     body_vy = -sin(heading) * velocity[0] + cos(heading) * velocity[1]
+    angular_velocity = [float(value) for value in velocity[3:]]
+    if kinematic_gait_mode:
+        # These modes reset Webots physics every step, so getVelocity() is zero
+        # even while the supervisor changes the pose. Report the commanded body
+        # twist so ROS odometry agrees with the motion observed by Nav2.
+        body_vx = vx
+        body_vy = vy
+        angular_velocity = [0.0, 0.0, wz]
     state = json.dumps(
         {
             "type": "state",
@@ -434,7 +473,13 @@ def send_state(now: float) -> None:
             "position": [round(float(value), 6) for value in position],
             "orientation": [round(qx, 7), round(qy, 7), round(qz, 7), round(w, 7)],
             "linear_velocity": [round(body_vx, 6), round(body_vy, 6), round(float(velocity[2]), 6)],
-            "angular_velocity": [round(float(value), 6) for value in velocity[3:]],
+            "angular_velocity": [round(float(value), 6) for value in angular_velocity],
+            "requested_twist": [
+                round(requested_vx, 6),
+                round(requested_vy, 6),
+                round(requested_wz, 6),
+            ],
+            "response_profile": response_profile.profile_id if response_profile else None,
         },
         separators=(",", ":"),
     ).encode("utf-8")
@@ -465,7 +510,9 @@ def aframe_profile(world_x: float):
 
 
 def receive_udp(now: float) -> bool:
-    global target_vx, target_vy, target_wz, last_external_command, sensor_client
+    global target_vx, target_vy, target_wz
+    global requested_vx, requested_vy, requested_wz
+    global last_external_command, sensor_client
     received = False
     while True:
         try:
@@ -477,15 +524,29 @@ def receive_udp(now: float) -> bool:
             sensor_client = sender
             if message.get("type") == "hello":
                 continue
-            target_vx = clamp(float(message["vx"]), -MAX_VX, MAX_VX)
-            target_vy = clamp(float(message.get("vy", 0.0)), -MAX_VY, MAX_VY)
+            requested_vx = float(message["vx"])
+            requested_vy = float(message.get("vy", 0.0))
+            requested_wz = float(message.get("wz", 0.0))
+            if measured_response_mode:
+                target_vx, target_vy, target_wz = measured_command(
+                    requested_vx, requested_vy, requested_wz
+                )
+                last_external_command = now
+                received = True
+                continue
+            target_vx = clamp(requested_vx, -MAX_VX, MAX_VX)
+            target_vy = clamp(requested_vy, -MAX_VY, MAX_VY)
+            # Nav2 already commands angular velocity in rad/s and closes the
+            # loop from odometry. Applying the visual demo compensation here
+            # made kinematic navigation turn up to 3.2 times faster than Nav2
+            # expected, causing overshoot and oscillation at the goal.
             yaw_gain = (
                 SIM_DRIVING_YAW_GAIN
                 if abs(target_vx) > 0.04 or abs(target_vy) > 0.04
                 else SIM_TURN_IN_PLACE_GAIN
             )
             target_wz = clamp(
-                yaw_gain * float(message.get("wz", 0.0)),
+                yaw_gain * requested_wz,
                 -MAX_WZ,
                 MAX_WZ,
             )
@@ -658,11 +719,53 @@ print(
     f"UDP {UDP_HOST}:{udp_port} exchanges velocity, camera and lidar data.",
     flush=True,
 )
+if response_profile is not None:
+    print(
+        f"[virtual-sport] measured response profile={response_profile.profile_id} "
+        f"forward={response_profile.forward_gain:.3f} "
+        f"left={response_profile.left_gain:.4f} "
+        f"right={response_profile.right_gain:.3f}; "
+        "reverse/lateral remain disabled until measured.",
+        flush=True,
+    )
+
+
+def finish_test(test_name: str, passed: bool, result: str) -> None:
+    """Persist batch-test evidence before terminating Webots."""
+    result_path = (
+        Path(__file__).resolve().parents[2]
+        / "test-results"
+        / f"{test_name}.txt"
+    )
+    result_path.parent.mkdir(parents=True, exist_ok=True)
+    result_path.write_text(result + "\n", encoding="utf-8")
+    print(result, flush=True)
+    robot.step(timestep)
+    robot.simulationQuit(0 if passed else 2)
 
 while robot.step(timestep) != -1:
     now = robot.getTime()
 
-    if flat_demo_mode:
+    if hardware_response_test_mode:
+        if 0.5 <= now < 2.0:
+            requested_vx, requested_vy, requested_wz = 0.35, 0.0, 0.0
+        elif 2.7 <= now < 4.2:
+            requested_vx, requested_vy, requested_wz = 0.0, 0.0, 0.35
+        elif 4.9 <= now < 6.4:
+            requested_vx, requested_vy, requested_wz = 0.0, 0.0, -0.35
+        else:
+            requested_vx = requested_vy = requested_wz = 0.0
+        target_vx, target_vy, target_wz = measured_command(
+            requested_vx, requested_vy, requested_wz
+        )
+        source = "hardware-response-test"
+    elif aframe_test_mode:
+        # Deterministic high-level traversal. This validates the virtual Sport
+        # contract and course profile, not physical Go2 stability or traction.
+        target_vx = 0.0 if now < 0.5 or aframe_x >= 2.72 else 0.25
+        target_vy = target_wz = 0.0
+        source = "aframe-test"
+    elif flat_demo_mode:
         target_vx, target_vy, target_wz = (0.0, 0.0, 0.0) if now < 2.0 else (0.25, 0.0, 0.0)
         source = "flat-demo"
     elif demo_mode:
@@ -697,6 +800,10 @@ while robot.step(timestep) != -1:
     vx = approach(vx, target_vx, MAX_LINEAR_ACCEL * dt)
     vy = approach(vy, target_vy, MAX_LINEAR_ACCEL * dt)
     wz = approach(wz, target_wz, MAX_ANGULAR_ACCEL * dt)
+    if hardware_response_test_mode:
+        response_peak_vx = max(response_peak_vx, vx)
+        response_peak_left_wz = max(response_peak_left_wz, wz)
+        response_peak_right_wz = min(response_peak_right_wz, wz)
     if kinematic_motion_blocked(vx, vy, wz):
         vx = vy = wz = 0.0
         if now >= next_collision_report:
@@ -757,6 +864,7 @@ while robot.step(timestep) != -1:
         terrain_height = approach(terrain_height, target_height, 0.75 * dt)
         terrain_pitch = approach(terrain_pitch, target_pitch, 1.8 * dt)
         terrain_roll = approach(terrain_roll, target_roll, 1.8 * dt)
+        max_abs_pitch = max(max_abs_pitch, abs(terrain_pitch))
         gait_activity = clamp(
             max(abs(vx) / MAX_VX, abs(vy) / MAX_VY, abs(wz) / MAX_WZ), 0.0, 1.0
         )
@@ -799,6 +907,58 @@ while robot.step(timestep) != -1:
             ]
         )
 
+    if aframe_test_mode and now >= 13.0:
+        x, y, final_z = translation_field.getSFVec3f()
+        distance = ((x - start_x) ** 2 + (y - start_y) ** 2) ** 0.5
+        rise = max_body_z - start_z
+        settled_height_error = abs(final_z - start_z)
+        passed = (
+            distance >= 2.60
+            and rise >= 0.40
+            and max_abs_pitch >= 0.30
+            and settled_height_error <= 0.08
+        )
+        result = (
+            f"[aframe-test] {'PASS' if passed else 'FAIL'}: "
+            f"distance={distance:.3f} m, rise={rise:.3f} m, "
+            f"max_pitch={max_abs_pitch:.3f} rad, "
+            f"settled_height_error={settled_height_error:.3f} m"
+        )
+        finish_test("go2_aframe_test", passed, result)
+        break
+
+    if flat_gait_test_mode and now >= 6.0:
+        x, y, final_z = translation_field.getSFVec3f()
+        distance = ((x - start_x) ** 2 + (y - start_y) ** 2) ** 0.5
+        settled_height_error = abs(final_z - start_z)
+        passed = distance >= 0.75 and settled_height_error <= 0.08
+        result = (
+            f"[flat-gait-test] {'PASS' if passed else 'FAIL'}: "
+            f"distance={distance:.3f} m, "
+            f"settled_height_error={settled_height_error:.3f} m"
+        )
+        finish_test("go2_flat_gait_test", passed, result)
+        break
+
+    if hardware_response_test_mode and now >= 7.0:
+        expected_vx, _, expected_left = measured_command(0.35, 0.0, 0.35)
+        _, _, expected_right = measured_command(0.0, 0.0, -0.35)
+        errors = (
+            abs(response_peak_vx - expected_vx),
+            abs(response_peak_left_wz - expected_left),
+            abs(response_peak_right_wz - expected_right),
+        )
+        passed = max(errors) <= 0.003
+        result = (
+            f"[hardware-response-test] {'PASS' if passed else 'FAIL'}: "
+            f"vx={response_peak_vx:.6f}/{expected_vx:.6f}, "
+            f"left_wz={response_peak_left_wz:.6f}/{expected_left:.6f}, "
+            f"right_wz={response_peak_right_wz:.6f}/{expected_right:.6f}, "
+            f"profile={response_profile.profile_id}"
+        )
+        finish_test("go2_hardware_response_test", passed, result)
+        break
+
     if demo_mode and not flat_demo_mode and now >= 5.0:
         x, y, _ = translation_field.getSFVec3f()
         yaw = current_yaw(go2)
@@ -813,13 +973,11 @@ while robot.step(timestep) != -1:
         else:
             passed = distance >= 0.55 and yaw_change >= 1.0
             test_name = "virtual-sport-test"
-        print(
+        result = (
             f"[{test_name}] "
             f"{'PASS' if passed else 'FAIL'}: "
             f"distance={distance:.3f} m, yaw={yaw_change:.3f} rad, "
-            f"rise={max_body_z - start_z:.3f} m",
-            flush=True,
+            f"rise={max_body_z - start_z:.3f} m"
         )
-        robot.step(timestep)
-        robot.simulationQuit(0 if passed else 2)
+        finish_test(f"go2_{test_name}", passed, result)
         break

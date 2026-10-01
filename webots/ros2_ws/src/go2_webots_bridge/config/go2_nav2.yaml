@@ -82,7 +82,10 @@ controller_server:
     progress_checker:
       plugin: "nav2_controller::SimpleProgressChecker"
       required_movement_radius: 0.10
-      movement_time_allowance: 20.0
+      # The measured Go2 response turns right at only ~0.08 rad/s for the
+      # configured command limit.  A 180-degree turn can therefore take about
+      # 40 seconds without any translational progress.
+      movement_time_allowance: 60.0
     # Goal checker parameters
     #precise_goal_checker:
     #  plugin: "nav2_controller::SimpleGoalChecker"
@@ -96,11 +99,13 @@ controller_server:
       yaw_goal_tolerance: 0.20
     FollowPath:
       plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
-      desired_linear_vel: 0.30
-      lookahead_dist: 0.70
-      min_lookahead_dist: 0.50
-      max_lookahead_dist: 1.00
-      lookahead_time: 2.0
+      # Conservative tracking for the measured asymmetric yaw response.  The
+      # robot must finish aligning before building forward speed.
+      desired_linear_vel: 0.18
+      lookahead_dist: 0.35
+      min_lookahead_dist: 0.25
+      max_lookahead_dist: 0.55
+      lookahead_time: 1.5
       rotate_to_heading_angular_vel: 0.35
       transform_tolerance: 0.5
       use_velocity_scaled_lookahead_dist: true
@@ -110,12 +115,12 @@ controller_server:
       max_allowed_time_to_collision_up_to_carrot: 1.0
       use_regulated_linear_velocity_scaling: true
       use_cost_regulated_linear_velocity_scaling: true
-      regulated_linear_scaling_min_radius: 0.90
-      regulated_linear_scaling_min_speed: 0.08
+      regulated_linear_scaling_min_radius: 0.70
+      regulated_linear_scaling_min_speed: 0.04
       use_fixed_curvature_lookahead: false
       curvature_lookahead_dist: 0.60
       use_rotate_to_heading: true
-      rotate_to_heading_min_angle: 0.30
+      rotate_to_heading_min_angle: 0.12
       max_angular_accel: 2.8
       allow_reversing: false
       stateful: true
@@ -315,8 +320,11 @@ collision_monitor:
     cmd_vel_in_topic: "cmd_vel_smoothed"
     cmd_vel_out_topic: "cmd_vel_nav"
     state_topic: "collision_monitor_state"
-    transform_tolerance: 0.2
-    source_timeout: 0.20
+    # Camera compression and the Windows/WSL UDP bridge produce occasional
+    # 0.2-0.35 s scan latency.  Keep the safety monitor fail-closed, but do not
+    # stop the robot for normal bridge jitter.
+    transform_tolerance: 0.5
+    source_timeout: 0.75
     base_shift_correction: True
     stop_pub_timeout: 2.0
     # Polygons represent zone around the robot for "stop", "slowdown" and "limit" action types,

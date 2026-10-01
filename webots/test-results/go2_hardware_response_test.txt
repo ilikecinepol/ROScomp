@@ -1,0 +1,1 @@
+[hardware-response-test] PASS: vx=0.299950/0.299950, left_wz=0.143675/0.143675, right_wz=-0.080150/-0.080150, profile=go2-r6-measured-20260930
