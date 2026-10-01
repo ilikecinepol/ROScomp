@@ -1,1 +1,1 @@
-[virtual-sport-test] PASS: distance=0.641 m, yaw=1.341 rad, rise=0.041 m
+[virtual-sport-test] PASS: distance=0.602 m, yaw=1.534 rad, rise=0.045 m

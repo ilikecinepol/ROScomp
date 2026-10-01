@@ -9,99 +9,99 @@
       "world": "go2_spawn_test.wbt",
       "passed": true,
       "return_code": 0,
-      "duration_s": 6.234,
+      "duration_s": 4.359,
       "evidence": "[go2-test] PASS: base z=0.340 m, upright=1.000",
       "error": null,
       "stdout_tail": "INFO: go2_stand: Starting controller: python.exe -u go2_stand.py\nINFO: go2_spawn_test: Starting controller: python.exe -u go2_spawn_test.py\n[go2_stand] Holding 12 joints in the neutral standing pose.\nINFO: go2_stand: Terminating.\nINFO: go2_spawn_test: Terminating.\n",
-      "stderr_tail": ""
+      "stderr_tail": "WARNING: Could not listen to extern controllers and robot windows on port 1234. Port 1234 is already in use. Using port 1235 instead. This could be caused by another running instance of Webots. You should use the '--port' option to start several instances of Webots.\n"
     },
     {
       "name": "teleop",
       "world": "go2_teleop_test.wbt",
       "passed": true,
       "return_code": 0,
-      "duration_s": 3.485,
+      "duration_s": 4.75,
       "evidence": "[go2-teleop-test] PASS: forward=0.653 m, yaw=45.5 deg, base z=0.340 m, upright=1.000",
       "error": null,
       "stdout_tail": "INFO: go2_teleop: Starting controller: python.exe -u go2_teleop.py --demo\nINFO: go2_teleop_test: Starting controller: python.exe -u go2_teleop_test.py\n[go2_teleop] W/S move, A/D turn, Space stand.\n[go2_teleop] Automatic forward-and-turn gait test enabled.\n[go2_teleop] standing\n[go2_teleop] moving\n[go2_teleop] standing\nINFO: go2_teleop: Terminating.\nINFO: go2_teleop_test: Terminating.\n",
-      "stderr_tail": ""
+      "stderr_tail": "WARNING: Could not listen to extern controllers and robot windows on port 1234. Port 1234 is already in use. Using port 1235 instead. This could be caused by another running instance of Webots. You should use the '--port' option to start several instances of Webots.\n"
     },
     {
       "name": "virtual_sport",
       "world": "go2_virtual_sport_test.wbt",
       "passed": true,
       "return_code": 0,
-      "duration_s": 3.484,
-      "evidence": "[virtual-sport-test] PASS: distance=0.641 m, yaw=1.341 rad, rise=0.041 m",
+      "duration_s": 5.016,
+      "evidence": "[virtual-sport-test] PASS: distance=0.602 m, yaw=1.534 rad, rise=0.045 m",
       "error": null,
-      "stdout_tail": "INFO: go2_virtual_sport: Starting controller: python.exe -u go2_virtual_sport.py --demo --udp-port=15001\n[virtual-sport] W/S forward, A/D turn, Q/E lateral, Space stop; UDP 0.0.0.0:15001 exchanges velocity, camera and lidar data.\n[virtual-sport] source=demo\nINFO: go2_virtual_sport: Terminating.\n",
-      "stderr_tail": ""
+      "stdout_tail": "INFO: go2_virtual_sport: Starting controller: python.exe -u go2_virtual_sport.py --demo --udp-port=15001\n[virtual-sport] W/S forward, A/D turn, Q/E lateral, Space stop; UDP 0.0.0.0:15001 exchanges velocity, camera and lidar data.\n[virtual-sport] source=demo\n[virtual-sport-test] PASS: distance=0.602 m, yaw=1.534 rad, rise=0.045 m\nINFO: go2_virtual_sport: Terminating.\n",
+      "stderr_tail": "WARNING: Could not listen to extern controllers and robot windows on port 1234. Port 1234 is already in use. Using port 1235 instead. This could be caused by another running instance of Webots. You should use the '--port' option to start several instances of Webots.\n"
     },
     {
       "name": "hardware_response",
       "world": "go2_hardware_response_test.wbt",
       "passed": true,
       "return_code": 0,
-      "duration_s": 3.75,
+      "duration_s": 5.609,
       "evidence": "[hardware-response-test] PASS: vx=0.299950/0.299950, left_wz=0.143675/0.143675, right_wz=-0.080150/-0.080150, profile=go2-r6-measured-20260930",
       "error": null,
-      "stdout_tail": "INFO: go2_virtual_sport: Starting controller: python.exe -u go2_virtual_sport.py --hardware-response-test --udp-port=15004\n[virtual-sport] W/S forward, A/D turn, Q/E lateral, Space stop; UDP 0.0.0.0:15004 exchanges velocity, camera and lidar data.\n[virtual-sport] measured response profile=go2-r6-measured-20260930 forward=0.857 left=0.4105 right=0.229; reverse/lateral remain disabled until measured.\n[virtual-sport] source=hardware-response-test\n[hardware-response-test] PASS: vx=0.299950/0.299950, left_wz=0.143675/0.143675, right_wz=-0.080150/-0.080150, profile=go2-r6-measured-20260930\nINFO: go2_virtual_sport: Terminating.\n",
-      "stderr_tail": ""
+      "stdout_tail": "INFO: go2_virtual_sport: Starting controller: python.exe -u go2_virtual_sport.py --hardware-response-test --udp-port=15004\n[virtual-sport] W/S forward, A/D turn, Q/E lateral, Space stop; UDP 0.0.0.0:15004 exchanges velocity, camera and lidar data.\n[virtual-sport] measured response profile=go2-r6-measured-20260930 forward=0.857 left=0.4105 right=0.229; reverse/lateral remain disabled until measured.\n[virtual-sport] source=hardware-response-test\nINFO: go2_virtual_sport: Terminating.\n",
+      "stderr_tail": "WARNING: Could not listen to extern controllers and robot windows on port 1234. Port 1234 is already in use. Using port 1235 instead. This could be caused by another running instance of Webots. You should use the '--port' option to start several instances of Webots.\n"
     },
     {
       "name": "collision",
       "world": "go2_collision_test.wbt",
       "passed": true,
       "return_code": 0,
-      "duration_s": 3.484,
-      "evidence": "[collision-test] PASS: distance=0.431 m, yaw=1.413 rad, rise=0.002 m",
+      "duration_s": 5.11,
+      "evidence": "[collision-test] PASS: distance=0.372 m, yaw=2.017 rad, rise=0.003 m",
       "error": null,
-      "stdout_tail": "INFO: go2_virtual_sport: Starting controller: python.exe -u go2_virtual_sport.py --demo --collision-test --udp-port=15001\n[virtual-sport] W/S forward, A/D turn, Q/E lateral, Space stop; UDP 0.0.0.0:15001 exchanges velocity, camera and lidar data.\n[virtual-sport] source=demo\n[collision-test] PASS: distance=0.431 m, yaw=1.413 rad, rise=0.002 m\nINFO: go2_virtual_sport: Terminating.\n",
-      "stderr_tail": ""
+      "stdout_tail": "INFO: go2_virtual_sport: Starting controller: python.exe -u go2_virtual_sport.py --demo --collision-test --udp-port=15001\n[virtual-sport] W/S forward, A/D turn, Q/E lateral, Space stop; UDP 0.0.0.0:15001 exchanges velocity, camera and lidar data.\n[virtual-sport] source=demo\n[collision-test] PASS: distance=0.372 m, yaw=2.017 rad, rise=0.003 m\nINFO: go2_virtual_sport: Terminating.\n",
+      "stderr_tail": "WARNING: Could not listen to extern controllers and robot windows on port 1234. Port 1234 is already in use. Using port 1235 instead. This could be caused by another running instance of Webots. You should use the '--port' option to start several instances of Webots.\n"
     },
     {
       "name": "ramp",
       "world": "go2_ramp_test.wbt",
       "passed": true,
       "return_code": 0,
-      "duration_s": 3.547,
-      "evidence": "[ramp-test] PASS: distance=0.375 m, yaw=0.955 rad, rise=0.218 m",
+      "duration_s": 5.046,
+      "evidence": "[ramp-test] PASS: distance=0.376 m, yaw=0.960 rad, rise=0.218 m",
       "error": null,
-      "stdout_tail": "INFO: go2_virtual_sport: Starting controller: python.exe -u go2_virtual_sport.py --demo --ramp-test --udp-port=15001\n[virtual-sport] W/S forward, A/D turn, Q/E lateral, Space stop; UDP 0.0.0.0:15001 exchanges velocity, camera and lidar data.\n[virtual-sport] source=demo\n[ramp-test] PASS: distance=0.375 m, yaw=0.955 rad, rise=0.218 m\nINFO: go2_virtual_sport: Terminating.\n",
-      "stderr_tail": ""
+      "stdout_tail": "INFO: go2_virtual_sport: Starting controller: python.exe -u go2_virtual_sport.py --demo --ramp-test --udp-port=15001\n[virtual-sport] W/S forward, A/D turn, Q/E lateral, Space stop; UDP 0.0.0.0:15001 exchanges velocity, camera and lidar data.\n[virtual-sport] source=demo\n[ramp-test] PASS: distance=0.376 m, yaw=0.960 rad, rise=0.218 m\nINFO: go2_virtual_sport: Terminating.\n",
+      "stderr_tail": "WARNING: Could not listen to extern controllers and robot windows on port 1234. Port 1234 is already in use. Using port 1235 instead. This could be caused by another running instance of Webots. You should use the '--port' option to start several instances of Webots.\n"
     },
     {
       "name": "aframe",
       "world": "go2_aframe_climb.wbt",
       "passed": true,
       "return_code": 0,
-      "duration_s": 3.36,
+      "duration_s": 4.657,
       "evidence": "[aframe-test] PASS: distance=2.800 m, rise=0.507 m, max_pitch=0.436 rad, settled_height_error=0.000 m",
       "error": null,
-      "stdout_tail": "INFO: go2_virtual_sport: Starting controller: python.exe -u go2_virtual_sport.py --aframe-test --udp-port=15002\n[virtual-sport] W/S forward, A/D turn, Q/E lateral, Space stop; UDP 0.0.0.0:15002 exchanges velocity, camera and lidar data.\n[virtual-sport] source=aframe-test\n[aframe-test] PASS: distance=2.800 m, rise=0.507 m, max_pitch=0.436 rad, settled_height_error=0.000 m\nINFO: go2_virtual_sport: Terminating.\n",
-      "stderr_tail": ""
+      "stdout_tail": "INFO: go2_virtual_sport: Starting controller: python.exe -u go2_virtual_sport.py --aframe-test --udp-port=15002\n[virtual-sport] W/S forward, A/D turn, Q/E lateral, Space stop; UDP 0.0.0.0:15002 exchanges velocity, camera and lidar data.\n[virtual-sport] source=aframe-test\nINFO: go2_virtual_sport: Terminating.\n",
+      "stderr_tail": "WARNING: Could not listen to extern controllers and robot windows on port 1234. Port 1234 is already in use. Using port 1235 instead. This could be caused by another running instance of Webots. You should use the '--port' option to start several instances of Webots.\n"
     },
     {
       "name": "flat_gait",
       "world": "go2_flat_gait.wbt",
       "passed": true,
       "return_code": 0,
-      "duration_s": 3.25,
+      "duration_s": 4.593,
       "evidence": "[flat-gait-test] PASS: distance=0.986 m, settled_height_error=0.001 m",
       "error": null,
       "stdout_tail": "INFO: go2_virtual_sport: Starting controller: python.exe -u go2_virtual_sport.py --flat-gait-test --flat-demo --udp-port=15003\n[virtual-sport] W/S forward, A/D turn, Q/E lateral, Space stop; UDP 0.0.0.0:15003 exchanges velocity, camera and lidar data.\n[virtual-sport] source=flat-demo\n[flat-gait] FL=(+0.80,-1.50) FR=(+0.80,-1.50)\n[flat-gait] FL=(+0.80,-1.50) FR=(+0.80,-1.50)\n[flat-gait] FL=(+0.80,-1.50) FR=(+0.80,-1.50)\n[flat-gait] FL=(+0.58,-1.44) FR=(+0.80,-1.45)\n[flat-gait] FL=(+0.73,-1.46) FR=(+0.93,-1.87)\n[flat-gait] FL=(+0.86,-1.45) FR=(+0.65,-1.45)\n[flat-gait] FL=(+0.59,-1.47) FR=(+0.80,-1.45)\n[flat-gait] FL=(+0.72,-1.46) FR=(+0.96,-1.87)\n[flat-gait-test] PASS: distance=0.986 m, settled_height_error=0.001 m\nINFO: go2_virtual_sport: Terminating.\n",
-      "stderr_tail": ""
+      "stderr_tail": "WARNING: Could not listen to extern controllers and robot windows on port 1234. Port 1234 is already in use. Using port 1235 instead. This could be caused by another running instance of Webots. You should use the '--port' option to start several instances of Webots.\n"
     },
     {
       "name": "teeter",
       "world": "teeter_physics_test.wbt",
       "passed": true,
       "return_code": 0,
-      "duration_s": 2.593,
+      "duration_s": 3.407,
       "evidence": "[teeter-test] PASS: board angle = 12.00 deg (required magnitude >= 3 deg)",
       "error": null,
       "stdout_tail": "INFO: teeter_physics_test: Starting controller: python.exe -u teeter_physics_test.py\nINFO: teeter_physics_test: Terminating.\n",
-      "stderr_tail": ""
+      "stderr_tail": "WARNING: Could not listen to extern controllers and robot windows on port 1234. Port 1234 is already in use. Using port 1235 instead. This could be caused by another running instance of Webots. You should use the '--port' option to start several instances of Webots.\n"
     }
   ]
 }

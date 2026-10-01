@@ -42,7 +42,12 @@ slam_toolbox:
     enable_interactive_mode: true
 
     # General Parameters
-    use_scan_matching: true
+    # Webots publishes an exact ground-truth odom pose. On the repetitive,
+    # rectangular competition course the scan matcher can prefer a wrong yaw
+    # during an in-place turn, folding successive walls over one another.
+    # Keep mapping odometry-authoritative in simulation; the physical robot
+    # must use its fused wheel/leg odometry + IMU profile instead.
+    use_scan_matching: false
     use_scan_barycenter: true
     minimum_travel_distance: 0.05
     minimum_travel_heading: 0.05
@@ -52,7 +57,7 @@ slam_toolbox:
     link_match_minimum_response_fine: 0.1  
     link_scan_maximum_distance: 1.5
     loop_search_maximum_distance: 3.0
-    do_loop_closing: true 
+    do_loop_closing: false
     loop_match_minimum_chain_size: 10           
     loop_match_maximum_variance_coarse: 3.0  
     loop_match_minimum_response_coarse: 0.35    

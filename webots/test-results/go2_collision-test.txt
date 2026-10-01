@@ -1,1 +1,1 @@
-[collision-test] PASS: distance=0.431 m, yaw=1.413 rad, rise=0.002 m
+[collision-test] PASS: distance=0.372 m, yaw=2.017 rad, rise=0.003 m

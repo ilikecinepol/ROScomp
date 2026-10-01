@@ -17,6 +17,7 @@ import zlib
 from pathlib import Path
 
 from controller import Keyboard, Supervisor
+from gait_model import foot_target, maximum_foot_speed
 from response_profile import load_response_profile
 
 
@@ -404,27 +405,10 @@ def update_gait(now: float) -> None:
             set_joint_target(joint_name, target)
         return
 
-    forward_speed = abs(vx)
-    frequency = 1.25 + 1.15 * clamp(forward_speed / MAX_VX, 0.0, 1.0)
-    duty_factor = 0.62
-    # During stance, body advance and backward foot travel are equal. This
-    # keeps the planted foot approximately fixed in world coordinates.
-    stride = clamp(forward_speed * duty_factor / frequency, 0.035, 0.155)
-    lift = 0.055 + 0.025 * clamp(forward_speed / MAX_VX, 0.0, 1.0)
-    direction = 1.0 if vx >= 0.0 else -1.0
     for leg in ("FL", "FR", "RL", "RR"):
-        offset = 0.0 if leg in ("FL", "RR") else 0.5
-        phase = (frequency * now + offset) % 1.0
-        if phase < duty_factor:
-            progress = phase / duty_factor
-            foot_x = direction * stride * (0.5 - progress)
-            foot_down = 0.318
-        else:
-            progress = (phase - duty_factor) / (1.0 - duty_factor)
-            # Quintic easing avoids knee jerks at lift-off and touch-down.
-            smooth = progress ** 3 * (10.0 - 15.0 * progress + 6.0 * progress ** 2)
-            foot_x = direction * stride * (-0.5 + smooth)
-            foot_down = 0.318 - lift * sin(pi * progress) ** 2
+        foot = foot_target(leg, now, vx, vy, wz)
+        foot_x = foot.x
+        foot_down = foot.down
 
         length = 0.213
         distance_squared = foot_x * foot_x + foot_down * foot_down
@@ -440,8 +424,12 @@ def update_gait(now: float) -> None:
         thigh_target = -upper_angle
         calf_target = -knee_angle
 
-        # A small outward hip angle gives the Go2 its normal, stable stance.
-        hip_target = 0.08 if leg.endswith("L") else -0.08
+        # Hip ab/adduction tracks the lateral component of the same planted-
+        # foot trajectory. A turn therefore also moves front/rear legs in
+        # opposite lateral directions instead of faking a straight walk.
+        hip_target = (0.08 if leg.endswith("L") else -0.08) + atan2(
+            foot.y, foot_down
+        )
         set_joint_target(f"{leg}_hip_joint", hip_target)
         set_joint_target(f"{leg}_thigh_joint", thigh_target)
         set_joint_target(f"{leg}_calf_joint", calf_target)
@@ -790,8 +778,13 @@ while robot.step(timestep) != -1:
     # The A-frame controller needs only pose and attitude. Navigation still needs
     # lidar/camera packets even though its stable gait visualization is kinematic.
     if not aframe_test_mode:
+        # Send the pose first. UDP preserves datagram order for this local
+        # socket, so the bridge can stamp the following scan with the pose at
+        # which Webots captured it instead of the preceding state sample.
+        send_state(now)
         send_sensors(now)
-    send_state(now)
+    else:
+        send_state(now)
 
     if source != last_reported_source:
         print(f"[virtual-sport] source={source}", flush=True)
@@ -868,7 +861,9 @@ while robot.step(timestep) != -1:
         gait_activity = clamp(
             max(abs(vx) / MAX_VX, abs(vy) / MAX_VY, abs(wz) / MAX_WZ), 0.0, 1.0
         )
-        gait_frequency = 1.25 + 1.15 * clamp(abs(vx) / MAX_VX, 0.0, 1.0)
+        gait_frequency = 1.25 + 1.15 * clamp(
+            maximum_foot_speed(vx, vy, wz) / MAX_VX, 0.0, 1.0
+        )
         body_bob = (
             0.006
             * gait_activity

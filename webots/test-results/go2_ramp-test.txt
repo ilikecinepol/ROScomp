@@ -1,1 +1,1 @@
-[ramp-test] PASS: distance=0.375 m, yaw=0.955 rad, rise=0.218 m
+[ramp-test] PASS: distance=0.376 m, yaw=0.960 rad, rise=0.218 m

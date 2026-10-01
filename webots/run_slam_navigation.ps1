@@ -35,11 +35,20 @@ $webotsArguments = @(
 )
 Start-Process -FilePath $webotsExe -ArgumentList $webotsArguments `
     -RedirectStandardOutput $webotsOut -RedirectStandardError $webotsErr -WindowStyle Normal
-Start-Sleep -Seconds 5
+$controllerReady = $false
+for ($attempt = 0; $attempt -lt 30; $attempt++) {
+    Start-Sleep -Seconds 1
+    # Get-NetUDPEndpoint may omit an endpoint owned by Webots' child Python
+    # process on some Windows builds. netstat observes the socket reliably.
+    $controllerReady = [bool](netstat -ano | Select-String -Quiet 'UDP\s+\S+:15000\s')
+    if ($controllerReady) {
+        break
+    }
+}
 
-if (-not (Get-NetUDPEndpoint -LocalPort 15000 -ErrorAction SilentlyContinue)) {
+if (-not $controllerReady) {
     $details = Get-Content -LiteralPath $webotsErr -Raw -ErrorAction SilentlyContinue
-    throw "Webots controller did not open UDP port 15000. $details"
+    throw "Webots controller did not open UDP port 15000 within 30 seconds. $details"
 }
 
 # Open the native Windows browser after the ROS web map has started in WSL.
